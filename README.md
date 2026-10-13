@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 88 preview(s) across 3 module(s) · 1 error(s) · 17 warning(s) · 13 info._
+_Auto-generated from `compose-preview/a11y/pr`. 88 preview(s) across 3 module(s) · 30 error(s) · 17 warning(s) · 13 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -88,7 +88,8 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.ProgressBar | This non-clickable item's speakable text: "In progress" is identical to that of 1 other item(s). |
+| 1 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.ProgressBar | This non-clickable item's speakable text: "In progress" is identical to that of 1 other item(s). |
 
 ### `DeviceBodyLowBatteryPreview` · `pixel_7`
 
@@ -96,7 +97,10 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "node-peak" is identical to that of 1 other item(s). |
+| 1 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 2 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 3 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "node-peak" is identical to that of 1 other item(s). |
 
 ### `DeviceBodyManyContactsPreview` · `pixel_7`
 
@@ -104,8 +108,11 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "base-station" is identical to that of 1 other item(s). |
-| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Joined" is identical to that of 1 other item(s). |
+| 1 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 2 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 3 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "base-station" is identical to that of 1 other item(s). |
+| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Joined" is identical to that of 1 other item(s). |
 
 ### `DeviceBodyNoContactsPreview` · `pixel_7`
 
@@ -113,7 +120,10 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "node-peak" is identical to that of 1 other item(s). |
+| 1 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 2 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 3 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "node-peak" is identical to that of 1 other item(s). |
 
 ### `DeviceInfoWidgetEmptyPreview`
 
@@ -151,19 +161,29 @@ _No findings._
 
 <img src="https://raw.githubusercontent.com/yschimke/meshcore-mobile-out/compose-preview/a11y/pr/renders/app/DeviceSummaryCardLoadingPreview_Dark-7a129c29.a11y.png" width="400" />
 
-_No findings._
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
 
 ### `DeviceSummaryCardLowBatteryPreview`
 
 <img src="https://raw.githubusercontent.com/yschimke/meshcore-mobile-out/compose-preview/a11y/pr/renders/app/DeviceSummaryCardLowBatteryPreview_Dark-2a12211a.a11y.png" width="400" />
 
-_No findings._
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 2 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 3 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
 
 ### `DeviceSummaryCardPopulatedPreview`
 
 <img src="https://raw.githubusercontent.com/yschimke/meshcore-mobile-out/compose-preview/a11y/pr/renders/app/DeviceSummaryCardPopulatedPreview_Dark-e088b9d1.a11y.png" width="400" />
 
-_No findings._
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 2 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 3 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
 
 ### `PlayStoreFeature` · `spec:width=1024dp,height=500dp,dpi=160`
 
@@ -183,8 +203,11 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "node-peak" is identical to that of 1 other item(s). |
-| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Favourited" is identical to that of 1 other item(s). |
+| 1 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 2 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 3 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "node-peak" is identical to that of 1 other item(s). |
+| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Favourited" is identical to that of 1 other item(s). |
 
 ### `PlayStorePhoneHomeLight` · `pixel_2`
 
@@ -192,8 +215,11 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "node-peak" is identical to that of 1 other item(s). |
-| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Favourited" is identical to that of 1 other item(s). |
+| 1 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 2 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 3 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "node-peak" is identical to that of 1 other item(s). |
+| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Favourited" is identical to that of 1 other item(s). |
 
 ### `PlayStorePhoneScannerBle` · `pixel_2`
 
@@ -217,9 +243,12 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "node-peak" is identical to that of 1 other item(s). |
-| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Favourited" is identical to that of 1 other item(s). |
-| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Joined" is identical to that of 1 other item(s). |
+| 1 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 2 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 3 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "node-peak" is identical to that of 1 other item(s). |
+| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Favourited" is identical to that of 1 other item(s). |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Joined" is identical to that of 1 other item(s). |
 
 ### `PlayStoreTabletTenHome` · `spec:width=800dp,height=1280dp,dpi=320`
 
@@ -227,9 +256,12 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "node-peak" is identical to that of 1 other item(s). |
-| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Favourited" is identical to that of 1 other item(s). |
-| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Joined" is identical to that of 1 other item(s). |
+| 1 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 2 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 3 | ERROR | SpeakableTextPresentCheck | android.widget.TextView | This item may not have a label readable by screen readers. |
+| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "node-peak" is identical to that of 1 other item(s). |
+| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Favourited" is identical to that of 1 other item(s). |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Joined" is identical to that of 1 other item(s). |
 
 ### `SavedDevicesEmptyPreview`
 
