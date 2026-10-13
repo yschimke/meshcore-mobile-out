@@ -1,0 +1,151 @@
+{
+  "schema": "compose-preview-activity/v1",
+  "generatedAt": "2026-10-13T21:41:45.666Z",
+  "windowDays": 30,
+  "code": {
+    "repo": "yschimke/meshcore-mobile",
+    "ref": "main",
+    "events": [
+      {
+        "sha": "caab062fea0fafce48a8abe250215bc1ef449476",
+        "subject": "chore(deps): update dependency com.ncorti.ktfmt.gradle to v0.27.0 (#383)",
+        "at": "2026-10-11T07:35:45Z",
+        "author": "renovate[bot]",
+        "previewIds": [
+          "devicesummarycard-populated__ideal__default__light__compact",
+          "devicesummarycard-loading__ideal__default__light",
+          "devicesummarycard-lowbattery__ideal__default__light",
+          "contactrow-chat__ideal__default__light__compact",
+          "contactrow-repeater__ideal__default__light__compact",
+          "contactrow-room__ideal__default__light__compact",
+          "contactrow-sensor__ideal__default__light__compact",
+          "contactlist-empty__ideal__default__light__compact",
+          "contactlist-few__ideal__default__light__compact",
+          "contactlist-many__ideal__default__light__compact",
+          "bledevicelist-empty__ideal__default__light__compact",
+          "bledevicelist-few__ideal__default__light__compact",
+          "bledevicelist-many__ideal__default__light__compact",
+          "blepermissionpanel-first__ideal__default__light__compact",
+          "blepermissionpanel-denied__ideal__default__light__compact",
+          "tcpconnectpanel-idle__ideal__default__light__compact",
+          "tcpconnectpanel-busy__ideal__default__light__compact",
+          "saveddevices-populated__ideal__default__light",
+          "saveddevices-empty__ideal__default__light",
+          "scanner-savedempty__ideal__default__light__compact",
+          "scanner-savedpopulated__ideal__default__light__compact",
+          "scanner-blepermission__ideal__default__light__compact",
+          "scanner-bleempty__ideal__default__light__compact",
+          "scanner-blefew__ideal__default__light__compact",
+          "scanner-blemany__ideal__default__light__compact",
+          "scanner-usbempty__ideal__default__light__compact",
+          "scanner-usbfew__ideal__default__light__compact",
+          "scanner-tcp__ideal__default__light__compact"
+        ],
+        "components": [
+          "DeviceSummaryCard/Populated",
+          "DeviceSummaryCard/Loading",
+          "DeviceSummaryCard/LowBattery",
+          "ContactRow/Chat",
+          "ContactRow/Repeater",
+          "ContactRow/Room",
+          "ContactRow/Sensor",
+          "ContactList/Empty",
+          "ContactList/Few",
+          "ContactList/Many",
+          "BleDeviceList/Empty",
+          "BleDeviceList/Few",
+          "BleDeviceList/Many",
+          "BlePermissionPanel/First",
+          "BlePermissionPanel/Denied",
+          "TcpConnectPanel/Idle",
+          "TcpConnectPanel/Busy",
+          "SavedDevices/Populated",
+          "SavedDevices/Empty",
+          "Scanner/SavedEmpty",
+          "Scanner/SavedPopulated",
+          "Scanner/BlePermission",
+          "Scanner/BleEmpty",
+          "Scanner/BleFew",
+          "Scanner/BleMany",
+          "Scanner/UsbEmpty",
+          "Scanner/UsbFew",
+          "Scanner/Tcp"
+        ]
+      }
+    ]
+  },
+  "gaps": [
+    {
+      "kind": "dangling-mapping",
+      "detail": "design-map names ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.DeviceBodyPreview_Light, which this catalog does not publish.",
+      "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt#DeviceBodyPreview",
+      "previewId": "ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.DeviceBodyPreview_Light"
+    },
+    {
+      "kind": "dangling-mapping",
+      "detail": "design-map names ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.DeviceBodyDarkPreview_Device — dark, which this catalog does not publish.",
+      "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt#DeviceBodyDarkPreview",
+      "previewId": "ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.DeviceBodyDarkPreview_Device — dark"
+    },
+    {
+      "kind": "dangling-mapping",
+      "detail": "design-map names ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ContactChatPreview_Light, which this catalog does not publish.",
+      "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/ChatBodyPreviews.kt#ContactChatPreview",
+      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ContactChatPreview_Light"
+    },
+    {
+      "kind": "dangling-mapping",
+      "detail": "design-map names ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ContactChatDarkPreview_Contact chat — dark, which this catalog does not publish.",
+      "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/ChatBodyPreviews.kt#ContactChatDarkPreview",
+      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ContactChatDarkPreview_Contact chat — dark"
+    },
+    {
+      "kind": "dangling-mapping",
+      "detail": "design-map names ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ChannelChatPreview_Light, which this catalog does not publish.",
+      "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/ChatBodyPreviews.kt#ChannelChatPreview",
+      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ChannelChatPreview_Light"
+    },
+    {
+      "kind": "dangling-mapping",
+      "detail": "design-map names ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ChannelChatDarkPreview_Channel chat — dark, which this catalog does not publish.",
+      "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/ChatBodyPreviews.kt#ChannelChatDarkPreview",
+      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ChannelChatDarkPreview_Channel chat — dark"
+    },
+    {
+      "kind": "dangling-mapping",
+      "detail": "design-map names ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.CommandsPreview_Light, which this catalog does not publish.",
+      "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/ChatBodyPreviews.kt#CommandsPreview",
+      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.CommandsPreview_Light"
+    },
+    {
+      "kind": "dangling-mapping",
+      "detail": "design-map names ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.CommandsDarkPreview_Commands — dark, which this catalog does not publish.",
+      "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/ChatBodyPreviews.kt#CommandsDarkPreview",
+      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.CommandsDarkPreview_Commands — dark"
+    },
+    {
+      "kind": "dangling-mapping",
+      "detail": "design-map names ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.CachedDeviceBodyPreview_Light, which this catalog does not publish.",
+      "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt#CachedDeviceBodyPreview",
+      "previewId": "ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.CachedDeviceBodyPreview_Light"
+    },
+    {
+      "kind": "dangling-mapping",
+      "detail": "design-map names ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.CachedDeviceBodyDarkPreview_Cached device — dark, which this catalog does not publish.",
+      "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt#CachedDeviceBodyDarkPreview",
+      "previewId": "ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.CachedDeviceBodyDarkPreview_Cached device — dark"
+    },
+    {
+      "kind": "dangling-mapping",
+      "detail": "design-map names ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsPreview_Light, which this catalog does not publish.",
+      "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceSettingsBodyPreviews.kt#DeviceSettingsPreview",
+      "previewId": "ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsPreview_Light"
+    },
+    {
+      "kind": "dangling-mapping",
+      "detail": "design-map names ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsDarkPreview_Device settings — dark, which this catalog does not publish.",
+      "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceSettingsBodyPreviews.kt#DeviceSettingsDarkPreview",
+      "previewId": "ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsDarkPreview_Device settings — dark"
+    }
+  ]
+}

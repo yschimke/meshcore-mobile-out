@@ -1,0 +1,3519 @@
+{
+    "schema": "compose-ui-builder-catalog/v1",
+    "catalog": {
+        "id": "meshcore-mobile",
+        "title": "MeshCore live components",
+        "platform": "mobile",
+        "platformLabel": "Mobile",
+        "module": ":meshcore-components",
+        "variant": "desktop"
+    },
+    "record": {
+        "file": "components.json",
+        "schemaVersion": 2,
+        "components": 19
+    },
+    "statusSemantics": {
+        "platform": "mobile",
+        "platformLabel": "Mobile",
+        "componentIdPrefix": "meshcore-mobile/",
+        "previewSurfaces": null,
+        "browserPreview": null,
+        "componentMenu": {
+            "groupOrder": [],
+            "components": {}
+        },
+        "frame": null,
+        "code": null,
+        "composeSourceExport": null,
+        "templates": [
+            "ui-builder/designs/chat-input.json",
+            "ui-builder/designs/device-overview.json",
+            "ui-builder/designs/component-sheet.json"
+        ],
+        "newDesign": {
+            "label": null,
+            "order": null,
+            "templates": [
+                {
+                    "id": "chat-input",
+                    "path": "ui-builder/designs/chat-input.json",
+                    "label": "Chat input",
+                    "supportingText": null,
+                    "group": null,
+                    "default": true,
+                    "order": null
+                },
+                {
+                    "id": "device-overview",
+                    "path": "ui-builder/designs/device-overview.json",
+                    "label": "Device overview",
+                    "supportingText": null,
+                    "group": null,
+                    "default": false,
+                    "order": null
+                },
+                {
+                    "id": "component-sheet",
+                    "path": "ui-builder/designs/component-sheet.json",
+                    "label": "Component sheet",
+                    "supportingText": null,
+                    "group": null,
+                    "default": false,
+                    "order": null
+                }
+            ]
+        },
+        "colorTokens": null,
+        "assetRegistry": null,
+        "supersedes": null,
+        "builtins": {
+            "layout/column": {
+                "role": "container",
+                "displayName": null,
+                "group": null,
+                "canvas": "layout/column",
+                "unrolled": null,
+                "traits": [],
+                "slots": {
+                    "children": {
+                        "ordered": true
+                    }
+                },
+                "properties": [],
+                "modifierCapabilities": null,
+                "insertContent": null,
+                "implementation": null,
+                "shelfRole": null,
+                "wasm": null,
+                "code": null,
+                "svg": null
+            },
+            "m3/text": {
+                "role": "decoration",
+                "displayName": null,
+                "group": null,
+                "canvas": "m3/text",
+                "unrolled": null,
+                "traits": [],
+                "slots": {},
+                "properties": [
+                    {
+                        "name": "text",
+                        "jsonType": [
+                            "string",
+                            "object"
+                        ]
+                    }
+                ],
+                "modifierCapabilities": null,
+                "insertContent": null,
+                "implementation": null,
+                "shelfRole": null,
+                "wasm": null,
+                "code": null,
+                "svg": null
+            }
+        },
+        "components": {
+            "meshcore-mobile/chat-input": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.ChatComponentsKt.ChatInput",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/chat-input",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {
+                    "onValueChange": "value:string"
+                },
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "value",
+                        "jsonType": [
+                            "string",
+                            "object"
+                        ],
+                        "required": false
+                    },
+                    {
+                        "name": "enabled",
+                        "jsonType": [
+                            "boolean",
+                            "object"
+                        ],
+                        "required": false
+                    },
+                    {
+                        "name": "placeholder",
+                        "jsonType": [
+                            "string",
+                            "object"
+                        ],
+                        "required": false
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "value": {
+                            "type": "string",
+                            "value": "Hello mesh"
+                        },
+                        "enabled": {
+                            "type": "bool",
+                            "value": true
+                        },
+                        "placeholder": {
+                            "type": "string",
+                            "value": "Message"
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/empty-contacts": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.DeviceCardsKt.ContactListEmpty",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/empty-contacts",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {}
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/theme": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.theme.MeshcoreThemeKt.MeshcoreTheme",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/theme",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "darkTheme",
+                        "jsonType": [
+                            "boolean",
+                            "object"
+                        ],
+                        "required": false
+                    }
+                ],
+                "slotCapabilities": [
+                    {
+                        "name": "content",
+                        "ordered": true,
+                        "cardinality": {
+                            "min": 0
+                        },
+                        "acceptedRoles": [
+                            "Scaffold",
+                            "Container",
+                            "Leaf"
+                        ]
+                    }
+                ],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "darkTheme": {
+                            "type": "bool",
+                            "value": false
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/device-summary": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.DeviceCardsKt.DeviceSummaryCard",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/device-summary",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "self",
+                        "jsonType": "object",
+                        "required": false,
+                        "nullable": true,
+                        "editor": {
+                            "control": "object",
+                            "objectType": "ee.schimke.meshcore.core.model.SelfInfo",
+                            "fields": [
+                                {
+                                    "name": "name",
+                                    "required": true,
+                                    "jsonType": "string",
+                                    "literalType": "string"
+                                },
+                                {
+                                    "name": "publicKey",
+                                    "required": true,
+                                    "jsonType": "string",
+                                    "literalType": "string",
+                                    "format": "hex"
+                                },
+                                {
+                                    "name": "radio",
+                                    "required": true,
+                                    "jsonType": "object",
+                                    "literalType": "object",
+                                    "editor": {
+                                        "control": "object",
+                                        "objectType": "ee.schimke.meshcore.core.model.RadioSettings",
+                                        "fields": [
+                                            {
+                                                "name": "frequencyHz",
+                                                "required": true,
+                                                "jsonType": "integer",
+                                                "literalType": "int"
+                                            },
+                                            {
+                                                "name": "bandwidthHz",
+                                                "required": true,
+                                                "jsonType": "integer",
+                                                "literalType": "int"
+                                            },
+                                            {
+                                                "name": "spreadingFactor",
+                                                "required": true,
+                                                "jsonType": "integer",
+                                                "literalType": "int"
+                                            },
+                                            {
+                                                "name": "codingRate",
+                                                "required": true,
+                                                "jsonType": "integer",
+                                                "literalType": "int"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "name": "advertType",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 1
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "txPowerDbm",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "maxPowerDbm",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "latitude",
+                                    "required": false,
+                                    "default": {
+                                        "type": "number",
+                                        "value": 0.0
+                                    },
+                                    "jsonType": "number",
+                                    "literalType": "number"
+                                },
+                                {
+                                    "name": "longitude",
+                                    "required": false,
+                                    "default": {
+                                        "type": "number",
+                                        "value": 0.0
+                                    },
+                                    "jsonType": "number",
+                                    "literalType": "number"
+                                },
+                                {
+                                    "name": "multiAcks",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "advertLocationPolicy",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "telemetryFlags",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "manualAddContacts",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "radio",
+                        "jsonType": "object",
+                        "required": false,
+                        "nullable": true,
+                        "editor": {
+                            "control": "object",
+                            "objectType": "ee.schimke.meshcore.core.model.RadioSettings",
+                            "fields": [
+                                {
+                                    "name": "frequencyHz",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "bandwidthHz",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "spreadingFactor",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "codingRate",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "battery",
+                        "jsonType": "object",
+                        "required": false,
+                        "nullable": true,
+                        "editor": {
+                            "control": "object",
+                            "objectType": "ee.schimke.meshcore.core.model.BatteryInfo",
+                            "fields": [
+                                {
+                                    "name": "millivolts",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "storageUsedKb",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "storageTotalKb",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "self": {
+                            "type": "null"
+                        },
+                        "radio": {
+                            "type": "null"
+                        },
+                        "battery": {
+                            "type": "null"
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/radio-line": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.DeviceCardsKt.RadioLine",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/radio-line",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "radio",
+                        "jsonType": "object",
+                        "required": false,
+                        "editor": {
+                            "control": "object",
+                            "objectType": "ee.schimke.meshcore.core.model.RadioSettings",
+                            "fields": [
+                                {
+                                    "name": "frequencyHz",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "bandwidthHz",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "spreadingFactor",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "codingRate",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "radio": {
+                            "type": "object",
+                            "fields": {
+                                "frequencyHz": {
+                                    "type": "int",
+                                    "value": 869525000
+                                },
+                                "bandwidthHz": {
+                                    "type": "int",
+                                    "value": 250000
+                                },
+                                "spreadingFactor": {
+                                    "type": "int",
+                                    "value": 11
+                                },
+                                "codingRate": {
+                                    "type": "int",
+                                    "value": 5
+                                }
+                            }
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/channel-list": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.DeviceCardsKt.ChannelList",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/channel-list",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "channels",
+                        "jsonType": "array",
+                        "required": false,
+                        "editor": {
+                            "control": "list",
+                            "element": {
+                                "jsonType": "object",
+                                "literalType": "object",
+                                "editor": {
+                                    "control": "object",
+                                    "objectType": "ee.schimke.meshcore.core.model.ChannelInfo",
+                                    "fields": [
+                                        {
+                                            "name": "index",
+                                            "required": true,
+                                            "jsonType": "integer",
+                                            "literalType": "int"
+                                        },
+                                        {
+                                            "name": "name",
+                                            "required": false,
+                                            "default": {
+                                                "type": "string",
+                                                "value": ""
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "channels": {
+                            "type": "list",
+                            "values": [
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "index": {
+                                            "type": "int",
+                                            "value": 0
+                                        },
+                                        "name": {
+                                            "type": "string",
+                                            "value": "Public"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "index": {
+                                            "type": "int",
+                                            "value": 1
+                                        },
+                                        "name": {
+                                            "type": "string",
+                                            "value": "Hiking"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/channel-row": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.DeviceCardsKt.ChannelRow",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/channel-row",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "channel",
+                        "jsonType": "object",
+                        "required": false,
+                        "editor": {
+                            "control": "object",
+                            "objectType": "ee.schimke.meshcore.core.model.ChannelInfo",
+                            "fields": [
+                                {
+                                    "name": "index",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "name",
+                                    "required": false,
+                                    "default": {
+                                        "type": "string",
+                                        "value": ""
+                                    },
+                                    "jsonType": "string",
+                                    "literalType": "string"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "channel": {
+                            "type": "object",
+                            "fields": {
+                                "index": {
+                                    "type": "int",
+                                    "value": 0
+                                },
+                                "name": {
+                                    "type": "string",
+                                    "value": "General"
+                                }
+                            }
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/battery": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.DeviceCardsKt.BatterySection",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/battery",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "battery",
+                        "jsonType": "object",
+                        "required": false,
+                        "editor": {
+                            "control": "object",
+                            "objectType": "ee.schimke.meshcore.core.model.BatteryInfo",
+                            "fields": [
+                                {
+                                    "name": "millivolts",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "storageUsedKb",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "storageTotalKb",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "battery": {
+                            "type": "object",
+                            "fields": {
+                                "millivolts": {
+                                    "type": "int",
+                                    "value": 3980
+                                },
+                                "storageUsedKb": {
+                                    "type": "int",
+                                    "value": 512
+                                },
+                                "storageTotalKb": {
+                                    "type": "int",
+                                    "value": 4096
+                                }
+                            }
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/contact-row": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.DeviceCardsKt.ContactRow",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/contact-row",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "contact",
+                        "jsonType": "object",
+                        "required": false,
+                        "editor": {
+                            "control": "object",
+                            "objectType": "ee.schimke.meshcore.core.model.Contact",
+                            "fields": [
+                                {
+                                    "name": "name",
+                                    "required": true,
+                                    "jsonType": "string",
+                                    "literalType": "string"
+                                },
+                                {
+                                    "name": "publicKey",
+                                    "required": true,
+                                    "jsonType": "string",
+                                    "literalType": "string",
+                                    "format": "hex"
+                                },
+                                {
+                                    "name": "type",
+                                    "required": false,
+                                    "default": {
+                                        "type": "string",
+                                        "value": "CHAT"
+                                    },
+                                    "jsonType": "string",
+                                    "literalType": "string",
+                                    "allowedValues": [
+                                        "CHAT",
+                                        "REPEATER",
+                                        "ROOM",
+                                        "SENSOR",
+                                        "UNKNOWN"
+                                    ]
+                                },
+                                {
+                                    "name": "pathLength",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "path",
+                                    "required": false,
+                                    "default": {
+                                        "type": "string",
+                                        "value": ""
+                                    },
+                                    "jsonType": "string",
+                                    "literalType": "string",
+                                    "format": "hex"
+                                },
+                                {
+                                    "name": "flags",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "advertTimestamp",
+                                    "required": false,
+                                    "default": {
+                                        "type": "string",
+                                        "value": "2023-11-14T22:13:20Z"
+                                    },
+                                    "jsonType": "string",
+                                    "literalType": "string",
+                                    "format": "date-time"
+                                },
+                                {
+                                    "name": "lastModified",
+                                    "required": false,
+                                    "default": {
+                                        "type": "string",
+                                        "value": "2023-11-14T22:13:20Z"
+                                    },
+                                    "jsonType": "string",
+                                    "literalType": "string",
+                                    "format": "date-time"
+                                },
+                                {
+                                    "name": "latitude",
+                                    "required": false,
+                                    "default": {
+                                        "type": "number",
+                                        "value": 0.0
+                                    },
+                                    "jsonType": "number",
+                                    "literalType": "number"
+                                },
+                                {
+                                    "name": "longitude",
+                                    "required": false,
+                                    "default": {
+                                        "type": "number",
+                                        "value": 0.0
+                                    },
+                                    "jsonType": "number",
+                                    "literalType": "number"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "contact": {
+                            "type": "object",
+                            "fields": {
+                                "name": {
+                                    "type": "string",
+                                    "value": "bob-repeater"
+                                },
+                                "publicKey": {
+                                    "type": "string",
+                                    "value": "2222222222222222222222222222222222222222222222222222222222222222"
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "value": "REPEATER"
+                                },
+                                "pathLength": {
+                                    "type": "int",
+                                    "value": 2
+                                },
+                                "path": {
+                                    "type": "string",
+                                    "value": ""
+                                },
+                                "flags": {
+                                    "type": "int",
+                                    "value": 0
+                                },
+                                "advertTimestamp": {
+                                    "type": "string",
+                                    "value": "2023-11-14T22:13:20Z"
+                                },
+                                "lastModified": {
+                                    "type": "string",
+                                    "value": "2023-11-14T22:13:20Z"
+                                },
+                                "latitude": {
+                                    "type": "number",
+                                    "value": 0.0
+                                },
+                                "longitude": {
+                                    "type": "number",
+                                    "value": 0.0
+                                }
+                            }
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/contact-list": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.DeviceCardsKt.ContactList",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/contact-list",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "contacts",
+                        "jsonType": "array",
+                        "required": false,
+                        "editor": {
+                            "control": "list",
+                            "element": {
+                                "jsonType": "object",
+                                "literalType": "object",
+                                "editor": {
+                                    "control": "object",
+                                    "objectType": "ee.schimke.meshcore.core.model.Contact",
+                                    "fields": [
+                                        {
+                                            "name": "name",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string"
+                                        },
+                                        {
+                                            "name": "publicKey",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "format": "hex"
+                                        },
+                                        {
+                                            "name": "type",
+                                            "required": false,
+                                            "default": {
+                                                "type": "string",
+                                                "value": "CHAT"
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "allowedValues": [
+                                                "CHAT",
+                                                "REPEATER",
+                                                "ROOM",
+                                                "SENSOR",
+                                                "UNKNOWN"
+                                            ]
+                                        },
+                                        {
+                                            "name": "pathLength",
+                                            "required": false,
+                                            "default": {
+                                                "type": "int",
+                                                "value": 0
+                                            },
+                                            "jsonType": "integer",
+                                            "literalType": "int"
+                                        },
+                                        {
+                                            "name": "path",
+                                            "required": false,
+                                            "default": {
+                                                "type": "string",
+                                                "value": ""
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "format": "hex"
+                                        },
+                                        {
+                                            "name": "flags",
+                                            "required": false,
+                                            "default": {
+                                                "type": "int",
+                                                "value": 0
+                                            },
+                                            "jsonType": "integer",
+                                            "literalType": "int"
+                                        },
+                                        {
+                                            "name": "advertTimestamp",
+                                            "required": false,
+                                            "default": {
+                                                "type": "string",
+                                                "value": "2023-11-14T22:13:20Z"
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "format": "date-time"
+                                        },
+                                        {
+                                            "name": "lastModified",
+                                            "required": false,
+                                            "default": {
+                                                "type": "string",
+                                                "value": "2023-11-14T22:13:20Z"
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "format": "date-time"
+                                        },
+                                        {
+                                            "name": "latitude",
+                                            "required": false,
+                                            "default": {
+                                                "type": "number",
+                                                "value": 0.0
+                                            },
+                                            "jsonType": "number",
+                                            "literalType": "number"
+                                        },
+                                        {
+                                            "name": "longitude",
+                                            "required": false,
+                                            "default": {
+                                                "type": "number",
+                                                "value": 0.0
+                                            },
+                                            "jsonType": "number",
+                                            "literalType": "number"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "contacts": {
+                            "type": "list",
+                            "values": [
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "name": {
+                                            "type": "string",
+                                            "value": "alice"
+                                        },
+                                        "publicKey": {
+                                            "type": "string",
+                                            "value": "1111111111111111111111111111111111111111111111111111111111111111"
+                                        },
+                                        "type": {
+                                            "type": "string",
+                                            "value": "CHAT"
+                                        },
+                                        "pathLength": {
+                                            "type": "int",
+                                            "value": -1
+                                        },
+                                        "path": {
+                                            "type": "string",
+                                            "value": ""
+                                        },
+                                        "flags": {
+                                            "type": "int",
+                                            "value": 0
+                                        },
+                                        "advertTimestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "lastModified": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "latitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        },
+                                        "longitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "name": {
+                                            "type": "string",
+                                            "value": "bob-repeater"
+                                        },
+                                        "publicKey": {
+                                            "type": "string",
+                                            "value": "2222222222222222222222222222222222222222222222222222222222222222"
+                                        },
+                                        "type": {
+                                            "type": "string",
+                                            "value": "REPEATER"
+                                        },
+                                        "pathLength": {
+                                            "type": "int",
+                                            "value": 2
+                                        },
+                                        "path": {
+                                            "type": "string",
+                                            "value": ""
+                                        },
+                                        "flags": {
+                                            "type": "int",
+                                            "value": 0
+                                        },
+                                        "advertTimestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "lastModified": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "latitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        },
+                                        "longitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "name": {
+                                            "type": "string",
+                                            "value": "common-room"
+                                        },
+                                        "publicKey": {
+                                            "type": "string",
+                                            "value": "3333333333333333333333333333333333333333333333333333333333333333"
+                                        },
+                                        "type": {
+                                            "type": "string",
+                                            "value": "ROOM"
+                                        },
+                                        "pathLength": {
+                                            "type": "int",
+                                            "value": 0
+                                        },
+                                        "path": {
+                                            "type": "string",
+                                            "value": ""
+                                        },
+                                        "flags": {
+                                            "type": "int",
+                                            "value": 0
+                                        },
+                                        "advertTimestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "lastModified": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "latitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        },
+                                        "longitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "name": {
+                                            "type": "string",
+                                            "value": "soil-sensor-1"
+                                        },
+                                        "publicKey": {
+                                            "type": "string",
+                                            "value": "4444444444444444444444444444444444444444444444444444444444444444"
+                                        },
+                                        "type": {
+                                            "type": "string",
+                                            "value": "SENSOR"
+                                        },
+                                        "pathLength": {
+                                            "type": "int",
+                                            "value": 3
+                                        },
+                                        "path": {
+                                            "type": "string",
+                                            "value": ""
+                                        },
+                                        "flags": {
+                                            "type": "int",
+                                            "value": 0
+                                        },
+                                        "advertTimestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "lastModified": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "latitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        },
+                                        "longitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/chat-bubble": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.ChatComponentsKt.ChatBubble",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/chat-bubble",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "message",
+                        "jsonType": "object",
+                        "required": false,
+                        "editor": {
+                            "control": "object",
+                            "objectType": "ee.schimke.meshcore.components.ui.ChatMessage",
+                            "fields": [
+                                {
+                                    "name": "id",
+                                    "required": true,
+                                    "jsonType": "string",
+                                    "literalType": "string"
+                                },
+                                {
+                                    "name": "text",
+                                    "required": true,
+                                    "jsonType": "string",
+                                    "literalType": "string"
+                                },
+                                {
+                                    "name": "timestamp",
+                                    "required": true,
+                                    "jsonType": "string",
+                                    "literalType": "string",
+                                    "format": "date-time"
+                                },
+                                {
+                                    "name": "isMine",
+                                    "required": false,
+                                    "default": {
+                                        "type": "bool",
+                                        "value": false
+                                    },
+                                    "jsonType": "boolean",
+                                    "literalType": "bool"
+                                },
+                                {
+                                    "name": "senderName",
+                                    "required": false,
+                                    "default": {
+                                        "type": "null"
+                                    },
+                                    "jsonType": "string",
+                                    "literalType": "string",
+                                    "nullable": true
+                                },
+                                {
+                                    "name": "snr",
+                                    "required": false,
+                                    "default": {
+                                        "type": "null"
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int",
+                                    "nullable": true
+                                },
+                                {
+                                    "name": "status",
+                                    "required": false,
+                                    "default": {
+                                        "type": "string",
+                                        "value": "Sent"
+                                    },
+                                    "jsonType": "string",
+                                    "literalType": "string",
+                                    "allowedValues": [
+                                        "Confirmed",
+                                        "Failed",
+                                        "Sending",
+                                        "Sent"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "message": {
+                            "type": "object",
+                            "fields": {
+                                "id": {
+                                    "type": "string",
+                                    "value": "g1"
+                                },
+                                "text": {
+                                    "type": "string",
+                                    "value": "anyone near the north ridge?"
+                                },
+                                "timestamp": {
+                                    "type": "string",
+                                    "value": "2023-11-14T21:53:20Z"
+                                },
+                                "isMine": {
+                                    "type": "bool",
+                                    "value": false
+                                },
+                                "senderName": {
+                                    "type": "string",
+                                    "value": "alice"
+                                },
+                                "snr": {
+                                    "type": "int",
+                                    "value": 7
+                                },
+                                "status": {
+                                    "type": "string",
+                                    "value": "Sent"
+                                }
+                            }
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/chat-message-list": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.ChatComponentsKt.ChatMessageList",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/chat-message-list",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "messages",
+                        "jsonType": "array",
+                        "required": false,
+                        "editor": {
+                            "control": "list",
+                            "element": {
+                                "jsonType": "object",
+                                "literalType": "object",
+                                "editor": {
+                                    "control": "object",
+                                    "objectType": "ee.schimke.meshcore.components.ui.ChatMessage",
+                                    "fields": [
+                                        {
+                                            "name": "id",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string"
+                                        },
+                                        {
+                                            "name": "text",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string"
+                                        },
+                                        {
+                                            "name": "timestamp",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "format": "date-time"
+                                        },
+                                        {
+                                            "name": "isMine",
+                                            "required": false,
+                                            "default": {
+                                                "type": "bool",
+                                                "value": false
+                                            },
+                                            "jsonType": "boolean",
+                                            "literalType": "bool"
+                                        },
+                                        {
+                                            "name": "senderName",
+                                            "required": false,
+                                            "default": {
+                                                "type": "null"
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "nullable": true
+                                        },
+                                        {
+                                            "name": "snr",
+                                            "required": false,
+                                            "default": {
+                                                "type": "null"
+                                            },
+                                            "jsonType": "integer",
+                                            "literalType": "int",
+                                            "nullable": true
+                                        },
+                                        {
+                                            "name": "status",
+                                            "required": false,
+                                            "default": {
+                                                "type": "string",
+                                                "value": "Sent"
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "allowedValues": [
+                                                "Confirmed",
+                                                "Failed",
+                                                "Sending",
+                                                "Sent"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "messages": {
+                            "type": "list",
+                            "values": [
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "id": {
+                                            "type": "string",
+                                            "value": "c1"
+                                        },
+                                        "text": {
+                                            "type": "string",
+                                            "value": "hey — are you on tonight?"
+                                        },
+                                        "timestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T21:58:20Z"
+                                        },
+                                        "isMine": {
+                                            "type": "bool",
+                                            "value": false
+                                        },
+                                        "senderName": {
+                                            "type": "null"
+                                        },
+                                        "snr": {
+                                            "type": "int",
+                                            "value": 6
+                                        },
+                                        "status": {
+                                            "type": "string",
+                                            "value": "Sent"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "id": {
+                                            "type": "string",
+                                            "value": "c2"
+                                        },
+                                        "text": {
+                                            "type": "string",
+                                            "value": "yeah, firing up the node now"
+                                        },
+                                        "timestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T21:59:20Z"
+                                        },
+                                        "isMine": {
+                                            "type": "bool",
+                                            "value": true
+                                        },
+                                        "senderName": {
+                                            "type": "null"
+                                        },
+                                        "snr": {
+                                            "type": "null"
+                                        },
+                                        "status": {
+                                            "type": "string",
+                                            "value": "Confirmed"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "id": {
+                                            "type": "string",
+                                            "value": "c3"
+                                        },
+                                        "text": {
+                                            "type": "string",
+                                            "value": "nice — I'll relay through bob-repeater"
+                                        },
+                                        "timestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:11:20Z"
+                                        },
+                                        "isMine": {
+                                            "type": "bool",
+                                            "value": false
+                                        },
+                                        "senderName": {
+                                            "type": "null"
+                                        },
+                                        "snr": {
+                                            "type": "int",
+                                            "value": 4
+                                        },
+                                        "status": {
+                                            "type": "string",
+                                            "value": "Sent"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "id": {
+                                            "type": "string",
+                                            "value": "c4"
+                                        },
+                                        "text": {
+                                            "type": "string",
+                                            "value": "sounds good, sending a test ping"
+                                        },
+                                        "timestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:12:50Z"
+                                        },
+                                        "isMine": {
+                                            "type": "bool",
+                                            "value": true
+                                        },
+                                        "senderName": {
+                                            "type": "null"
+                                        },
+                                        "snr": {
+                                            "type": "null"
+                                        },
+                                        "status": {
+                                            "type": "string",
+                                            "value": "Sent"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/chat-body": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.ChatBodyKt.ChatBody",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/chat-body",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {
+                    "onDraftChange": "draft:string"
+                },
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "title",
+                        "jsonType": [
+                            "string",
+                            "object"
+                        ],
+                        "required": false
+                    },
+                    {
+                        "name": "subtitle",
+                        "jsonType": "string",
+                        "required": false,
+                        "nullable": true
+                    },
+                    {
+                        "name": "messages",
+                        "jsonType": "array",
+                        "required": false,
+                        "editor": {
+                            "control": "list",
+                            "element": {
+                                "jsonType": "object",
+                                "literalType": "object",
+                                "editor": {
+                                    "control": "object",
+                                    "objectType": "ee.schimke.meshcore.components.ui.ChatMessage",
+                                    "fields": [
+                                        {
+                                            "name": "id",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string"
+                                        },
+                                        {
+                                            "name": "text",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string"
+                                        },
+                                        {
+                                            "name": "timestamp",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "format": "date-time"
+                                        },
+                                        {
+                                            "name": "isMine",
+                                            "required": false,
+                                            "default": {
+                                                "type": "bool",
+                                                "value": false
+                                            },
+                                            "jsonType": "boolean",
+                                            "literalType": "bool"
+                                        },
+                                        {
+                                            "name": "senderName",
+                                            "required": false,
+                                            "default": {
+                                                "type": "null"
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "nullable": true
+                                        },
+                                        {
+                                            "name": "snr",
+                                            "required": false,
+                                            "default": {
+                                                "type": "null"
+                                            },
+                                            "jsonType": "integer",
+                                            "literalType": "int",
+                                            "nullable": true
+                                        },
+                                        {
+                                            "name": "status",
+                                            "required": false,
+                                            "default": {
+                                                "type": "string",
+                                                "value": "Sent"
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "allowedValues": [
+                                                "Confirmed",
+                                                "Failed",
+                                                "Sending",
+                                                "Sent"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "draft",
+                        "jsonType": [
+                            "string",
+                            "object"
+                        ],
+                        "required": false
+                    },
+                    {
+                        "name": "inputEnabled",
+                        "jsonType": [
+                            "boolean",
+                            "object"
+                        ],
+                        "required": false
+                    },
+                    {
+                        "name": "inputPlaceholder",
+                        "jsonType": [
+                            "string",
+                            "object"
+                        ],
+                        "required": false
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "title": {
+                            "type": "string",
+                            "value": "alice"
+                        },
+                        "subtitle": {
+                            "type": "null"
+                        },
+                        "messages": {
+                            "type": "list",
+                            "values": [
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "id": {
+                                            "type": "string",
+                                            "value": "c1"
+                                        },
+                                        "text": {
+                                            "type": "string",
+                                            "value": "hey — are you on tonight?"
+                                        },
+                                        "timestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T21:58:20Z"
+                                        },
+                                        "isMine": {
+                                            "type": "bool",
+                                            "value": false
+                                        },
+                                        "senderName": {
+                                            "type": "null"
+                                        },
+                                        "snr": {
+                                            "type": "int",
+                                            "value": 6
+                                        },
+                                        "status": {
+                                            "type": "string",
+                                            "value": "Sent"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "id": {
+                                            "type": "string",
+                                            "value": "c2"
+                                        },
+                                        "text": {
+                                            "type": "string",
+                                            "value": "yeah, firing up the node now"
+                                        },
+                                        "timestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T21:59:20Z"
+                                        },
+                                        "isMine": {
+                                            "type": "bool",
+                                            "value": true
+                                        },
+                                        "senderName": {
+                                            "type": "null"
+                                        },
+                                        "snr": {
+                                            "type": "null"
+                                        },
+                                        "status": {
+                                            "type": "string",
+                                            "value": "Confirmed"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "id": {
+                                            "type": "string",
+                                            "value": "c3"
+                                        },
+                                        "text": {
+                                            "type": "string",
+                                            "value": "nice — I'll relay through bob-repeater"
+                                        },
+                                        "timestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:11:20Z"
+                                        },
+                                        "isMine": {
+                                            "type": "bool",
+                                            "value": false
+                                        },
+                                        "senderName": {
+                                            "type": "null"
+                                        },
+                                        "snr": {
+                                            "type": "int",
+                                            "value": 4
+                                        },
+                                        "status": {
+                                            "type": "string",
+                                            "value": "Sent"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "id": {
+                                            "type": "string",
+                                            "value": "c4"
+                                        },
+                                        "text": {
+                                            "type": "string",
+                                            "value": "sounds good, sending a test ping"
+                                        },
+                                        "timestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:12:50Z"
+                                        },
+                                        "isMine": {
+                                            "type": "bool",
+                                            "value": true
+                                        },
+                                        "senderName": {
+                                            "type": "null"
+                                        },
+                                        "snr": {
+                                            "type": "null"
+                                        },
+                                        "status": {
+                                            "type": "string",
+                                            "value": "Sent"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "draft": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "inputEnabled": {
+                            "type": "bool",
+                            "value": true
+                        },
+                        "inputPlaceholder": {
+                            "type": "string",
+                            "value": "Message"
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/tcp-connect": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.TcpConnectPanelKt.TcpConnectPanel",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/tcp-connect",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "busy",
+                        "jsonType": [
+                            "boolean",
+                            "object"
+                        ],
+                        "required": false
+                    },
+                    {
+                        "name": "defaultHost",
+                        "jsonType": [
+                            "string",
+                            "object"
+                        ],
+                        "required": false
+                    },
+                    {
+                        "name": "defaultPort",
+                        "jsonType": "integer",
+                        "required": false
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "busy": {
+                            "type": "bool",
+                            "value": false
+                        },
+                        "defaultHost": {
+                            "type": "string",
+                            "value": "192.168.1.10"
+                        },
+                        "defaultPort": {
+                            "type": "int",
+                            "value": 5000
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/device-settings": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.DeviceSettingsBodyKt.DeviceSettingsBody",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/device-settings",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "state",
+                        "jsonType": "object",
+                        "required": false,
+                        "editor": {
+                            "control": "union",
+                            "unionType": "ee.schimke.meshcore.components.ui.DeviceSettingsUiState",
+                            "cases": [
+                                {
+                                    "name": "discovering",
+                                    "objectType": "ee.schimke.meshcore.components.ui.DeviceSettingsUiState.Discovering"
+                                },
+                                {
+                                    "name": "error",
+                                    "objectType": "ee.schimke.meshcore.components.ui.DeviceSettingsUiState.Error",
+                                    "fields": [
+                                        {
+                                            "name": "message",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "ready",
+                                    "objectType": "ee.schimke.meshcore.components.ui.DeviceSettingsUiState.Ready",
+                                    "fields": [
+                                        {
+                                            "name": "hasBuzzer",
+                                            "required": true,
+                                            "jsonType": "boolean",
+                                            "literalType": "bool"
+                                        },
+                                        {
+                                            "name": "buzzerMode",
+                                            "required": false,
+                                            "default": {
+                                                "type": "null"
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "nullable": true
+                                        },
+                                        {
+                                            "name": "buzzerLoading",
+                                            "required": false,
+                                            "default": {
+                                                "type": "bool",
+                                                "value": false
+                                            },
+                                            "jsonType": "boolean",
+                                            "literalType": "bool"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "state": {
+                            "type": "union",
+                            "case": "ready",
+                            "fields": {
+                                "hasBuzzer": {
+                                    "type": "bool",
+                                    "value": true
+                                },
+                                "buzzerMode": {
+                                    "type": "string",
+                                    "value": "rtttl"
+                                },
+                                "buzzerLoading": {
+                                    "type": "bool",
+                                    "value": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/theme-picker": {
+                "record": ":meshcore-components/ee.schimke.meshcore.app.ui.theme.ThemePickerKt.ThemePickerDialog",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/theme-picker",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "current",
+                        "jsonType": "object",
+                        "required": false,
+                        "editor": {
+                            "control": "object",
+                            "objectType": "ee.schimke.meshcore.app.ui.theme.ThemeSettings",
+                            "fields": [
+                                {
+                                    "name": "mode",
+                                    "required": false,
+                                    "default": {
+                                        "type": "string",
+                                        "value": "System"
+                                    },
+                                    "jsonType": "string",
+                                    "literalType": "string",
+                                    "allowedValues": [
+                                        "Dark",
+                                        "Light",
+                                        "System"
+                                    ]
+                                },
+                                {
+                                    "name": "palette",
+                                    "required": false,
+                                    "default": {
+                                        "type": "string",
+                                        "value": "Meshcore"
+                                    },
+                                    "jsonType": "string",
+                                    "literalType": "string",
+                                    "allowedValues": [
+                                        "Dynamic",
+                                        "Meshcore"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "dynamicColorAvailable",
+                        "jsonType": [
+                            "boolean",
+                            "object"
+                        ],
+                        "required": false
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "current": {
+                            "type": "object",
+                            "fields": {
+                                "mode": {
+                                    "type": "string",
+                                    "value": "System"
+                                },
+                                "palette": {
+                                    "type": "string",
+                                    "value": "Meshcore"
+                                }
+                            }
+                        },
+                        "dynamicColorAvailable": {
+                            "type": "bool",
+                            "value": true
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/login-dialog": {
+                "record": ":meshcore-components/ee.schimke.meshcore.app.ui.LoginDialogKt.LoginDialog",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/login-dialog",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "contactName",
+                        "jsonType": [
+                            "string",
+                            "object"
+                        ],
+                        "required": false
+                    },
+                    {
+                        "name": "contactType",
+                        "jsonType": [
+                            "string",
+                            "object"
+                        ],
+                        "required": false
+                    },
+                    {
+                        "name": "state",
+                        "jsonType": "object",
+                        "required": false,
+                        "editor": {
+                            "control": "union",
+                            "unionType": "ee.schimke.meshcore.app.ui.LoginDialogState",
+                            "cases": [
+                                {
+                                    "name": "prompting",
+                                    "objectType": "ee.schimke.meshcore.app.ui.LoginDialogState.Prompting",
+                                    "fields": [
+                                        {
+                                            "name": "errorMessage",
+                                            "required": false,
+                                            "default": {
+                                                "type": "null"
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "nullable": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "authenticating",
+                                    "objectType": "ee.schimke.meshcore.app.ui.LoginDialogState.Authenticating"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "contactName": {
+                            "type": "string",
+                            "value": "common-room"
+                        },
+                        "contactType": {
+                            "type": "string",
+                            "value": "room"
+                        },
+                        "state": {
+                            "type": "union",
+                            "case": "prompting",
+                            "fields": {
+                                "errorMessage": {
+                                    "type": "null"
+                                }
+                            }
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/device-status": {
+                "record": ":meshcore-components/ee.schimke.meshcore.app.ui.DeviceStatusViewsKt.DeviceStatusView",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/device-status",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "title",
+                        "jsonType": [
+                            "string",
+                            "object"
+                        ],
+                        "required": false
+                    },
+                    {
+                        "name": "status",
+                        "jsonType": "object",
+                        "required": false,
+                        "editor": {
+                            "control": "union",
+                            "unionType": "ee.schimke.meshcore.app.ui.DeviceConnectStatus",
+                            "cases": [
+                                {
+                                    "name": "connecting",
+                                    "objectType": "ee.schimke.meshcore.app.ui.DeviceConnectStatus.Connecting",
+                                    "fields": [
+                                        {
+                                            "name": "startedAtMs",
+                                            "required": true,
+                                            "jsonType": "integer",
+                                            "literalType": "int"
+                                        },
+                                        {
+                                            "name": "timeoutMs",
+                                            "required": true,
+                                            "jsonType": "integer",
+                                            "literalType": "int"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "title": {
+                            "type": "string",
+                            "value": "Connecting"
+                        },
+                        "status": {
+                            "type": "union",
+                            "case": "connecting",
+                            "fields": {
+                                "startedAtMs": {
+                                    "type": "int",
+                                    "value": 0
+                                },
+                                "timeoutMs": {
+                                    "type": "int",
+                                    "value": 20000
+                                }
+                            }
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "meshcore-mobile/device-body": {
+                "record": ":meshcore-components/ee.schimke.meshcore.components.ui.DeviceBodyKt.DeviceBody",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": "meshcore-mobile/device-body",
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "self",
+                        "jsonType": "object",
+                        "required": false,
+                        "nullable": true,
+                        "editor": {
+                            "control": "object",
+                            "objectType": "ee.schimke.meshcore.core.model.SelfInfo",
+                            "fields": [
+                                {
+                                    "name": "name",
+                                    "required": true,
+                                    "jsonType": "string",
+                                    "literalType": "string"
+                                },
+                                {
+                                    "name": "publicKey",
+                                    "required": true,
+                                    "jsonType": "string",
+                                    "literalType": "string",
+                                    "format": "hex"
+                                },
+                                {
+                                    "name": "radio",
+                                    "required": true,
+                                    "jsonType": "object",
+                                    "literalType": "object",
+                                    "editor": {
+                                        "control": "object",
+                                        "objectType": "ee.schimke.meshcore.core.model.RadioSettings",
+                                        "fields": [
+                                            {
+                                                "name": "frequencyHz",
+                                                "required": true,
+                                                "jsonType": "integer",
+                                                "literalType": "int"
+                                            },
+                                            {
+                                                "name": "bandwidthHz",
+                                                "required": true,
+                                                "jsonType": "integer",
+                                                "literalType": "int"
+                                            },
+                                            {
+                                                "name": "spreadingFactor",
+                                                "required": true,
+                                                "jsonType": "integer",
+                                                "literalType": "int"
+                                            },
+                                            {
+                                                "name": "codingRate",
+                                                "required": true,
+                                                "jsonType": "integer",
+                                                "literalType": "int"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "name": "advertType",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 1
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "txPowerDbm",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "maxPowerDbm",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "latitude",
+                                    "required": false,
+                                    "default": {
+                                        "type": "number",
+                                        "value": 0.0
+                                    },
+                                    "jsonType": "number",
+                                    "literalType": "number"
+                                },
+                                {
+                                    "name": "longitude",
+                                    "required": false,
+                                    "default": {
+                                        "type": "number",
+                                        "value": 0.0
+                                    },
+                                    "jsonType": "number",
+                                    "literalType": "number"
+                                },
+                                {
+                                    "name": "multiAcks",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "advertLocationPolicy",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "telemetryFlags",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "manualAddContacts",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "battery",
+                        "jsonType": "object",
+                        "required": false,
+                        "nullable": true,
+                        "editor": {
+                            "control": "object",
+                            "objectType": "ee.schimke.meshcore.core.model.BatteryInfo",
+                            "fields": [
+                                {
+                                    "name": "millivolts",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "storageUsedKb",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "storageTotalKb",
+                                    "required": false,
+                                    "default": {
+                                        "type": "int",
+                                        "value": 0
+                                    },
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "radio",
+                        "jsonType": "object",
+                        "required": false,
+                        "nullable": true,
+                        "editor": {
+                            "control": "object",
+                            "objectType": "ee.schimke.meshcore.core.model.RadioSettings",
+                            "fields": [
+                                {
+                                    "name": "frequencyHz",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "bandwidthHz",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "spreadingFactor",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                },
+                                {
+                                    "name": "codingRate",
+                                    "required": true,
+                                    "jsonType": "integer",
+                                    "literalType": "int"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "contacts",
+                        "jsonType": "array",
+                        "required": false,
+                        "editor": {
+                            "control": "list",
+                            "element": {
+                                "jsonType": "object",
+                                "literalType": "object",
+                                "editor": {
+                                    "control": "object",
+                                    "objectType": "ee.schimke.meshcore.core.model.Contact",
+                                    "fields": [
+                                        {
+                                            "name": "name",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string"
+                                        },
+                                        {
+                                            "name": "publicKey",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "format": "hex"
+                                        },
+                                        {
+                                            "name": "type",
+                                            "required": false,
+                                            "default": {
+                                                "type": "string",
+                                                "value": "CHAT"
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "allowedValues": [
+                                                "CHAT",
+                                                "REPEATER",
+                                                "ROOM",
+                                                "SENSOR",
+                                                "UNKNOWN"
+                                            ]
+                                        },
+                                        {
+                                            "name": "pathLength",
+                                            "required": false,
+                                            "default": {
+                                                "type": "int",
+                                                "value": 0
+                                            },
+                                            "jsonType": "integer",
+                                            "literalType": "int"
+                                        },
+                                        {
+                                            "name": "path",
+                                            "required": false,
+                                            "default": {
+                                                "type": "string",
+                                                "value": ""
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "format": "hex"
+                                        },
+                                        {
+                                            "name": "flags",
+                                            "required": false,
+                                            "default": {
+                                                "type": "int",
+                                                "value": 0
+                                            },
+                                            "jsonType": "integer",
+                                            "literalType": "int"
+                                        },
+                                        {
+                                            "name": "advertTimestamp",
+                                            "required": false,
+                                            "default": {
+                                                "type": "string",
+                                                "value": "2023-11-14T22:13:20Z"
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "format": "date-time"
+                                        },
+                                        {
+                                            "name": "lastModified",
+                                            "required": false,
+                                            "default": {
+                                                "type": "string",
+                                                "value": "2023-11-14T22:13:20Z"
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "format": "date-time"
+                                        },
+                                        {
+                                            "name": "latitude",
+                                            "required": false,
+                                            "default": {
+                                                "type": "number",
+                                                "value": 0.0
+                                            },
+                                            "jsonType": "number",
+                                            "literalType": "number"
+                                        },
+                                        {
+                                            "name": "longitude",
+                                            "required": false,
+                                            "default": {
+                                                "type": "number",
+                                                "value": 0.0
+                                            },
+                                            "jsonType": "number",
+                                            "literalType": "number"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "contactsLoading",
+                        "jsonType": [
+                            "boolean",
+                            "object"
+                        ],
+                        "required": false
+                    },
+                    {
+                        "name": "contactsRefreshing",
+                        "jsonType": [
+                            "boolean",
+                            "object"
+                        ],
+                        "required": false
+                    },
+                    {
+                        "name": "channels",
+                        "jsonType": "array",
+                        "required": false,
+                        "editor": {
+                            "control": "list",
+                            "element": {
+                                "jsonType": "object",
+                                "literalType": "object",
+                                "editor": {
+                                    "control": "object",
+                                    "objectType": "ee.schimke.meshcore.core.model.ChannelInfo",
+                                    "fields": [
+                                        {
+                                            "name": "index",
+                                            "required": true,
+                                            "jsonType": "integer",
+                                            "literalType": "int"
+                                        },
+                                        {
+                                            "name": "name",
+                                            "required": false,
+                                            "default": {
+                                                "type": "string",
+                                                "value": ""
+                                            },
+                                            "jsonType": "string",
+                                            "literalType": "string"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "contactedKeys",
+                        "jsonType": "array",
+                        "required": false,
+                        "editor": {
+                            "control": "list",
+                            "element": {
+                                "jsonType": "string",
+                                "literalType": "string"
+                            }
+                        }
+                    },
+                    {
+                        "name": "contactedChannelIndices",
+                        "jsonType": "array",
+                        "required": false,
+                        "editor": {
+                            "control": "list",
+                            "element": {
+                                "jsonType": "integer",
+                                "literalType": "int"
+                            }
+                        }
+                    },
+                    {
+                        "name": "sectionStates",
+                        "jsonType": "object",
+                        "required": false,
+                        "editor": {
+                            "control": "object",
+                            "objectType": "ee.schimke.meshcore.components.ui.theme.SectionStates",
+                            "fields": [
+                                {
+                                    "name": "channelsExpanded",
+                                    "required": false,
+                                    "default": {
+                                        "type": "bool",
+                                        "value": true
+                                    },
+                                    "jsonType": "boolean",
+                                    "literalType": "bool"
+                                },
+                                {
+                                    "name": "channelsShowAll",
+                                    "required": false,
+                                    "default": {
+                                        "type": "bool",
+                                        "value": false
+                                    },
+                                    "jsonType": "boolean",
+                                    "literalType": "bool"
+                                },
+                                {
+                                    "name": "contactsExpanded",
+                                    "required": false,
+                                    "default": {
+                                        "type": "bool",
+                                        "value": true
+                                    },
+                                    "jsonType": "boolean",
+                                    "literalType": "bool"
+                                },
+                                {
+                                    "name": "contactsShowAll",
+                                    "required": false,
+                                    "default": {
+                                        "type": "bool",
+                                        "value": false
+                                    },
+                                    "jsonType": "boolean",
+                                    "literalType": "bool"
+                                },
+                                {
+                                    "name": "roomsExpanded",
+                                    "required": false,
+                                    "default": {
+                                        "type": "bool",
+                                        "value": true
+                                    },
+                                    "jsonType": "boolean",
+                                    "literalType": "bool"
+                                },
+                                {
+                                    "name": "roomsShowAll",
+                                    "required": false,
+                                    "default": {
+                                        "type": "bool",
+                                        "value": false
+                                    },
+                                    "jsonType": "boolean",
+                                    "literalType": "bool"
+                                },
+                                {
+                                    "name": "repeatersExpanded",
+                                    "required": false,
+                                    "default": {
+                                        "type": "bool",
+                                        "value": true
+                                    },
+                                    "jsonType": "boolean",
+                                    "literalType": "bool"
+                                },
+                                {
+                                    "name": "repeatersShowAll",
+                                    "required": false,
+                                    "default": {
+                                        "type": "bool",
+                                        "value": false
+                                    },
+                                    "jsonType": "boolean",
+                                    "literalType": "bool"
+                                },
+                                {
+                                    "name": "sensorsExpanded",
+                                    "required": false,
+                                    "default": {
+                                        "type": "bool",
+                                        "value": true
+                                    },
+                                    "jsonType": "boolean",
+                                    "literalType": "bool"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "lastMessage",
+                        "jsonType": "object",
+                        "required": false,
+                        "nullable": true,
+                        "editor": {
+                            "control": "union",
+                            "unionType": "ee.schimke.meshcore.components.ui.LastMessageInfo",
+                            "cases": [
+                                {
+                                    "name": "dm",
+                                    "objectType": "ee.schimke.meshcore.components.ui.LastMessageInfo.Dm",
+                                    "fields": [
+                                        {
+                                            "name": "contactKeyHex",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string"
+                                        },
+                                        {
+                                            "name": "contactName",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "nullable": true
+                                        },
+                                        {
+                                            "name": "text",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string"
+                                        },
+                                        {
+                                            "name": "snr",
+                                            "required": false,
+                                            "default": {
+                                                "type": "int",
+                                                "value": 0
+                                            },
+                                            "jsonType": "integer",
+                                            "literalType": "int"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "channel",
+                                    "objectType": "ee.schimke.meshcore.components.ui.LastMessageInfo.Channel",
+                                    "fields": [
+                                        {
+                                            "name": "channelIndex",
+                                            "required": true,
+                                            "jsonType": "integer",
+                                            "literalType": "int"
+                                        },
+                                        {
+                                            "name": "channelName",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "nullable": true
+                                        },
+                                        {
+                                            "name": "sender",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string",
+                                            "nullable": true
+                                        },
+                                        {
+                                            "name": "text",
+                                            "required": true,
+                                            "jsonType": "string",
+                                            "literalType": "string"
+                                        },
+                                        {
+                                            "name": "snr",
+                                            "required": false,
+                                            "default": {
+                                                "type": "int",
+                                                "value": 0
+                                            },
+                                            "jsonType": "integer",
+                                            "literalType": "int"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "warnings",
+                        "jsonType": "array",
+                        "required": false,
+                        "editor": {
+                            "control": "list",
+                            "element": {
+                                "jsonType": "string",
+                                "literalType": "string"
+                            }
+                        }
+                    }
+                ],
+                "slotCapabilities": [],
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "self": {
+                            "type": "object",
+                            "fields": {
+                                "name": {
+                                    "type": "string",
+                                    "value": "node-peak"
+                                },
+                                "publicKey": {
+                                    "type": "string",
+                                    "value": "abababababababababababababababababababababababababababababababab"
+                                },
+                                "radio": {
+                                    "type": "object",
+                                    "fields": {
+                                        "frequencyHz": {
+                                            "type": "int",
+                                            "value": 869525000
+                                        },
+                                        "bandwidthHz": {
+                                            "type": "int",
+                                            "value": 125000
+                                        },
+                                        "spreadingFactor": {
+                                            "type": "int",
+                                            "value": 10
+                                        },
+                                        "codingRate": {
+                                            "type": "int",
+                                            "value": 5
+                                        }
+                                    }
+                                },
+                                "advertType": {
+                                    "type": "int",
+                                    "value": 1
+                                },
+                                "txPowerDbm": {
+                                    "type": "int",
+                                    "value": 14
+                                },
+                                "maxPowerDbm": {
+                                    "type": "int",
+                                    "value": 22
+                                },
+                                "latitude": {
+                                    "type": "number",
+                                    "value": 53.0
+                                },
+                                "longitude": {
+                                    "type": "number",
+                                    "value": -1.5
+                                },
+                                "multiAcks": {
+                                    "type": "int",
+                                    "value": 0
+                                },
+                                "advertLocationPolicy": {
+                                    "type": "int",
+                                    "value": 0
+                                },
+                                "telemetryFlags": {
+                                    "type": "int",
+                                    "value": 0
+                                },
+                                "manualAddContacts": {
+                                    "type": "int",
+                                    "value": 0
+                                }
+                            }
+                        },
+                        "battery": {
+                            "type": "object",
+                            "fields": {
+                                "millivolts": {
+                                    "type": "int",
+                                    "value": 3980
+                                },
+                                "storageUsedKb": {
+                                    "type": "int",
+                                    "value": 512
+                                },
+                                "storageTotalKb": {
+                                    "type": "int",
+                                    "value": 4096
+                                }
+                            }
+                        },
+                        "radio": {
+                            "type": "object",
+                            "fields": {
+                                "frequencyHz": {
+                                    "type": "int",
+                                    "value": 869525000
+                                },
+                                "bandwidthHz": {
+                                    "type": "int",
+                                    "value": 125000
+                                },
+                                "spreadingFactor": {
+                                    "type": "int",
+                                    "value": 10
+                                },
+                                "codingRate": {
+                                    "type": "int",
+                                    "value": 5
+                                }
+                            }
+                        },
+                        "contacts": {
+                            "type": "list",
+                            "values": [
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "name": {
+                                            "type": "string",
+                                            "value": "alice"
+                                        },
+                                        "publicKey": {
+                                            "type": "string",
+                                            "value": "1111111111111111111111111111111111111111111111111111111111111111"
+                                        },
+                                        "type": {
+                                            "type": "string",
+                                            "value": "CHAT"
+                                        },
+                                        "pathLength": {
+                                            "type": "int",
+                                            "value": -1
+                                        },
+                                        "path": {
+                                            "type": "string",
+                                            "value": ""
+                                        },
+                                        "flags": {
+                                            "type": "int",
+                                            "value": 0
+                                        },
+                                        "advertTimestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "lastModified": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "latitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        },
+                                        "longitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "name": {
+                                            "type": "string",
+                                            "value": "bob-repeater"
+                                        },
+                                        "publicKey": {
+                                            "type": "string",
+                                            "value": "2222222222222222222222222222222222222222222222222222222222222222"
+                                        },
+                                        "type": {
+                                            "type": "string",
+                                            "value": "REPEATER"
+                                        },
+                                        "pathLength": {
+                                            "type": "int",
+                                            "value": 2
+                                        },
+                                        "path": {
+                                            "type": "string",
+                                            "value": ""
+                                        },
+                                        "flags": {
+                                            "type": "int",
+                                            "value": 0
+                                        },
+                                        "advertTimestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "lastModified": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "latitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        },
+                                        "longitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "name": {
+                                            "type": "string",
+                                            "value": "common-room"
+                                        },
+                                        "publicKey": {
+                                            "type": "string",
+                                            "value": "3333333333333333333333333333333333333333333333333333333333333333"
+                                        },
+                                        "type": {
+                                            "type": "string",
+                                            "value": "ROOM"
+                                        },
+                                        "pathLength": {
+                                            "type": "int",
+                                            "value": 0
+                                        },
+                                        "path": {
+                                            "type": "string",
+                                            "value": ""
+                                        },
+                                        "flags": {
+                                            "type": "int",
+                                            "value": 0
+                                        },
+                                        "advertTimestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "lastModified": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "latitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        },
+                                        "longitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "name": {
+                                            "type": "string",
+                                            "value": "soil-sensor-1"
+                                        },
+                                        "publicKey": {
+                                            "type": "string",
+                                            "value": "4444444444444444444444444444444444444444444444444444444444444444"
+                                        },
+                                        "type": {
+                                            "type": "string",
+                                            "value": "SENSOR"
+                                        },
+                                        "pathLength": {
+                                            "type": "int",
+                                            "value": 3
+                                        },
+                                        "path": {
+                                            "type": "string",
+                                            "value": ""
+                                        },
+                                        "flags": {
+                                            "type": "int",
+                                            "value": 0
+                                        },
+                                        "advertTimestamp": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "lastModified": {
+                                            "type": "string",
+                                            "value": "2023-11-14T22:13:20Z"
+                                        },
+                                        "latitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        },
+                                        "longitude": {
+                                            "type": "number",
+                                            "value": 0.0
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "contactsLoading": {
+                            "type": "bool",
+                            "value": false
+                        },
+                        "contactsRefreshing": {
+                            "type": "bool",
+                            "value": false
+                        },
+                        "channels": {
+                            "type": "list",
+                            "values": [
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "index": {
+                                            "type": "int",
+                                            "value": 0
+                                        },
+                                        "name": {
+                                            "type": "string",
+                                            "value": "General"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "index": {
+                                            "type": "int",
+                                            "value": 1
+                                        },
+                                        "name": {
+                                            "type": "string",
+                                            "value": "Emergency"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "object",
+                                    "fields": {
+                                        "index": {
+                                            "type": "int",
+                                            "value": 2
+                                        },
+                                        "name": {
+                                            "type": "string",
+                                            "value": "meshcore-commands"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "contactedKeys": {
+                            "type": "list",
+                            "values": [
+                                {
+                                    "type": "string",
+                                    "value": "1111111111111111111111111111111111111111111111111111111111111111"
+                                },
+                                {
+                                    "type": "string",
+                                    "value": "3333333333333333333333333333333333333333333333333333333333333333"
+                                }
+                            ]
+                        },
+                        "contactedChannelIndices": {
+                            "type": "list",
+                            "values": [
+                                {
+                                    "type": "int",
+                                    "value": 0
+                                }
+                            ]
+                        },
+                        "sectionStates": {
+                            "type": "object",
+                            "fields": {
+                                "channelsExpanded": {
+                                    "type": "bool",
+                                    "value": true
+                                },
+                                "channelsShowAll": {
+                                    "type": "bool",
+                                    "value": false
+                                },
+                                "contactsExpanded": {
+                                    "type": "bool",
+                                    "value": true
+                                },
+                                "contactsShowAll": {
+                                    "type": "bool",
+                                    "value": false
+                                },
+                                "roomsExpanded": {
+                                    "type": "bool",
+                                    "value": true
+                                },
+                                "roomsShowAll": {
+                                    "type": "bool",
+                                    "value": false
+                                },
+                                "repeatersExpanded": {
+                                    "type": "bool",
+                                    "value": true
+                                },
+                                "repeatersShowAll": {
+                                    "type": "bool",
+                                    "value": false
+                                },
+                                "sensorsExpanded": {
+                                    "type": "bool",
+                                    "value": true
+                                }
+                            }
+                        },
+                        "lastMessage": {
+                            "type": "null"
+                        },
+                        "warnings": {
+                            "type": "list",
+                            "values": []
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            }
+        },
+        "designTokens": null
+    },
+    "diagnostics": []
+}
