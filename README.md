@@ -46,7 +46,7 @@ customising the live render are two ends of one workflow.
 | Library | `androidx.compose.material3:material3`<br>`ee.schimke.meshcore:meshcore-components (MeshcoreTheme)` |
 | Renderer | compose-preview 2.57.0 |
 | Schema | `design-parity-catalog/v1` |
-| Generated | 2026-10-13 |
+| Generated | 2026-10-14 |
 
 ## Components by group
 
