@@ -19476,8 +19476,8 @@
     "androidx.compose.material3:material3",
     "ee.schimke.meshcore:meshcore-components (MeshcoreTheme)"
   ],
-  "renderer": "compose-preview 2.64.5",
-  "generatedAt": "2026-10-16T21:33:09.656Z",
+  "renderer": "compose-preview 2.66.0",
+  "generatedAt": "2026-10-16T22:04:49.744Z",
   "display": {
     "hero": "Device/Populated"
   },
@@ -19538,7 +19538,7 @@
   "componentsFile": "ui-builder/components.json",
   "source": {
     "repo": "yschimke/meshcore-mobile",
-    "ref": "e90d91ffa869c887205a1f13b39ae33b0a15ff89",
+    "ref": "a303bc1204e9907a23bb01c93d49ca34365bc1ec",
     "module": ""
   },
   "uiBuilderFile": "ui-builder.json",
