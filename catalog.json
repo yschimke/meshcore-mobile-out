@@ -19476,11 +19476,41 @@
     "androidx.compose.material3:material3",
     "ee.schimke.meshcore:meshcore-components (MeshcoreTheme)"
   ],
-  "renderer": "compose-preview 2.57.0",
-  "generatedAt": "2026-10-14T08:11:56.270Z",
+  "renderer": "compose-preview 2.64.5",
+  "generatedAt": "2026-10-16T21:33:09.656Z",
   "display": {
     "hero": "Device/Populated"
   },
+  "themes": [
+    {
+      "id": "ee.schimke.meshcore.app.ui.theme.MeshcoreDynamicDarkThemeCatalog",
+      "tokensFile": "themes/ee.schimke.meshcore.app.ui.theme.meshcoredynamicdarkthemecatalog.dtcg.json",
+      "name": "Dynamic Dark",
+      "group": "MeshCore",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.meshcore.app.ui.theme.MeshcoreDynamicLightThemeCatalog",
+      "tokensFile": "themes/ee.schimke.meshcore.app.ui.theme.meshcoredynamiclightthemecatalog.dtcg.json",
+      "name": "Dynamic Light",
+      "group": "MeshCore",
+      "dark": false
+    },
+    {
+      "id": "ee.schimke.meshcore.app.ui.theme.MeshcoreAppDarkThemeCatalog",
+      "tokensFile": "themes/ee.schimke.meshcore.app.ui.theme.meshcoreappdarkthemecatalog.dtcg.json",
+      "name": "MeshCore Dark",
+      "group": "MeshCore",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.meshcore.app.ui.theme.MeshcoreAppLightThemeCatalog",
+      "tokensFile": "themes/ee.schimke.meshcore.app.ui.theme.meshcoreapplightthemecatalog.dtcg.json",
+      "name": "MeshCore Light",
+      "group": "MeshCore",
+      "dark": false
+    }
+  ],
   "liveBundle": {
     "path": "bundle/",
     "file": "bundle.png"
@@ -19508,14 +19538,14 @@
   "componentsFile": "ui-builder/components.json",
   "source": {
     "repo": "yschimke/meshcore-mobile",
-    "ref": "f85d41530dc291efc7827807230064c2796e2fdf",
+    "ref": "e90d91ffa869c887205a1f13b39ae33b0a15ff89",
     "module": ""
   },
   "uiBuilderFile": "ui-builder.json",
   "uiBuilderRuntime": {
     "path": "ui-builder/runtime.zip",
-    "runtimeId": "meshcore-mobile-p2-6dd94b1deac7f486",
+    "runtimeId": "meshcore-mobile-p2-36f4942ce7f2a9a1",
     "protocolVersion": 2,
-    "integritySha256": "6dd94b1deac7f4869d9c98cece909f7aae5968aadfdbd3604552670660543389"
+    "integritySha256": "36f4942ce7f2a9a192d8e44c838accd0a78a5e742ebcce2a80c698ca045d1240"
   }
 }

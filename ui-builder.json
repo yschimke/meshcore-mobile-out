@@ -62,7 +62,9 @@
                     "default": false,
                     "order": null
                 }
-            ]
+            ],
+            "description": null,
+            "primary": null
         },
         "colorTokens": null,
         "assetRegistry": null,
