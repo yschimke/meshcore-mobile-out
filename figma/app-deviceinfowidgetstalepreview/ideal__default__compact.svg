@@ -3,13 +3,13 @@
 <g transform="translate(0, 0)">
   <g id="Root">
     <g id="Column">
-      <image href="ideal__default__compact.figma-raster/1577.png" x="0" y="0" width="758" height="420"/>
+      <image href="ideal__default__compact.figma-raster/1438.png" x="0" y="0" width="758" height="420"/>
       <g id="Empty">
         <text x="42" y="91.11" font-size="52.5" font-family="Roboto, sans-serif" font-weight="400" fill="#DDE4E1">node-peak</text>
       </g>
       <g id="Row">
         <g id="Spacer">
-          <image href="ideal__default__compact.figma-raster/1582.png" x="42" y="130" width="32" height="32"/>
+          <image href="ideal__default__compact.figma-raster/1443.png" x="42" y="130" width="32" height="32"/>
         </g>
         <g id="Empty">
           <text x="85" y="164.17" font-size="36.75" font-family="Roboto, sans-serif" font-weight="400" fill="#BEC9C5">ab1234567890cdef</text>
@@ -17,7 +17,7 @@
       </g>
       <g id="Row">
         <g id="Spacer">
-          <image href="ideal__default__compact.figma-raster/1587.png" x="42" y="199" width="32" height="32"/>
+          <image href="ideal__default__compact.figma-raster/1448.png" x="42" y="199" width="32" height="32"/>
         </g>
         <g id="Empty">
           <text x="85" y="233.17" font-size="36.75" font-family="Roboto, sans-serif" font-weight="400" fill="#BEC9C5">869.525 MHz</text>
@@ -26,7 +26,7 @@
       <g id="Column">
         <g id="Row">
           <g id="Spacer">
-            <image href="ideal__default__compact.figma-raster/1593.png" x="42" y="268" width="32" height="32"/>
+            <image href="ideal__default__compact.figma-raster/1454.png" x="42" y="268" width="32" height="32"/>
           </g>
           <g id="Empty">
             <text x="85" y="302.17" font-size="36.75" font-family="Roboto, sans-serif" font-weight="400" fill="#DDE4E1">81% · 3980 mV</text>
@@ -41,7 +41,7 @@
       </g>
       <g id="Row">
         <g id="Spacer">
-          <image href="ideal__default__compact.figma-raster/1600.png" x="42" y="359" width="32" height="19"/>
+          <image href="ideal__default__compact.figma-raster/1461.png" x="42" y="359" width="32" height="19"/>
         </g>
         <g id="Empty">
           <text x="85" y="388.76" font-size="31.5" font-family="Roboto, sans-serif" font-weight="400" fill="#BEC9C5">512 / 4096 kB</text>
