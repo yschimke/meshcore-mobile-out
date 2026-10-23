@@ -1,5 +1,6833 @@
 {
   "schema": "compose-preview-annotations/v1",
   "previews": {},
-  "references": {}
+  "references": {
+    "devicesummarycard-populated__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 47,
+          "y": 136,
+          "width": 404,
+          "height": 44
+        },
+        "label": "≈gap 25px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "25",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 45,
+          "y": 205,
+          "width": 769,
+          "height": 44
+        },
+        "label": "≈gap 23px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "23",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 56,
+          "y": 279,
+          "width": 290,
+          "height": 44
+        },
+        "label": "≈gap 14px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "14",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 46,
+          "y": 357,
+          "width": 266,
+          "height": 38
+        },
+        "label": "≈gap 24px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "24",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 42,
+          "y": 49,
+          "width": 270,
+          "height": 64
+        },
+        "label": "text 52.5px/63.5",
+        "role": "node-peak",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "52.5",
+          "lineHeight": "63.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 103,
+          "y": 136,
+          "width": 347,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "abababababababab",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 103,
+          "y": 205,
+          "width": 711,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "869.525 MHz · BW 125 kHz · SF 10 · CR 5",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 89,
+          "y": 279,
+          "width": 257,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "81% · 3980 mV",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 103,
+          "y": 357,
+          "width": 207,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "512 / 4096 kB",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "devicesummarycard-loading__ideal__default__light": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 46,
+          "y": 82,
+          "width": 184,
+          "height": 143
+        },
+        "label": "≈gap 24px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "24",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 51,
+          "y": 177,
+          "width": 102,
+          "height": 48
+        },
+        "label": "≈gap 25px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "25",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 46,
+          "y": 82,
+          "width": 184,
+          "height": 70
+        },
+        "label": "text 52.5px/63.5",
+        "role": "Device",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "52.5",
+          "lineHeight": "63.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 113,
+          "y": 177,
+          "width": 40,
+          "height": 48
+        },
+        "label": "text 36.8px/44.5",
+        "role": "—",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "devicesummarycard-lowbattery__ideal__default__light": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 51,
+          "y": 169,
+          "width": 441,
+          "height": 48
+        },
+        "label": "≈gap 25px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "25",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 49,
+          "y": 244,
+          "width": 840,
+          "height": 48
+        },
+        "label": "≈gap 23px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "23",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 61,
+          "y": 322,
+          "width": 308,
+          "height": 48
+        },
+        "label": "≈gap 14px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "14",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 50,
+          "y": 408,
+          "width": 318,
+          "height": 41
+        },
+        "label": "≈gap 24px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "24",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 46,
+          "y": 74,
+          "width": 310,
+          "height": 70
+        },
+        "label": "text 52.5px/63.5",
+        "role": "node-cabin",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "52.5",
+          "lineHeight": "63.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 113,
+          "y": 169,
+          "width": 379,
+          "height": 48
+        },
+        "label": "text 36.8px/44.5",
+        "role": "abababababababab",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 113,
+          "y": 244,
+          "width": 776,
+          "height": 48
+        },
+        "label": "text 36.8px/44.5",
+        "role": "869.525 MHz · BW 125 kHz · SF 10 · CR 5",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 97,
+          "y": 322,
+          "width": 272,
+          "height": 48
+        },
+        "label": "text 36.8px/44.5",
+        "role": "17% · 3210 mV",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 113,
+          "y": 408,
+          "width": 254,
+          "height": 41
+        },
+        "label": "text 31.5px/38.1",
+        "role": "3800 / 4096 kB",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "contactrow-chat__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 35,
+          "y": 64,
+          "width": 386,
+          "height": 105
+        },
+        "label": "≈gap 32px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "32",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 176,
+          "y": 70,
+          "width": 109,
+          "height": 57
+        },
+        "label": "text 42px/50.8",
+        "role": "alice",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 176,
+          "y": 126,
+          "width": 245,
+          "height": 42
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Contact · flood",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "contactrow-repeater__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 35,
+          "y": 64,
+          "width": 446,
+          "height": 105
+        },
+        "label": "≈gap 32px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "32",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 176,
+          "y": 70,
+          "width": 305,
+          "height": 57
+        },
+        "label": "text 42px/50.8",
+        "role": "bob-repeater",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 176,
+          "y": 126,
+          "width": 292,
+          "height": 42
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Repeater · 2 hops",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "contactrow-room__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 35,
+          "y": 64,
+          "width": 479,
+          "height": 105
+        },
+        "label": "≈gap 32px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "32",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 176,
+          "y": 70,
+          "width": 338,
+          "height": 57
+        },
+        "label": "text 42px/50.8",
+        "role": "common-room",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 176,
+          "y": 126,
+          "width": 236,
+          "height": 42
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Room · 0 hops",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "contactrow-sensor__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 35,
+          "y": 64,
+          "width": 444,
+          "height": 105
+        },
+        "label": "≈gap 32px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "32",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 176,
+          "y": 70,
+          "width": 303,
+          "height": 57
+        },
+        "label": "text 42px/50.8",
+        "role": "soil-sensor-1",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 176,
+          "y": 126,
+          "width": 258,
+          "height": 42
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Sensor · 3 hops",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "contactlist-empty__ideal__default__light__compact": [
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 0,
+          "y": 14,
+          "width": 241,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Contacts (0)",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "contactlist-few__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 205,
+          "width": 893,
+          "height": 349
+        },
+        "label": "≈gap 21px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "21",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 35,
+          "y": 234,
+          "width": 386,
+          "height": 105
+        },
+        "label": "≈gap 32px",
+        "role": "Row",
+        "detail": {
+          "gap": "32",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 35,
+          "y": 421,
+          "width": 446,
+          "height": 105
+        },
+        "label": "≈gap 32px",
+        "role": "Row",
+        "detail": {
+          "gap": "32",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 0,
+          "y": 160,
+          "width": 241,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Contacts (2)",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 176,
+          "y": 241,
+          "width": 109,
+          "height": 57
+        },
+        "label": "text 42px/50.8",
+        "role": "alice",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 176,
+          "y": 296,
+          "width": 245,
+          "height": 42
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Contact · flood",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 176,
+          "y": 427,
+          "width": 305,
+          "height": 57
+        },
+        "label": "text 42px/50.8",
+        "role": "bob-repeater",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 176,
+          "y": 483,
+          "width": 292,
+          "height": 42
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Repeater · 2 hops",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "contactlist-many__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 31,
+          "y": 42,
+          "width": 831,
+          "height": 672
+        },
+        "label": "≈gap 21px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "21",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 64,
+          "y": 69,
+          "width": 386,
+          "height": 98
+        },
+        "label": "≈gap 32px",
+        "role": "Row",
+        "detail": {
+          "gap": "32",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 64,
+          "y": 243,
+          "width": 415,
+          "height": 98
+        },
+        "label": "≈gap 32px",
+        "role": "Row",
+        "detail": {
+          "gap": "32",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 64,
+          "y": 416,
+          "width": 385,
+          "height": 98
+        },
+        "label": "≈gap 32px",
+        "role": "Row",
+        "detail": {
+          "gap": "32",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 31,
+          "y": 0,
+          "width": 242,
+          "height": 45
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Contacts (10)",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 75,
+          "width": 101,
+          "height": 53
+        },
+        "label": "text 42px/50.8",
+        "role": "alice",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 127,
+          "width": 255,
+          "height": 39
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Contact · 0 hops",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 249,
+          "width": 284,
+          "height": 53
+        },
+        "label": "text 42px/50.8",
+        "role": "bob-repeater",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 300,
+          "width": 266,
+          "height": 39
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Repeater · 1 hops",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 422,
+          "width": 146,
+          "height": 53
+        },
+        "label": "text 42px/50.8",
+        "role": "charlie",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 474,
+          "width": 254,
+          "height": 39
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Contact · 2 hops",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "bledevicelist-empty__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 71,
+          "width": 893,
+          "height": 582
+        },
+        "label": "≈gap 200px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "200",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 0,
+          "y": 71,
+          "width": 503,
+          "height": 60
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Scanning… 0 devices",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 428,
+          "y": 545,
+          "width": 260,
+          "height": 60
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Scanning…",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 210,
+          "y": 601,
+          "width": 683,
+          "height": 52
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Move closer to a MeshCore radio.",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "bledevicelist-few__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 175,
+          "width": 893,
+          "height": 574
+        },
+        "label": "≈gap 21px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "21",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 141,
+          "y": 201,
+          "width": 235,
+          "height": 220
+        },
+        "label": "≈gap 4px",
+        "role": "Column",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 141,
+          "y": 201,
+          "width": 235,
+          "height": 126
+        },
+        "label": "≈gap 12px",
+        "role": "Group",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 141,
+          "y": 331,
+          "width": 190,
+          "height": 89
+        },
+        "label": "≈gap 4px",
+        "role": "Group",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 407,
+          "y": 266,
+          "width": 134,
+          "height": 101
+        },
+        "label": "≈gap 12px",
+        "role": "Column",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 141,
+          "y": 499,
+          "width": 235,
+          "height": 220
+        },
+        "label": "≈gap 4px",
+        "role": "Column",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 141,
+          "y": 499,
+          "width": 235,
+          "height": 126
+        },
+        "label": "≈gap 12px",
+        "role": "Group",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 141,
+          "y": 630,
+          "width": 185,
+          "height": 89
+        },
+        "label": "≈gap 4px",
+        "role": "Group",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 407,
+          "y": 570,
+          "width": 132,
+          "height": 95
+        },
+        "label": "≈gap 16px",
+        "role": "Column",
+        "detail": {
+          "gap": "16",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 141,
+          "y": 201,
+          "width": 235,
+          "height": 57
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 141,
+          "y": 270,
+          "width": 158,
+          "height": 57
+        },
+        "label": "text 42px/50.8",
+        "role": "-ABCD",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 141,
+          "y": 331,
+          "width": 190,
+          "height": 42
+        },
+        "label": "text 31.5px/38.1",
+        "role": "C7:8D:8C:4",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 141,
+          "y": 378,
+          "width": 124,
+          "height": 42
+        },
+        "label": "text 31.5px/38.1",
+        "role": "5:5F:78",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 407,
+          "y": 328,
+          "width": 134,
+          "height": 39
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-52 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 630,
+          "y": 286,
+          "width": 171,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 141,
+          "y": 499,
+          "width": 235,
+          "height": 57
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 141,
+          "y": 569,
+          "width": 136,
+          "height": 57
+        },
+        "label": "text 42px/50.8",
+        "role": "-1234",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 141,
+          "y": 630,
+          "width": 185,
+          "height": 42
+        },
+        "label": "text 31.5px/38.1",
+        "role": "A1:B2:C3:D",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 141,
+          "y": 676,
+          "width": 126,
+          "height": 42
+        },
+        "label": "text 31.5px/38.1",
+        "role": "4:E5:F6",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 407,
+          "y": 626,
+          "width": 132,
+          "height": 39
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-74 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 630,
+          "y": 584,
+          "width": 171,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "bledevicelist-many__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 80,
+          "y": 0,
+          "width": 732,
+          "height": 1449
+        },
+        "label": "≈gap 21px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "21",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 21,
+          "width": 193,
+          "height": 180
+        },
+        "label": "≈gap 4px",
+        "role": "Column",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 21,
+          "width": 193,
+          "height": 104
+        },
+        "label": "≈gap 12px",
+        "role": "Group",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 128,
+          "width": 163,
+          "height": 73
+        },
+        "label": "≈gap 4px",
+        "role": "Group",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 414,
+          "y": 75,
+          "width": 113,
+          "height": 83
+        },
+        "label": "≈gap 12px",
+        "role": "Column",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 266,
+          "width": 193,
+          "height": 180
+        },
+        "label": "≈gap 4px",
+        "role": "Column",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 266,
+          "width": 193,
+          "height": 104
+        },
+        "label": "≈gap 12px",
+        "role": "Group",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 373,
+          "width": 163,
+          "height": 73
+        },
+        "label": "≈gap 4px",
+        "role": "Group",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 414,
+          "y": 319,
+          "width": 112,
+          "height": 83
+        },
+        "label": "≈gap 12px",
+        "role": "Column",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 510,
+          "width": 193,
+          "height": 180
+        },
+        "label": "≈gap 4px",
+        "role": "Column",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 510,
+          "width": 193,
+          "height": 104
+        },
+        "label": "≈gap 12px",
+        "role": "Group",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 617,
+          "width": 163,
+          "height": 73
+        },
+        "label": "≈gap 4px",
+        "role": "Group",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 414,
+          "y": 564,
+          "width": 112,
+          "height": 83
+        },
+        "label": "≈gap 12px",
+        "role": "Column",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 755,
+          "width": 192,
+          "height": 180
+        },
+        "label": "≈gap 4px",
+        "role": "Column",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 755,
+          "width": 192,
+          "height": 104
+        },
+        "label": "≈gap 12px",
+        "role": "Group",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 862,
+          "width": 163,
+          "height": 73
+        },
+        "label": "≈gap 4px",
+        "role": "Group",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 414,
+          "y": 808,
+          "width": 111,
+          "height": 83
+        },
+        "label": "≈gap 12px",
+        "role": "Column",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 999,
+          "width": 193,
+          "height": 180
+        },
+        "label": "≈gap 4px",
+        "role": "Column",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 999,
+          "width": 193,
+          "height": 104
+        },
+        "label": "≈gap 12px",
+        "role": "Group",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 195,
+          "y": 1107,
+          "width": 163,
+          "height": 73
+        },
+        "label": "≈gap 4px",
+        "role": "Group",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 414,
+          "y": 1053,
+          "width": 112,
+          "height": 83
+        },
+        "label": "≈gap 12px",
+        "role": "Column",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 21,
+          "width": 193,
+          "height": 46
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 78,
+          "width": 125,
+          "height": 46
+        },
+        "label": "text 42px/50.8",
+        "role": "-A000",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 128,
+          "width": 163,
+          "height": 35
+        },
+        "label": "text 31.5px/38.1",
+        "role": "AA:BB:CC:D",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 166,
+          "width": 107,
+          "height": 35
+        },
+        "label": "text 31.5px/38.1",
+        "role": "D:EE:00",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 414,
+          "y": 125,
+          "width": 113,
+          "height": 32
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-40 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 596,
+          "y": 91,
+          "width": 140,
+          "height": 40
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 266,
+          "width": 193,
+          "height": 46
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 323,
+          "width": 118,
+          "height": 46
+        },
+        "label": "text 42px/50.8",
+        "role": "-A001",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 373,
+          "width": 163,
+          "height": 35
+        },
+        "label": "text 31.5px/38.1",
+        "role": "AA:BB:CC:D",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 411,
+          "width": 102,
+          "height": 35
+        },
+        "label": "text 31.5px/38.1",
+        "role": "D:EE:01",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 414,
+          "y": 370,
+          "width": 112,
+          "height": 32
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-45 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 596,
+          "y": 336,
+          "width": 140,
+          "height": 40
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 510,
+          "width": 193,
+          "height": 46
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 567,
+          "width": 124,
+          "height": 46
+        },
+        "label": "text 42px/50.8",
+        "role": "-A002",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 617,
+          "width": 163,
+          "height": 35
+        },
+        "label": "text 31.5px/38.1",
+        "role": "AA:BB:CC:D",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 656,
+          "width": 106,
+          "height": 35
+        },
+        "label": "text 31.5px/38.1",
+        "role": "D:EE:02",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 414,
+          "y": 615,
+          "width": 112,
+          "height": 32
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-50 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 596,
+          "y": 580,
+          "width": 140,
+          "height": 40
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 755,
+          "width": 192,
+          "height": 46
+        },
+        "label": "text 42px/50.8",
+        "role": "(unnamed",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 812,
+          "width": 138,
+          "height": 46
+        },
+        "label": "text 42px/50.8",
+        "role": "advert)",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 862,
+          "width": 163,
+          "height": 35
+        },
+        "label": "text 31.5px/38.1",
+        "role": "AA:BB:CC:D",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 900,
+          "width": 107,
+          "height": 35
+        },
+        "label": "text 31.5px/38.1",
+        "role": "D:EE:03",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 414,
+          "y": 859,
+          "width": 111,
+          "height": 32
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-55 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 596,
+          "y": 825,
+          "width": 140,
+          "height": 40
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 999,
+          "width": 193,
+          "height": 46
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 1057,
+          "width": 125,
+          "height": 46
+        },
+        "label": "text 42px/50.8",
+        "role": "-A004",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 1107,
+          "width": 163,
+          "height": 35
+        },
+        "label": "text 31.5px/38.1",
+        "role": "AA:BB:CC:D",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 195,
+          "y": 1145,
+          "width": 107,
+          "height": 35
+        },
+        "label": "text 31.5px/38.1",
+        "role": "D:EE:04",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 414,
+          "y": 1104,
+          "width": 112,
+          "height": 32
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-60 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 596,
+          "y": 1069,
+          "width": 140,
+          "height": 40
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "blepermissionpanel-first__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 62,
+          "y": 71,
+          "width": 749,
+          "height": 62
+        },
+        "label": "≈gap 39px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "39",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 47,
+          "y": 160,
+          "width": 713,
+          "height": 166
+        },
+        "label": "≈gap 9px",
+        "role": "Group",
+        "detail": {
+          "gap": "9",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 140,
+          "y": 77,
+          "width": 671,
+          "height": 57
+        },
+        "label": "text 42px/50.8",
+        "role": "Bluetooth permission needed",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 47,
+          "y": 160,
+          "width": 713,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "MeshCore needs the Nearby devices",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 47,
+          "y": 219,
+          "width": 653,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "permission to scan for radios over",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 47,
+          "y": 278,
+          "width": 256,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Bluetooth LE.",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 116,
+          "y": 401,
+          "width": 344,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Grant permission",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "blepermissionpanel-denied__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 62,
+          "y": 69,
+          "width": 749,
+          "height": 62
+        },
+        "label": "≈gap 39px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "39",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 47,
+          "y": 158,
+          "width": 713,
+          "height": 166
+        },
+        "label": "≈gap 9px",
+        "role": "Group",
+        "detail": {
+          "gap": "9",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 140,
+          "y": 75,
+          "width": 671,
+          "height": 57
+        },
+        "label": "text 42px/50.8",
+        "role": "Bluetooth permission needed",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 47,
+          "y": 158,
+          "width": 713,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "MeshCore needs the Nearby devices",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 47,
+          "y": 217,
+          "width": 653,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "permission to scan for radios over",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 47,
+          "y": 276,
+          "width": 256,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Bluetooth LE.",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 47,
+          "y": 355,
+          "width": 540,
+          "height": 42
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Still missing: BLUETOOTH_SCAN",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 116,
+          "y": 469,
+          "width": 185,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Try again",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "tcpconnectpanel-idle__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 55,
+          "y": 55,
+          "width": 491,
+          "height": 58
+        },
+        "label": "≈gap 29px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "29",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 140,
+          "y": 63,
+          "width": 407,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Companion over TCP",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 368,
+          "y": 642,
+          "width": 171,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "tcpconnectpanel-busy__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 55,
+          "y": 55,
+          "width": 491,
+          "height": 58
+        },
+        "label": "≈gap 29px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "29",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 140,
+          "y": 63,
+          "width": 407,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Companion over TCP",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 323,
+          "y": 642,
+          "width": 266,
+          "height": 49
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connecting…",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "scanner-savedempty__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 52,
+          "width": 1077,
+          "height": 625
+        },
+        "label": "≈gap 46px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "46",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 168,
+          "width": 1077,
+          "height": 507
+        },
+        "label": "≈gap 140px",
+        "role": "Column",
+        "detail": {
+          "gap": "140",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 83,
+          "y": 214,
+          "width": 111,
+          "height": 110
+        },
+        "label": "≈gap 30px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "30",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 370,
+          "y": 211,
+          "width": 68,
+          "height": 113
+        },
+        "label": "≈gap 27px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "27",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 637,
+          "y": 209,
+          "width": 76,
+          "height": 115
+        },
+        "label": "≈gap 25px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "25",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 907,
+          "y": 210,
+          "width": 75,
+          "height": 114
+        },
+        "label": "≈gap 26px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "26",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 987,
+          "height": 70
+        },
+        "label": "≈gap 530px",
+        "role": "TopAppBar",
+        "detail": {
+          "gap": "530",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 854,
+          "y": 56,
+          "width": 176,
+          "height": 57
+        },
+        "label": "≈gap 76px",
+        "role": "Row",
+        "detail": {
+          "gap": "76",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 83,
+          "y": 280,
+          "width": 111,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Saved",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 370,
+          "y": 280,
+          "width": 68,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "BLE",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 637,
+          "y": 280,
+          "width": 76,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "USB",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 907,
+          "y": 280,
+          "width": 75,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "TCP",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 365,
+          "y": 597,
+          "width": 373,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "No saved devices yet",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 43,
+          "y": 638,
+          "width": 1006,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Connect once from the BLE, USB or TCP tab and it will appear here.",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 280,
+          "height": 70
+        },
+        "label": "text 57.8px/69.9",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "57.8",
+          "lineHeight": "69.9",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "scanner-savedpopulated__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 52,
+          "width": 1077,
+          "height": 795
+        },
+        "label": "≈gap 46px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "46",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 168,
+          "width": 1077,
+          "height": 679
+        },
+        "label": "≈gap 42px",
+        "role": "Column",
+        "detail": {
+          "gap": "42",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 83,
+          "y": 214,
+          "width": 111,
+          "height": 110
+        },
+        "label": "≈gap 30px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "30",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 370,
+          "y": 211,
+          "width": 68,
+          "height": 113
+        },
+        "label": "≈gap 27px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "27",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 637,
+          "y": 209,
+          "width": 76,
+          "height": 115
+        },
+        "label": "≈gap 25px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "25",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 907,
+          "y": 210,
+          "width": 75,
+          "height": 114
+        },
+        "label": "≈gap 26px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "26",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 42,
+          "y": 399,
+          "width": 993,
+          "height": 447
+        },
+        "label": "≈gap 21px",
+        "role": "LayoutNodeSubcompositionsState",
+        "detail": {
+          "gap": "21",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 169,
+          "y": 422,
+          "width": 291,
+          "height": 198
+        },
+        "label": "≈gap 4px",
+        "role": "Column",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 169,
+          "y": 422,
+          "width": 291,
+          "height": 114
+        },
+        "label": "≈gap 12px",
+        "role": "Group",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 169,
+          "y": 541,
+          "width": 134,
+          "height": 80
+        },
+        "label": "≈gap 4px",
+        "role": "Group",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 987,
+          "height": 70
+        },
+        "label": "≈gap 530px",
+        "role": "TopAppBar",
+        "detail": {
+          "gap": "530",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 854,
+          "y": 56,
+          "width": 176,
+          "height": 57
+        },
+        "label": "≈gap 76px",
+        "role": "Row",
+        "detail": {
+          "gap": "76",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 83,
+          "y": 280,
+          "width": 111,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Saved",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 370,
+          "y": 280,
+          "width": 68,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "BLE",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 637,
+          "y": 280,
+          "width": 76,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "USB",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 907,
+          "y": 280,
+          "width": 75,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "TCP",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 422,
+          "width": 291,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore-AB",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 485,
+          "width": 63,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "CD",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 541,
+          "width": 134,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "3.98V · 5",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 583,
+          "width": 130,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "contacts",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 798,
+          "y": 499,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 717,
+          "width": 371,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "192.168.1.10:5000",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 767,
+          "width": 259,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "192.168.1.10:5000",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 798,
+          "y": 734,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 280,
+          "height": 70
+        },
+        "label": "text 57.8px/69.9",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "57.8",
+          "lineHeight": "69.9",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "scanner-blepermission__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 52,
+          "width": 1077,
+          "height": 769
+        },
+        "label": "≈gap 46px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "46",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 168,
+          "width": 1077,
+          "height": 653
+        },
+        "label": "≈gap 42px",
+        "role": "Column",
+        "detail": {
+          "gap": "42",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 83,
+          "y": 214,
+          "width": 111,
+          "height": 110
+        },
+        "label": "≈gap 30px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "30",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 370,
+          "y": 211,
+          "width": 68,
+          "height": 113
+        },
+        "label": "≈gap 27px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "27",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 637,
+          "y": 209,
+          "width": 76,
+          "height": 115
+        },
+        "label": "≈gap 25px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "25",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 907,
+          "y": 210,
+          "width": 75,
+          "height": 114
+        },
+        "label": "≈gap 26px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "26",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 98,
+          "y": 447,
+          "width": 676,
+          "height": 56
+        },
+        "label": "≈gap 39px",
+        "role": "Row",
+        "detail": {
+          "gap": "39",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 84,
+          "y": 527,
+          "width": 888,
+          "height": 97
+        },
+        "label": "≈gap 9px",
+        "role": "Group",
+        "detail": {
+          "gap": "9",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 987,
+          "height": 70
+        },
+        "label": "≈gap 530px",
+        "role": "TopAppBar",
+        "detail": {
+          "gap": "530",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 854,
+          "y": 56,
+          "width": 176,
+          "height": 57
+        },
+        "label": "≈gap 76px",
+        "role": "Row",
+        "detail": {
+          "gap": "76",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 83,
+          "y": 280,
+          "width": 111,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Saved",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 370,
+          "y": 280,
+          "width": 68,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "BLE",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 637,
+          "y": 280,
+          "width": 76,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "USB",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 907,
+          "y": 280,
+          "width": 75,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "TCP",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 168,
+          "y": 452,
+          "width": 606,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "Bluetooth permission needed",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 84,
+          "y": 527,
+          "width": 888,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "MeshCore needs the Nearby devices permission to",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 84,
+          "y": 581,
+          "width": 587,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "scan for radios over Bluetooth LE.",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 147,
+          "y": 692,
+          "width": 310,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Grant permission",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 280,
+          "height": 70
+        },
+        "label": "text 57.8px/69.9",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "57.8",
+          "lineHeight": "69.9",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "scanner-bleempty__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 52,
+          "width": 1077,
+          "height": 762
+        },
+        "label": "≈gap 46px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "46",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 168,
+          "width": 1077,
+          "height": 645
+        },
+        "label": "≈gap 63px",
+        "role": "Column",
+        "detail": {
+          "gap": "63",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 83,
+          "y": 214,
+          "width": 111,
+          "height": 110
+        },
+        "label": "≈gap 30px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "30",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 370,
+          "y": 211,
+          "width": 68,
+          "height": 113
+        },
+        "label": "≈gap 27px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "27",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 637,
+          "y": 209,
+          "width": 76,
+          "height": 115
+        },
+        "label": "≈gap 25px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "25",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 907,
+          "y": 210,
+          "width": 75,
+          "height": 114
+        },
+        "label": "≈gap 26px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "26",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 49,
+          "y": 420,
+          "width": 986,
+          "height": 392
+        },
+        "label": "≈gap 126px",
+        "role": "Column",
+        "detail": {
+          "gap": "126",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 987,
+          "height": 70
+        },
+        "label": "≈gap 530px",
+        "role": "TopAppBar",
+        "detail": {
+          "gap": "530",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 854,
+          "y": 56,
+          "width": 176,
+          "height": 57
+        },
+        "label": "≈gap 76px",
+        "role": "Row",
+        "detail": {
+          "gap": "76",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 83,
+          "y": 280,
+          "width": 111,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Saved",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 370,
+          "y": 280,
+          "width": 68,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "BLE",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 637,
+          "y": 280,
+          "width": 76,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "USB",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 907,
+          "y": 280,
+          "width": 75,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "TCP",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 116,
+          "y": 424,
+          "width": 161,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Scanning",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 116,
+          "y": 465,
+          "width": 144,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "0 devices",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 650,
+          "y": 444,
+          "width": 233,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "MeshCore only",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 449,
+          "y": 734,
+          "width": 191,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Scanning…",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 289,
+          "y": 775,
+          "width": 501,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Move closer to a MeshCore radio.",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 280,
+          "height": 70
+        },
+        "label": "text 57.8px/69.9",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "57.8",
+          "lineHeight": "69.9",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "scanner-blefew__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 52,
+          "width": 1077,
+          "height": 883
+        },
+        "label": "≈gap 46px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "46",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 168,
+          "width": 1077,
+          "height": 767
+        },
+        "label": "≈gap 63px",
+        "role": "Column",
+        "detail": {
+          "gap": "63",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 83,
+          "y": 214,
+          "width": 111,
+          "height": 110
+        },
+        "label": "≈gap 30px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "30",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 370,
+          "y": 211,
+          "width": 68,
+          "height": 113
+        },
+        "label": "≈gap 27px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "27",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 637,
+          "y": 209,
+          "width": 76,
+          "height": 115
+        },
+        "label": "≈gap 25px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "25",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 907,
+          "y": 210,
+          "width": 75,
+          "height": 114
+        },
+        "label": "≈gap 26px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "26",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 42,
+          "y": 420,
+          "width": 993,
+          "height": 514
+        },
+        "label": "≈gap 53px",
+        "role": "Column",
+        "detail": {
+          "gap": "53",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 42,
+          "y": 558,
+          "width": 993,
+          "height": 377
+        },
+        "label": "≈gap 21px",
+        "role": "LayoutNodeSubcompositionsState",
+        "detail": {
+          "gap": "21",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 597,
+          "y": 605,
+          "width": 121,
+          "height": 91
+        },
+        "label": "≈gap 12px",
+        "role": "Column",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 597,
+          "y": 809,
+          "width": 119,
+          "height": 86
+        },
+        "label": "≈gap 16px",
+        "role": "Column",
+        "detail": {
+          "gap": "16",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 987,
+          "height": 70
+        },
+        "label": "≈gap 530px",
+        "role": "TopAppBar",
+        "detail": {
+          "gap": "530",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 854,
+          "y": 56,
+          "width": 176,
+          "height": 57
+        },
+        "label": "≈gap 76px",
+        "role": "Row",
+        "detail": {
+          "gap": "76",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 83,
+          "y": 280,
+          "width": 111,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Saved",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 370,
+          "y": 280,
+          "width": 68,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "BLE",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 637,
+          "y": 280,
+          "width": 76,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "USB",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 907,
+          "y": 280,
+          "width": 75,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "TCP",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 116,
+          "y": 424,
+          "width": 161,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Scanning",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 116,
+          "y": 465,
+          "width": 143,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "2 devices",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 650,
+          "y": 444,
+          "width": 233,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "MeshCore only",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 606,
+          "width": 353,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore-ABCD",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 656,
+          "width": 282,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "C7:8D:8C:45:5F:78",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 597,
+          "y": 661,
+          "width": 121,
+          "height": 35
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-52 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 798,
+          "y": 623,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 805,
+          "width": 335,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore-1234",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 855,
+          "width": 280,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "A1:B2:C3:D4:E5:F6",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 597,
+          "y": 860,
+          "width": 119,
+          "height": 35
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-74 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 798,
+          "y": 822,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 280,
+          "height": 70
+        },
+        "label": "text 57.8px/69.9",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "57.8",
+          "lineHeight": "69.9",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "scanner-blemany__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1077,
+          "height": 2130
+        },
+        "label": "≈gap 46px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "46",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 168,
+          "width": 1077,
+          "height": 1962
+        },
+        "label": "≈gap 63px",
+        "role": "Column",
+        "detail": {
+          "gap": "63",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 83,
+          "y": 214,
+          "width": 111,
+          "height": 110
+        },
+        "label": "≈gap 30px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "30",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 370,
+          "y": 211,
+          "width": 68,
+          "height": 113
+        },
+        "label": "≈gap 27px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "27",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 637,
+          "y": 209,
+          "width": 76,
+          "height": 115
+        },
+        "label": "≈gap 25px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "25",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 907,
+          "y": 210,
+          "width": 75,
+          "height": 114
+        },
+        "label": "≈gap 26px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "26",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 42,
+          "y": 420,
+          "width": 993,
+          "height": 1710
+        },
+        "label": "≈gap 53px",
+        "role": "Column",
+        "detail": {
+          "gap": "53",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 42,
+          "y": 558,
+          "width": 993,
+          "height": 1572
+        },
+        "label": "≈gap 21px",
+        "role": "LayoutNodeSubcompositionsState",
+        "detail": {
+          "gap": "21",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 597,
+          "y": 605,
+          "width": 124,
+          "height": 91
+        },
+        "label": "≈gap 12px",
+        "role": "Column",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 597,
+          "y": 804,
+          "width": 123,
+          "height": 91
+        },
+        "label": "≈gap 12px",
+        "role": "Column",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 597,
+          "y": 1003,
+          "width": 123,
+          "height": 91
+        },
+        "label": "≈gap 12px",
+        "role": "Column",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 597,
+          "y": 1202,
+          "width": 122,
+          "height": 91
+        },
+        "label": "≈gap 12px",
+        "role": "Column",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 597,
+          "y": 1401,
+          "width": 123,
+          "height": 91
+        },
+        "label": "≈gap 12px",
+        "role": "Column",
+        "detail": {
+          "gap": "12",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 597,
+          "y": 1605,
+          "width": 122,
+          "height": 86
+        },
+        "label": "≈gap 16px",
+        "role": "Column",
+        "detail": {
+          "gap": "16",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 597,
+          "y": 1805,
+          "width": 120,
+          "height": 86
+        },
+        "label": "≈gap 16px",
+        "role": "Column",
+        "detail": {
+          "gap": "16",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 854,
+          "y": 56,
+          "width": 176,
+          "height": 57
+        },
+        "label": "≈gap 76px",
+        "role": "Row",
+        "detail": {
+          "gap": "76",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 83,
+          "y": 280,
+          "width": 111,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Saved",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 370,
+          "y": 280,
+          "width": 68,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "BLE",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 637,
+          "y": 280,
+          "width": 76,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "USB",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 907,
+          "y": 280,
+          "width": 75,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "TCP",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 116,
+          "y": 424,
+          "width": 161,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Scanning",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 116,
+          "y": 465,
+          "width": 158,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "10 devices",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 650,
+          "y": 444,
+          "width": 233,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "MeshCore only",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 606,
+          "width": 350,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore-A000",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 656,
+          "width": 296,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "AA:BB:CC:DD:EE:00",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 597,
+          "y": 661,
+          "width": 124,
+          "height": 35
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-40 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 798,
+          "y": 623,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 805,
+          "width": 342,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore-A001",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 855,
+          "width": 291,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "AA:BB:CC:DD:EE:01",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 597,
+          "y": 860,
+          "width": 123,
+          "height": 35
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-45 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 798,
+          "y": 822,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 1004,
+          "width": 348,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore-A002",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 1054,
+          "width": 295,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "AA:BB:CC:DD:EE:02",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 597,
+          "y": 1059,
+          "width": 123,
+          "height": 35
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-50 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 798,
+          "y": 1021,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 1203,
+          "width": 372,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "(unnamed advert)",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 1253,
+          "width": 296,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "AA:BB:CC:DD:EE:03",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 597,
+          "y": 1258,
+          "width": 122,
+          "height": 35
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-55 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 798,
+          "y": 1220,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 1402,
+          "width": 350,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore-A004",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 1452,
+          "width": 296,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "AA:BB:CC:DD:EE:04",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 597,
+          "y": 1457,
+          "width": 123,
+          "height": 35
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-60 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 798,
+          "y": 1419,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 1601,
+          "width": 348,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore-A005",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 1652,
+          "width": 295,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "AA:BB:CC:DD:EE:05",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 597,
+          "y": 1657,
+          "width": 122,
+          "height": 35
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-65 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 798,
+          "y": 1619,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 1801,
+          "width": 349,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "MeshCore-A006",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 1851,
+          "width": 296,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "AA:BB:CC:DD:EE:06",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 597,
+          "y": 1856,
+          "width": 120,
+          "height": 35
+        },
+        "label": "text 28.9px/34.9",
+        "role": "-70 dBm",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "28.9",
+          "lineHeight": "34.9",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 798,
+          "y": 1818,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 293,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "AA:BB:CC:DD:EE:07",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 280,
+          "height": 70
+        },
+        "label": "text 57.8px/69.9",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "57.8",
+          "lineHeight": "69.9",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "scanner-usbempty__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 52,
+          "width": 1077,
+          "height": 762
+        },
+        "label": "≈gap 46px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "46",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 168,
+          "width": 1077,
+          "height": 645
+        },
+        "label": "≈gap 54px",
+        "role": "Column",
+        "detail": {
+          "gap": "54",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 83,
+          "y": 214,
+          "width": 111,
+          "height": 110
+        },
+        "label": "≈gap 30px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "30",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 370,
+          "y": 211,
+          "width": 68,
+          "height": 113
+        },
+        "label": "≈gap 27px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "27",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 637,
+          "y": 209,
+          "width": 76,
+          "height": 115
+        },
+        "label": "≈gap 25px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "25",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 907,
+          "y": 210,
+          "width": 75,
+          "height": 114
+        },
+        "label": "≈gap 26px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "26",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 55,
+          "y": 411,
+          "width": 979,
+          "height": 401
+        },
+        "label": "≈gap 111px",
+        "role": "Column",
+        "detail": {
+          "gap": "111",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 784,
+          "y": 438,
+          "width": 195,
+          "height": 44
+        },
+        "label": "≈gap 24px",
+        "role": "Row",
+        "detail": {
+          "gap": "24",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 987,
+          "height": 70
+        },
+        "label": "≈gap 530px",
+        "role": "TopAppBar",
+        "detail": {
+          "gap": "530",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 854,
+          "y": 56,
+          "width": 176,
+          "height": 57
+        },
+        "label": "≈gap 76px",
+        "role": "Row",
+        "detail": {
+          "gap": "76",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 83,
+          "y": 280,
+          "width": 111,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Saved",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 370,
+          "y": 280,
+          "width": 68,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "BLE",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 637,
+          "y": 280,
+          "width": 76,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "USB",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 907,
+          "y": 280,
+          "width": 75,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "TCP",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 126,
+          "y": 443,
+          "width": 178,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "USB serial",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 839,
+          "y": 438,
+          "width": 140,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Refresh",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 301,
+          "y": 734,
+          "width": 506,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "No USB serial ports detected",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 234,
+          "y": 775,
+          "width": 618,
+          "height": 38
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Plug in a MeshCore device to get started.",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 280,
+          "height": 70
+        },
+        "label": "text 57.8px/69.9",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "57.8",
+          "lineHeight": "69.9",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "scanner-usbfew__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 52,
+          "width": 1077,
+          "height": 789
+        },
+        "label": "≈gap 46px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "46",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 168,
+          "width": 1077,
+          "height": 673
+        },
+        "label": "≈gap 44px",
+        "role": "Column",
+        "detail": {
+          "gap": "44",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 83,
+          "y": 214,
+          "width": 111,
+          "height": 110
+        },
+        "label": "≈gap 30px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "30",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 370,
+          "y": 211,
+          "width": 68,
+          "height": 113
+        },
+        "label": "≈gap 27px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "27",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 637,
+          "y": 209,
+          "width": 76,
+          "height": 115
+        },
+        "label": "≈gap 25px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "25",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 907,
+          "y": 210,
+          "width": 75,
+          "height": 114
+        },
+        "label": "≈gap 26px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "26",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 987,
+          "height": 70
+        },
+        "label": "≈gap 530px",
+        "role": "TopAppBar",
+        "detail": {
+          "gap": "530",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 854,
+          "y": 56,
+          "width": 176,
+          "height": 57
+        },
+        "label": "≈gap 76px",
+        "role": "Row",
+        "detail": {
+          "gap": "76",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 83,
+          "y": 280,
+          "width": 111,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Saved",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 370,
+          "y": 280,
+          "width": 68,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "BLE",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 637,
+          "y": 280,
+          "width": 76,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "USB",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 907,
+          "y": 280,
+          "width": 75,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "TCP",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 42,
+          "y": 401,
+          "width": 178,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "USB serial",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 532,
+          "width": 560,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "CdcAcmSerialPortWrapper",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 798,
+          "y": 528,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 169,
+          "y": 732,
+          "width": 462,
+          "height": 51
+        },
+        "label": "text 42px/50.8",
+        "role": "FtdiSerialPortWrapper",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 798,
+          "y": 728,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 280,
+          "height": 70
+        },
+        "label": "text 57.8px/69.9",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "57.8",
+          "lineHeight": "69.9",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "scanner-tcp__ideal__default__light__compact": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 52,
+          "width": 1077,
+          "height": 1053
+        },
+        "label": "≈gap 46px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "46",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 168,
+          "width": 1077,
+          "height": 937
+        },
+        "label": "≈gap 42px",
+        "role": "Column",
+        "detail": {
+          "gap": "42",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 83,
+          "y": 214,
+          "width": 111,
+          "height": 110
+        },
+        "label": "≈gap 30px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "30",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 370,
+          "y": 211,
+          "width": 68,
+          "height": 113
+        },
+        "label": "≈gap 27px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "27",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 637,
+          "y": 209,
+          "width": 76,
+          "height": 115
+        },
+        "label": "≈gap 25px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "25",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 907,
+          "y": 210,
+          "width": 75,
+          "height": 114
+        },
+        "label": "≈gap 26px",
+        "role": "TabKt",
+        "detail": {
+          "gap": "26",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 92,
+          "y": 446,
+          "width": 443,
+          "height": 52
+        },
+        "label": "≈gap 29px",
+        "role": "Row",
+        "detail": {
+          "gap": "29",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 987,
+          "height": 70
+        },
+        "label": "≈gap 530px",
+        "role": "TopAppBar",
+        "detail": {
+          "gap": "530",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 854,
+          "y": 56,
+          "width": 176,
+          "height": 57
+        },
+        "label": "≈gap 76px",
+        "role": "Row",
+        "detail": {
+          "gap": "76",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 83,
+          "y": 280,
+          "width": 111,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Saved",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 370,
+          "y": 280,
+          "width": 68,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "BLE",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 637,
+          "y": 280,
+          "width": 76,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "USB",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 907,
+          "y": 280,
+          "width": 75,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "TCP",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 168,
+          "y": 453,
+          "width": 367,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Companion over TCP",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 467,
+          "y": 976,
+          "width": 154,
+          "height": 44
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 43,
+          "y": 52,
+          "width": 280,
+          "height": 70
+        },
+        "label": "text 57.8px/69.9",
+        "role": "MeshCore",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "57.8",
+          "lineHeight": "69.9",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "saveddevices-populated__ideal__default__light": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 52,
+          "width": 1050,
+          "height": 641
+        },
+        "label": "≈gap 21px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "21",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 138,
+          "y": 137,
+          "width": 352,
+          "height": 87
+        },
+        "label": "≈gap 4px",
+        "role": "Group",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 138,
+          "y": 361,
+          "width": 141,
+          "height": 87
+        },
+        "label": "≈gap 4px",
+        "role": "Group",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 85,
+          "width": 243,
+          "height": 55
+        },
+        "label": "text 42px/50.8",
+        "role": "node-peak",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 137,
+          "width": 352,
+          "height": 41
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Connected · 3.98V · 5",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 182,
+          "width": 141,
+          "height": 41
+        },
+        "label": "text 31.5px/38.1",
+        "role": "contacts",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 855,
+          "y": 127,
+          "width": 99,
+          "height": 48
+        },
+        "label": "text 36.8px/44.5",
+        "role": "View",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 309,
+          "width": 287,
+          "height": 55
+        },
+        "label": "text 42px/50.8",
+        "role": "base-station",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 361,
+          "width": 140,
+          "height": 41
+        },
+        "label": "text 31.5px/38.1",
+        "role": "3.21V · 2",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 406,
+          "width": 141,
+          "height": 41
+        },
+        "label": "text 31.5px/38.1",
+        "role": "contacts",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 792,
+          "y": 351,
+          "width": 167,
+          "height": 48
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 552,
+          "width": 403,
+          "height": 55
+        },
+        "label": "text 42px/50.8",
+        "role": "192.168.1.10:5000",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 606,
+          "width": 282,
+          "height": 41
+        },
+        "label": "text 31.5px/38.1",
+        "role": "192.168.1.10:5000",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 792,
+          "y": 570,
+          "width": 167,
+          "height": 48
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      }
+    ],
+    "saveddevices-empty__ideal__default__light": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 282,
+          "width": 1050,
+          "height": 91
+        },
+        "label": "≈gap 4px",
+        "role": "Group",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 353,
+          "y": 239,
+          "width": 425,
+          "height": 50
+        },
+        "label": "text 36.8px/44.5",
+        "role": "No saved devices yet",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 0,
+          "y": 282,
+          "width": 1050,
+          "height": 43
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Connect once from the BLE, USB or TCP tab and it will appear",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 0,
+          "y": 330,
+          "width": 87,
+          "height": 43
+        },
+        "label": "text 31.5px/38.1",
+        "role": "here.",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      }
+    ]
+  }
 }
