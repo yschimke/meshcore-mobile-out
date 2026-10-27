@@ -13164,6 +13164,11 @@
           "name": "staleLabel",
           "type": "String?",
           "hasDefault": true
+        },
+        {
+          "name": "onTap",
+          "type": "Action?",
+          "hasDefault": true
         }
       ]
     },
@@ -13230,6 +13235,11 @@
         {
           "name": "staleLabel",
           "type": "String?",
+          "hasDefault": true
+        },
+        {
+          "name": "onTap",
+          "type": "Action?",
           "hasDefault": true
         }
       ]
@@ -13378,6 +13388,11 @@
         {
           "name": "staleLabel",
           "type": "String?",
+          "hasDefault": true
+        },
+        {
+          "name": "onTap",
+          "type": "Action?",
           "hasDefault": true
         }
       ]
@@ -17923,6 +17938,16 @@
         {
           "name": "contactCount",
           "type": "Int"
+        },
+        {
+          "name": "framed",
+          "type": "Boolean",
+          "hasDefault": true
+        },
+        {
+          "name": "onTap",
+          "type": "Action?",
+          "hasDefault": true
         }
       ]
     },
@@ -17988,6 +18013,16 @@
         {
           "name": "contactCount",
           "type": "Int"
+        },
+        {
+          "name": "framed",
+          "type": "Boolean",
+          "hasDefault": true
+        },
+        {
+          "name": "onTap",
+          "type": "Action?",
+          "hasDefault": true
         }
       ]
     },
@@ -18053,6 +18088,16 @@
         {
           "name": "contactCount",
           "type": "Int"
+        },
+        {
+          "name": "framed",
+          "type": "Boolean",
+          "hasDefault": true
+        },
+        {
+          "name": "onTap",
+          "type": "Action?",
+          "hasDefault": true
         }
       ]
     },
@@ -19477,7 +19522,7 @@
     "ee.schimke.meshcore:meshcore-components (MeshcoreTheme)"
   ],
   "renderer": "compose-preview 2.74.1",
-  "generatedAt": "2026-10-27T14:32:55.978Z",
+  "generatedAt": "2026-10-27T19:33:08.747Z",
   "display": {
     "hero": "Device/Populated"
   },
@@ -19538,7 +19583,7 @@
   "componentsFile": "ui-builder/components.json",
   "source": {
     "repo": "yschimke/meshcore-mobile",
-    "ref": "ca0710c35d42792916401bf64b3ab20679ef3bec",
+    "ref": "76530cc30d09ac10a241f7e7ebd48b53c0ba6f61",
     "module": ""
   },
   "uiBuilderFile": "ui-builder.json",

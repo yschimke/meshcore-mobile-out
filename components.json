@@ -4156,7 +4156,7 @@
                 "name": "DeviceInfoWidgetContent",
                 "origin": "PROJECT",
                 "jvmName": "DeviceInfoWidgetContent",
-                "descriptor": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Float;ZLjava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Float;ZLjava/lang/String;Ljava/lang/String;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/widget/WidgetContent.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -4257,6 +4257,19 @@
                     "name": "staleLabel",
                     "type": "String?",
                     "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": true,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "onTap",
+                    "type": "Action?",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
