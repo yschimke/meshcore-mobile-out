@@ -2406,7 +2406,7 @@
       "wireframe": "wireframes/scanner-savedempty.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 375,
+      "bodyLine": 380,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerSavedEmptyPreview",
       "parameters": [
@@ -2864,7 +2864,7 @@
       "wireframe": "wireframes/scanner-savedpopulated.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 396,
+      "bodyLine": 401,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerSavedPopulatedPreview",
       "parameters": [
@@ -3163,7 +3163,7 @@
       "wireframe": "wireframes/scanner-blepermission.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 419,
+      "bodyLine": 424,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerBlePermissionPreview",
       "parameters": [
@@ -3462,7 +3462,7 @@
       "wireframe": "wireframes/scanner-bleempty.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 440,
+      "bodyLine": 445,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerBleEmptyPreview",
       "parameters": [
@@ -3839,7 +3839,7 @@
       "wireframe": "wireframes/scanner-blefew.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 461,
+      "bodyLine": 466,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerBleFewPreview",
       "parameters": [
@@ -4450,7 +4450,7 @@
       "wireframe": "wireframes/scanner-blemany.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 482,
+      "bodyLine": 487,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerBleManyPreview",
       "parameters": [
@@ -4740,7 +4740,7 @@
       "wireframe": "wireframes/scanner-usbempty.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 505,
+      "bodyLine": 510,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerUsbEmptyPreview",
       "parameters": [
@@ -5078,7 +5078,7 @@
       "wireframe": "wireframes/scanner-usbfew.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 526,
+      "bodyLine": 531,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerUsbFewPreview",
       "parameters": [
@@ -5423,7 +5423,7 @@
       "wireframe": "wireframes/scanner-tcp.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 549,
+      "bodyLine": 554,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerTcpPreview",
       "parameters": [
@@ -19522,7 +19522,7 @@
     "ee.schimke.meshcore:meshcore-components (MeshcoreTheme)"
   ],
   "renderer": "compose-preview 2.74.1",
-  "generatedAt": "2026-10-28T08:16:45.577Z",
+  "generatedAt": "2026-10-28T17:47:19.435Z",
   "display": {
     "hero": "Device/Populated"
   },
@@ -19583,14 +19583,14 @@
   "componentsFile": "ui-builder/components.json",
   "source": {
     "repo": "yschimke/meshcore-mobile",
-    "ref": "7f30b9a3bab7c4825cd324afeecb6c9d76878e25",
+    "ref": "c8354634db196fa843322c19387e4aa05d065de2",
     "module": ""
   },
   "uiBuilderFile": "ui-builder.json",
   "uiBuilderRuntime": {
     "path": "ui-builder/runtime.zip",
-    "runtimeId": "meshcore-mobile-p2-e54f315e5626b988",
+    "runtimeId": "meshcore-mobile-p2-164da52e07a6c39a",
     "protocolVersion": 2,
-    "integritySha256": "e54f315e5626b9880751fa83c7e7c3fb1119582b050f9486dafa47011fb05fbc"
+    "integritySha256": "164da52e07a6c39a3d69b32a65acad2ea35d00a145751be8d48b62e62dd104b5"
   }
 }

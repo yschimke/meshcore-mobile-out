@@ -1,7 +1,45 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-28T08:18:33.041Z",
+  "generatedAt": "2026-10-28T17:50:27.770Z",
   "windowDays": 30,
+  "code": {
+    "repo": "yschimke/meshcore-mobile",
+    "ref": "main",
+    "events": [
+      {
+        "sha": "c8354634db196fa843322c19387e4aa05d065de2",
+        "subject": "perf(compose): stop per-recomposition Flow churn and cache chat derivations (#618)",
+        "at": "2026-10-28T17:12:54Z",
+        "author": "Yuri Schimke",
+        "previewIds": [
+          "saveddevices-populated__ideal__default__light",
+          "saveddevices-empty__ideal__default__light",
+          "scanner-savedempty__ideal__default__light__compact",
+          "scanner-savedpopulated__ideal__default__light__compact",
+          "scanner-blepermission__ideal__default__light__compact",
+          "scanner-bleempty__ideal__default__light__compact",
+          "scanner-blefew__ideal__default__light__compact",
+          "scanner-blemany__ideal__default__light__compact",
+          "scanner-usbempty__ideal__default__light__compact",
+          "scanner-usbfew__ideal__default__light__compact",
+          "scanner-tcp__ideal__default__light__compact"
+        ],
+        "components": [
+          "SavedDevices/Populated",
+          "SavedDevices/Empty",
+          "Scanner/SavedEmpty",
+          "Scanner/SavedPopulated",
+          "Scanner/BlePermission",
+          "Scanner/BleEmpty",
+          "Scanner/BleFew",
+          "Scanner/BleMany",
+          "Scanner/UsbEmpty",
+          "Scanner/UsbFew",
+          "Scanner/Tcp"
+        ]
+      }
+    ]
+  },
   "gaps": [
     {
       "kind": "dangling-mapping",
@@ -74,6 +112,20 @@
       "detail": "design-map names ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsDarkPreview_Device settings — dark, which this catalog does not publish.",
       "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceSettingsBodyPreviews.kt#DeviceSettingsDarkPreview",
       "previewId": "ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsDarkPreview_Device settings — dark"
+    },
+    {
+      "kind": "unrendered-reference",
+      "detail": "Mapped to a Figma node, but no reference raster was published for it — the render step could not produce one, so nothing can score this preview against its spec.",
+      "code": "app/src/main/kotlin/ee/schimke/meshcore/app/ui/SavedDevicesPanel.kt#SavedDevicesPopulatedPreview",
+      "ref": "figma:gYzowY4cQ7rNr2gYoco1M6/88:113",
+      "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesPopulatedPreview_Light"
+    },
+    {
+      "kind": "unrendered-reference",
+      "detail": "Mapped to a Figma node, but no reference raster was published for it — the render step could not produce one, so nothing can score this preview against its spec.",
+      "code": "app/src/main/kotlin/ee/schimke/meshcore/app/ui/SavedDevicesPanel.kt#SavedDevicesEmptyPreview",
+      "ref": "figma:gYzowY4cQ7rNr2gYoco1M6/88:97",
+      "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesEmptyPreview_Light"
     }
   ]
 }
