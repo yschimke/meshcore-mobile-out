@@ -863,6 +863,40 @@
       }
     },
     {
+      "id": "saveddevices-populated__ideal__default__light",
+      "previewId": "saveddevices-populated__ideal__default__light",
+      "label": "SavedDevices/Populated — figma",
+      "tier": "primary",
+      "raster": {
+        "path": "references/saveddevices-populated__ideal__default__light.png",
+        "width": 1050,
+        "height": 745,
+        "density": 2.625,
+        "sha256": "c384fa417d94ec03bd6b763c6db272601fdfc16ebe516fb229c8b57ba43e35b1",
+        "transform": {
+          "scaleX": 0.414038,
+          "scaleY": 0.413815,
+          "offsetX": 0,
+          "offsetY": 52
+        }
+      },
+      "source": {
+        "provider": "figma",
+        "attributes": {
+          "code": "app/src/main/kotlin/ee/schimke/meshcore/app/ui/SavedDevicesPanel.kt#SavedDevicesPopulatedPreview",
+          "preview": "SavedDevicesPopulatedPreview",
+          "componentId": "SavedDevices/Populated"
+        },
+        "uri": "figma:gYzowY4cQ7rNr2gYoco1M6/88:113"
+      },
+      "match": {
+        "percent": 92.34,
+        "changedPercent": 28.67,
+        "scoreVersion": 3,
+        "geometry": 9.2
+      }
+    },
+    {
       "id": "contacts-412-list-light",
       "previewId": "contact-browser__ideal__default__light__412dp",
       "label": "UI Builder · 412dp · list · light",
@@ -878,8 +912,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -911,8 +945,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -944,8 +978,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -977,8 +1011,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1010,8 +1044,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1043,8 +1077,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1076,8 +1110,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1109,8 +1143,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1142,8 +1176,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1175,8 +1209,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1208,8 +1242,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1241,8 +1275,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1274,8 +1308,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1307,8 +1341,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1340,8 +1374,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/scanner-secondary.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/scanner-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1373,8 +1407,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/scanner-secondary.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/scanner-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1406,8 +1440,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/device.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/device.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1439,8 +1473,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/device.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/device.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1472,8 +1506,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/device.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/device.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1505,8 +1539,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/device.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/device.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1538,8 +1572,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/device.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/device.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1571,8 +1605,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/device.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/device.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1604,8 +1638,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/device-secondary.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/device-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1637,8 +1671,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/device-secondary.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/device-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1670,8 +1704,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/channels.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/channels.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1703,8 +1737,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/channels.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/channels.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1736,8 +1770,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/channels.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/channels.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1769,8 +1803,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/channels.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/channels.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1802,8 +1836,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/channels.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/channels.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1835,8 +1869,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/channels.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/channels.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1868,8 +1902,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/channels-secondary.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/channels-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1901,8 +1935,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/channels-secondary.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/channels-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1934,8 +1968,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/commands.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/commands.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1967,8 +2001,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/commands.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/commands.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2000,8 +2034,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/commands.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/commands.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2033,8 +2067,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/commands.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/commands.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2066,8 +2100,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/commands.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/commands.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2099,8 +2133,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/commands.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/commands.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2132,8 +2166,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/commands-secondary.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/commands-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2165,8 +2199,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/commands-secondary.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/commands-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2198,8 +2232,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/settings.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/settings.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2231,8 +2265,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/settings.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/settings.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2264,8 +2298,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/settings.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/settings.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2297,8 +2331,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/settings.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/settings.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2330,8 +2364,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/settings.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/settings.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2363,8 +2397,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/settings.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/settings.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2396,8 +2430,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/settings-secondary.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/settings-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2429,8 +2463,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/settings-secondary.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/settings-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2462,8 +2496,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/cached.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/cached.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2495,8 +2529,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/cached.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/cached.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2528,8 +2562,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/cached.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/cached.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2561,8 +2595,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/cached.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/cached.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2594,8 +2628,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/cached.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/cached.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2627,8 +2661,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/cached.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/cached.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2660,8 +2694,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/cached-secondary.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/cached-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2693,8 +2727,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/cached-secondary.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/cached-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2726,8 +2760,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2759,8 +2793,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2792,8 +2826,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2825,8 +2859,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "c8354634db196fa843322c19387e4aa05d065de2",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/c8354634db196fa843322c19387e4aa05d065de2/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
+        "revision": "e82edfe036750899122aab528496a547b5189b06",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/e82edfe036750899122aab528496a547b5189b06/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
