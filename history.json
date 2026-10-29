@@ -1,6 +1,6 @@
 {
     "formatVersion": "compose-preview-history/v1",
-    "generatedFrom": "89f5a265f7390f5914c55353aa586d138e4f8387",
+    "generatedFrom": "fc1caaeb7dd9bb155b0da132e5e2a1047284c2c0",
     "previews": {
         "app/activity__MainActivity": {
             "path": "renders/app/activity__MainActivity.png",
@@ -2310,6 +2310,13 @@
             "path": "renders/wear/activity__LicenseActivity.png",
             "versions": [
                 {
+                    "blob": "011f7b9c37f530461fa0075f961a72e2ceaad2b9",
+                    "commit": "fc1caaeb7dd9bb155b0da132e5e2a1047284c2c0",
+                    "date": "2026-10-29T09:15:20Z",
+                    "sourceSha": "93379838",
+                    "commits": 1
+                },
+                {
                     "blob": "3db4928749def261a3abdf6096abfe6f27b9975e",
                     "commit": "5118a492e2e5059c1d9e0357da276ca12b1dc10c",
                     "date": "2026-10-16T21:10:33Z",
@@ -2324,7 +2331,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
