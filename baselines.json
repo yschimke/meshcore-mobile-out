@@ -964,7 +964,7 @@
     "functionName": "LicenseActivity",
     "module": "wear",
     "renderBasename": "activity__LicenseActivity.png",
-    "sha256": "d0a27b86e157f2563e56b86e4de0e5ed0302479894749b7507ff6b7c19adc3a7",
+    "sha256": "3f31e3d2e05ee620c37eb2485911196930a7250b737f2f637dc452777222d195",
     "sourceFile": null
   },
   "wear/activity__WearMainActivity": {
