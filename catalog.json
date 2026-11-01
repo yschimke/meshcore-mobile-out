@@ -560,6 +560,19 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/devicesummarycard-populated/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 814,
+          "height": 446,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/devicesummarycard-populated__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.DeviceSummaryCardPopulatedPreview_Light",
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/devicesummarycard-populated__ideal__default__light__compact.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/devicesummarycard-populated/ideal__default__dark__compact.png",
           "state": "default",
           "width": 814,
@@ -573,19 +586,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/devicesummarycard-populated__ideal__default__dark__compact.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/devicesummarycard-populated/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 814,
-          "height": 446,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/devicesummarycard-populated__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.DeviceSummaryCardPopulatedPreview_Light",
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/devicesummarycard-populated__ideal__default__light__compact.svg"
         }
       ],
       "greenlines": [],
@@ -644,6 +644,21 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/devicesummarycard-loading/ideal__default__light.png",
+          "state": "default",
+          "width": 1050,
+          "height": 303,
+          "theme": "light",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/devicesummarycard-loading__ideal__default__light",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.DeviceSummaryCardLoadingPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/devicesummarycard-loading__ideal__default__light.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/devicesummarycard-loading/ideal__default__dark.png",
           "state": "default",
           "width": 1050,
@@ -657,21 +672,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/devicesummarycard-loading__ideal__default__dark.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/devicesummarycard-loading/ideal__default__light.png",
-          "state": "default",
-          "width": 1050,
-          "height": 303,
-          "theme": "light",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/devicesummarycard-loading__ideal__default__light",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.DeviceSummaryCardLoadingPreview_Light",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/devicesummarycard-loading__ideal__default__light.svg"
         }
       ],
       "greenlines": [],
@@ -716,6 +716,21 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/devicesummarycard-lowbattery/ideal__default__light.png",
+          "state": "default",
+          "width": 1050,
+          "height": 524,
+          "theme": "light",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/devicesummarycard-lowbattery__ideal__default__light",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.DeviceSummaryCardLowBatteryPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/devicesummarycard-lowbattery__ideal__default__light.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/devicesummarycard-lowbattery/ideal__default__dark.png",
           "state": "default",
           "width": 1050,
@@ -729,21 +744,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/devicesummarycard-lowbattery__ideal__default__dark.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/devicesummarycard-lowbattery/ideal__default__light.png",
-          "state": "default",
-          "width": 1050,
-          "height": 524,
-          "theme": "light",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/devicesummarycard-lowbattery__ideal__default__light",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.DeviceSummaryCardLowBatteryPreview_Light",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/devicesummarycard-lowbattery__ideal__default__light.svg"
         }
       ],
       "greenlines": [],
@@ -802,6 +802,22 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/contactrow-chat/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 234,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactrow-chat__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactRowChatPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactrow-chat__ideal__default__light__compact.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/contactrow-chat/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -816,22 +832,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactrow-chat__ideal__default__dark__compact.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/contactrow-chat/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 234,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactrow-chat__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactRowChatPreview_Light",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactrow-chat__ideal__default__light__compact.svg"
         }
       ],
       "greenlines": [],
@@ -870,6 +870,22 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/contactrow-repeater/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 234,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactrow-repeater__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactRowRepeaterPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactrow-repeater__ideal__default__light__compact.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/contactrow-repeater/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -884,22 +900,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactrow-repeater__ideal__default__dark__compact.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/contactrow-repeater/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 234,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactrow-repeater__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactRowRepeaterPreview_Light",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactrow-repeater__ideal__default__light__compact.svg"
         }
       ],
       "greenlines": [],
@@ -938,6 +938,22 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/contactrow-room/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 234,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactrow-room__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactRowRoomPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactrow-room__ideal__default__light__compact.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/contactrow-room/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -952,22 +968,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactrow-room__ideal__default__dark__compact.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/contactrow-room/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 234,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactrow-room__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactRowRoomPreview_Light",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactrow-room__ideal__default__light__compact.svg"
         }
       ],
       "greenlines": [],
@@ -1006,6 +1006,22 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/contactrow-sensor/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 234,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactrow-sensor__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactRowSensorPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactrow-sensor__ideal__default__light__compact.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/contactrow-sensor/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -1020,22 +1036,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactrow-sensor__ideal__default__dark__compact.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/contactrow-sensor/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 234,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactrow-sensor__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactRowSensorPreview_Light",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactrow-sensor__ideal__default__light__compact.svg"
         }
       ],
       "greenlines": [],
@@ -1074,6 +1074,21 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/contactlist-empty/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 709,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactlist-empty__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactListEmptyPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/contactlist-empty/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -1084,21 +1099,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactListEmptyPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/contactlist-empty/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 709,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactlist-empty__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactListEmptyPreview_Light",
-          "previewParams": {
             "showBackground": true
           },
           "density": 2.625
@@ -1121,6 +1121,22 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/contactlist-few/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 709,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactlist-few__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactListFewPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactlist-few__ideal__default__light__compact.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/contactlist-few/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -1135,22 +1151,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactlist-few__ideal__default__dark__compact.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/contactlist-few/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 709,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactlist-few__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactListFewPreview_Light",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/contactlist-few__ideal__default__light__compact.svg"
         }
       ],
       "greenlines": [],
@@ -1207,6 +1207,21 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/contactlist-many/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 709,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactlist-many__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactListManyPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/contactlist-many/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -1217,21 +1232,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactListManyPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/contactlist-many/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 709,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/contactlist-many__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.ContactListManyPreview_Light",
-          "previewParams": {
             "showBackground": true
           },
           "density": 2.625
@@ -1327,6 +1327,22 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/bledevicelist-empty/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 709,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/bledevicelist-empty__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.BleDeviceListEmptyPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/bledevicelist-empty__ideal__default__light__compact.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/bledevicelist-empty/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -1341,22 +1357,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/bledevicelist-empty__ideal__default__dark__compact.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/bledevicelist-empty/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 709,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/bledevicelist-empty__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.BleDeviceListEmptyPreview_Light",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/bledevicelist-empty__ideal__default__light__compact.svg"
         }
       ],
       "greenlines": [],
@@ -1376,6 +1376,22 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/bledevicelist-few/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 924,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/bledevicelist-few__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.BleDeviceListFewPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/bledevicelist-few__ideal__default__light__compact.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/bledevicelist-few/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -1390,22 +1406,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/bledevicelist-few__ideal__default__dark__compact.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/bledevicelist-few/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 924,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/bledevicelist-few__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.BleDeviceListFewPreview_Light",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/bledevicelist-few__ideal__default__light__compact.svg"
         }
       ],
       "greenlines": [
@@ -1505,6 +1505,21 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/bledevicelist-many/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 1449,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/bledevicelist-many__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.BleDeviceListManyPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/bledevicelist-many/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -1515,21 +1530,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.BleDeviceListManyPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/bledevicelist-many/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 1449,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/bledevicelist-many__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.BleDeviceListManyPreview_Light",
-          "previewParams": {
             "showBackground": true
           },
           "density": 2.625
@@ -1749,6 +1749,21 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/tcpconnectpanel-idle/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 789,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/tcpconnectpanel-idle__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.TcpConnectPanelIdlePreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/tcpconnectpanel-idle/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -1759,21 +1774,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.TcpConnectPanelIdlePreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/tcpconnectpanel-idle/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 789,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/tcpconnectpanel-idle__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.TcpConnectPanelIdlePreview_Light",
-          "previewParams": {
             "showBackground": true
           },
           "density": 2.625
@@ -1883,6 +1883,21 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/tcpconnectpanel-busy/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 789,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/tcpconnectpanel-busy__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.TcpConnectPanelBusyPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/tcpconnectpanel-busy/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -1893,21 +1908,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.TcpConnectPanelBusyPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/tcpconnectpanel-busy/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 789,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/tcpconnectpanel-busy__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.TcpConnectPanelBusyPreview_Light",
-          "previewParams": {
             "showBackground": true
           },
           "density": 2.625
@@ -2017,6 +2017,22 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/blepermissionpanel-first/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 562,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/blepermissionpanel-first__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.BlePermissionPanelFirstPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/blepermissionpanel-first__ideal__default__light__compact.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/blepermissionpanel-first/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -2031,22 +2047,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/blepermissionpanel-first__ideal__default__dark__compact.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/blepermissionpanel-first/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 562,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/blepermissionpanel-first__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.BlePermissionPanelFirstPreview_Light",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/blepermissionpanel-first__ideal__default__light__compact.svg"
         }
       ],
       "greenlines": [
@@ -2107,6 +2107,22 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/blepermissionpanel-denied/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 893,
+          "height": 628,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/blepermissionpanel-denied__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.BlePermissionPanelDeniedPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/blepermissionpanel-denied__ideal__default__light__compact.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/blepermissionpanel-denied/ideal__default__dark__compact.png",
           "state": "default",
           "width": 893,
@@ -2121,22 +2137,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/blepermissionpanel-denied__ideal__default__dark__compact.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/blepermissionpanel-denied/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 893,
-          "height": 628,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/blepermissionpanel-denied__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ComponentPreviewsKt.BlePermissionPanelDeniedPreview_Light",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/blepermissionpanel-denied__ideal__default__light__compact.svg"
         }
       ],
       "greenlines": [
@@ -2197,6 +2197,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/scanner-savedempty/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-savedempty__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedEmptyPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/scanner-savedempty/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -2207,24 +2225,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedEmptyPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/scanner-savedempty/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-savedempty__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedEmptyPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -2457,6 +2457,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/scanner-savedpopulated/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-savedpopulated__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedPopulatedPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/scanner-savedpopulated/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -2467,24 +2485,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedPopulatedPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/scanner-savedpopulated/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-savedpopulated__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedPopulatedPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -2915,6 +2915,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/scanner-blepermission/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-blepermission__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBlePermissionPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/scanner-blepermission/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -2925,24 +2943,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBlePermissionPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/scanner-blepermission/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-blepermission__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBlePermissionPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -3214,6 +3214,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/scanner-bleempty/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-bleempty__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleEmptyPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/scanner-bleempty/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -3224,24 +3242,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleEmptyPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/scanner-bleempty/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-bleempty__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleEmptyPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -3513,6 +3513,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/scanner-blefew/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-blefew__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleFewPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/scanner-blefew/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -3523,24 +3541,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleFewPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/scanner-blefew/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-blefew__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleFewPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -3890,6 +3890,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/scanner-blemany/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-blemany__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleManyPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/scanner-blemany/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -3900,24 +3918,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleManyPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/scanner-blemany/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-blemany__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleManyPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -4501,6 +4501,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/scanner-usbempty/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-usbempty__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbEmptyPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/scanner-usbempty/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -4511,24 +4529,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbEmptyPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/scanner-usbempty/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-usbempty__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbEmptyPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -4791,6 +4791,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/scanner-usbfew/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-usbfew__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbFewPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/scanner-usbfew/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -4801,24 +4819,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbFewPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/scanner-usbfew/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-usbfew__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbFewPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -5129,6 +5129,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/scanner-tcp/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-tcp__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerTcpPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/scanner-tcp/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -5139,24 +5157,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerTcpPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/scanner-tcp/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/scanner-tcp__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerTcpPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -5474,6 +5474,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/device-loading/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-loading__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLoadingPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/device-loading/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -5484,24 +5502,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLoadingPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/device-loading/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-loading__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLoadingPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -5729,6 +5729,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/device-nocontacts/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-nocontacts__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyNoContactsPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/device-nocontacts/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -5739,24 +5757,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyNoContactsPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/device-nocontacts/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-nocontacts__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyNoContactsPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -5998,6 +5998,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/device-populated/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-populated__ideal__default__light__compact",
+          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.DeviceBodyPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/device-populated/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -6008,24 +6026,6 @@
           "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.DeviceBodyPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/device-populated/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-populated__ideal__default__light__compact",
-          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.DeviceBodyPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -6637,6 +6637,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/device-lowbattery/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-lowbattery__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLowBatteryPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/device-lowbattery/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -6647,24 +6665,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLowBatteryPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/device-lowbattery/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-lowbattery__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLowBatteryPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -6981,6 +6981,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/device-manycontacts/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-manycontacts__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyManyContactsPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/device-manycontacts/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -6991,24 +7009,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyManyContactsPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/device-manycontacts/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-manycontacts__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyManyContactsPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -7461,6 +7461,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/device-statusconnecting/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-statusconnecting__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceStatusConnectingPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/device-statusconnecting/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -7471,24 +7489,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceStatusConnectingPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/device-statusconnecting/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-statusconnecting__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceStatusConnectingPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -7643,6 +7643,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/device-statusfailed/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-statusfailed__ideal__default__light__compact",
+          "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceStatusFailedPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/device-statusfailed/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -7653,24 +7671,6 @@
           "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceStatusFailedPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/device-statusfailed/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-statusfailed__ideal__default__light__compact",
-          "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceStatusFailedPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -7820,6 +7820,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/device-cached/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-cached__ideal__default__light__compact",
+          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.CachedDeviceBodyPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/device-cached/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -7830,24 +7848,6 @@
           "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.CachedDeviceBodyPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/device-cached/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/device-cached__ideal__default__light__compact",
-          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.CachedDeviceBodyPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -8409,6 +8409,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/chat-contact/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/chat-contact__ideal__default__light__compact",
+          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ContactChatPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/chat-contact/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -8419,24 +8437,6 @@
           "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ContactChatPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/chat-contact/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/chat-contact__ideal__default__light__compact",
-          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ContactChatPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -8736,6 +8736,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/chat-channel/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/chat-channel__ideal__default__light__compact",
+          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ChannelChatPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/chat-channel/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -8746,24 +8764,6 @@
           "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ChannelChatPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/chat-channel/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/chat-channel__ideal__default__light__compact",
-          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ChannelChatPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -9063,6 +9063,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/chat-commands/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/chat-commands__ideal__default__light__compact",
+          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.CommandsPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/chat-commands/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -9073,24 +9091,6 @@
           "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.CommandsPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/chat-commands/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/chat-commands__ideal__default__light__compact",
-          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.CommandsPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -9390,6 +9390,24 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/settings-ready/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/settings-ready__ideal__default__light__compact",
+          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsPreview_Light",
+          "previewParams": {
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
           "path": "images/settings-ready/ideal__default__dark__compact.png",
           "state": "default",
           "width": 1078,
@@ -9400,24 +9418,6 @@
           "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsPreview_Dark",
           "previewParams": {
             "uiMode": 32,
-            "showBackground": true,
-            "device": "id:pixel_7",
-            "widthDp": 411,
-            "heightDp": 914
-          },
-          "density": 2.625
-        },
-        {
-          "variant": "ideal",
-          "path": "images/settings-ready/ideal__default__light__compact.png",
-          "state": "default",
-          "width": 1078,
-          "height": 2399,
-          "theme": "light",
-          "size": "compact",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/settings-ready__ideal__default__light__compact",
-          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsPreview_Light",
-          "previewParams": {
             "showBackground": true,
             "device": "id:pixel_7",
             "widthDp": 411,
@@ -9624,6 +9624,21 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/saveddevices-populated/ideal__default__light.png",
+          "state": "default",
+          "width": 1050,
+          "height": 745,
+          "theme": "light",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/saveddevices-populated__ideal__default__light",
+          "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesPopulatedPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/saveddevices-populated__ideal__default__light.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/saveddevices-populated/ideal__default__dark.png",
           "state": "default",
           "width": 1050,
@@ -9637,21 +9652,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/saveddevices-populated__ideal__default__dark.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/saveddevices-populated/ideal__default__light.png",
-          "state": "default",
-          "width": 1050,
-          "height": 745,
-          "theme": "light",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/saveddevices-populated__ideal__default__light",
-          "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesPopulatedPreview_Light",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/saveddevices-populated__ideal__default__light.svg"
         }
       ],
       "greenlines": [
@@ -9992,6 +9992,21 @@
       "images": [
         {
           "variant": "ideal",
+          "path": "images/saveddevices-empty/ideal__default__light.png",
+          "state": "default",
+          "width": 1050,
+          "height": 492,
+          "theme": "light",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/saveddevices-empty__ideal__default__light",
+          "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesEmptyPreview_Light",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/saveddevices-empty__ideal__default__light.svg"
+        },
+        {
+          "variant": "ideal",
           "path": "images/saveddevices-empty/ideal__default__dark.png",
           "state": "default",
           "width": 1050,
@@ -10005,21 +10020,6 @@
           },
           "density": 2.625,
           "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/saveddevices-empty__ideal__default__dark.svg"
-        },
-        {
-          "variant": "ideal",
-          "path": "images/saveddevices-empty/ideal__default__light.png",
-          "state": "default",
-          "width": 1050,
-          "height": 492,
-          "theme": "light",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/saveddevices-empty__ideal__default__light",
-          "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesEmptyPreview_Light",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/saveddevices-empty__ideal__default__light.svg"
         }
       ],
       "greenlines": [],
@@ -19521,8 +19521,8 @@
     "androidx.compose.material3:material3",
     "ee.schimke.meshcore:meshcore-components (MeshcoreTheme)"
   ],
-  "renderer": "compose-preview 2.79.0",
-  "generatedAt": "2026-11-01T12:51:08.023Z",
+  "renderer": "compose-preview 2.80.0",
+  "generatedAt": "2026-11-01T14:51:54.766Z",
   "display": {
     "hero": "Device/Populated"
   },
@@ -19583,7 +19583,7 @@
   "componentsFile": "ui-builder/components.json",
   "source": {
     "repo": "yschimke/meshcore-mobile",
-    "ref": "aa03972145e699e5f38e30a5fd7cbae6f98c1680",
+    "ref": "95181fa5d56ef839d96b5e878ab98419ccaa608a",
     "module": ""
   },
   "uiBuilderFile": "ui-builder.json",
