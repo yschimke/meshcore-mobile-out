@@ -684,7 +684,7 @@
     "functionName": "DeviceInfoWidgetPopulatedPreview",
     "module": "app",
     "renderBasename": "DeviceInfoWidgetPopulatedPreview_DeviceInfo_populated-516c989f.png",
-    "sha256": "a4dc095fb97636b2ec510aa2c6d828ccea5d870f5e45882c0d8f42cd7597d280",
+    "sha256": "c412c308e89fbf4134923f1189ebcff88af4ef57a4b03ed16ef7193b0426d5dc",
     "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/widget/WidgetPreviews.kt"
   },
   "app/ee.schimke.meshcore.app.widget.WidgetPreviewsKt.DeviceInfoWidgetStalePreview_DeviceInfo \u2014 stale": {
@@ -692,7 +692,7 @@
     "functionName": "DeviceInfoWidgetStalePreview",
     "module": "app",
     "renderBasename": "DeviceInfoWidgetStalePreview_DeviceInfo_stale-c6b8a433.png",
-    "sha256": "77fa8a8cfd557758bc2fe628fc3757e0e16c1c7ed2d7805562ef7135f7cc8e08",
+    "sha256": "faeeaadca3030d7cf34e5c6d0a8a5b291f1ae9e192eab415842e36b6589ab811",
     "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/widget/WidgetPreviews.kt"
   },
   "app/themecatalog__Dynamic_Dark": {
