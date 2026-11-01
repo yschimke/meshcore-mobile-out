@@ -13046,14 +13046,14 @@
             "role": "button",
             "bounds": {
               "x": 42,
-              "y": 130,
+              "y": 115,
               "width": 32,
               "height": 32
             }
           },
           "bounds": {
             "x": 42,
-            "y": 130,
+            "y": 115,
             "width": 32,
             "height": 32
           }
@@ -13066,14 +13066,14 @@
             "role": "button",
             "bounds": {
               "x": 42,
-              "y": 199,
+              "y": 169,
               "width": 32,
               "height": 32
             }
           },
           "bounds": {
             "x": 42,
-            "y": 199,
+            "y": 169,
             "width": 32,
             "height": 32
           }
@@ -13086,14 +13086,14 @@
             "role": "button",
             "bounds": {
               "x": 42,
-              "y": 268,
+              "y": 217,
               "width": 32,
               "height": 32
             }
           },
           "bounds": {
             "x": 42,
-            "y": 268,
+            "y": 217,
             "width": 32,
             "height": 32
           }
@@ -13106,16 +13106,16 @@
             "role": "button",
             "bounds": {
               "x": 42,
-              "y": 359,
+              "y": 293,
               "width": 32,
-              "height": 19
+              "height": 32
             }
           },
           "bounds": {
             "x": 42,
-            "y": 359,
+            "y": 293,
             "width": 32,
-            "height": 19
+            "height": 32
           }
         }
       ],
@@ -13271,14 +13271,14 @@
             "role": "button",
             "bounds": {
               "x": 42,
-              "y": 130,
+              "y": 115,
               "width": 32,
               "height": 32
             }
           },
           "bounds": {
             "x": 42,
-            "y": 130,
+            "y": 115,
             "width": 32,
             "height": 32
           }
@@ -13291,14 +13291,14 @@
             "role": "button",
             "bounds": {
               "x": 42,
-              "y": 199,
+              "y": 169,
               "width": 32,
               "height": 32
             }
           },
           "bounds": {
             "x": 42,
-            "y": 199,
+            "y": 169,
             "width": 32,
             "height": 32
           }
@@ -13311,14 +13311,14 @@
             "role": "button",
             "bounds": {
               "x": 42,
-              "y": 268,
+              "y": 217,
               "width": 32,
               "height": 32
             }
           },
           "bounds": {
             "x": 42,
-            "y": 268,
+            "y": 217,
             "width": 32,
             "height": 32
           }
@@ -13331,16 +13331,16 @@
             "role": "button",
             "bounds": {
               "x": 42,
-              "y": 359,
+              "y": 293,
               "width": 32,
-              "height": 19
+              "height": 32
             }
           },
           "bounds": {
             "x": 42,
-            "y": 359,
+            "y": 293,
             "width": 32,
-            "height": 19
+            "height": 32
           }
         }
       ],
@@ -19521,8 +19521,8 @@
     "androidx.compose.material3:material3",
     "ee.schimke.meshcore:meshcore-components (MeshcoreTheme)"
   ],
-  "renderer": "compose-preview 2.74.1",
-  "generatedAt": "2026-10-29T22:03:50.177Z",
+  "renderer": "compose-preview 2.79.0",
+  "generatedAt": "2026-11-01T11:04:41.506Z",
   "display": {
     "hero": "Device/Populated"
   },
@@ -19583,7 +19583,7 @@
   "componentsFile": "ui-builder/components.json",
   "source": {
     "repo": "yschimke/meshcore-mobile",
-    "ref": "a7037b279b2cb274a6d61018e80b5348e35f5e54",
+    "ref": "be8183b28c84336e29984bd366771cc089f88378",
     "module": ""
   },
   "uiBuilderFile": "ui-builder.json",
