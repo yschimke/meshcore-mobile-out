@@ -19522,7 +19522,7 @@
     "ee.schimke.meshcore:meshcore-components (MeshcoreTheme)"
   ],
   "renderer": "compose-preview 2.79.0",
-  "generatedAt": "2026-11-01T11:04:41.506Z",
+  "generatedAt": "2026-11-01T11:41:11.084Z",
   "display": {
     "hero": "Device/Populated"
   },
@@ -19583,14 +19583,14 @@
   "componentsFile": "ui-builder/components.json",
   "source": {
     "repo": "yschimke/meshcore-mobile",
-    "ref": "be8183b28c84336e29984bd366771cc089f88378",
+    "ref": "70178738e1b0e2d554d3f987db3532ac6b239d10",
     "module": ""
   },
   "uiBuilderFile": "ui-builder.json",
   "uiBuilderRuntime": {
     "path": "ui-builder/runtime.zip",
-    "runtimeId": "meshcore-mobile-p2-406d685368f03b77",
+    "runtimeId": "meshcore-mobile-p2-d20f368067565fdc",
     "protocolVersion": 2,
-    "integritySha256": "406d685368f03b7731cabfa36d80c474c523bd79603799accdcb88003188ef14"
+    "integritySha256": "d20f368067565fdc3a1f9b703f656044644e7c11fd0d3b9c254d441e540c85af"
   }
 }
