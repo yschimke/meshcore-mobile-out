@@ -3,13 +3,13 @@
 <g transform="translate(0, 0)">
   <g id="Root">
     <g id="ReusableComposeNode">
-      <image href="ideal__default__compact.figma-raster/1370.png" x="0" y="0" width="758" height="420"/>
+      <image href="ideal__default__compact.figma-raster/1413.png" x="0" y="0" width="758" height="420"/>
       <g id="ReusableComposeNode">
         <text x="42" y="91.11" font-size="52.5" font-family="Roboto, sans-serif" font-weight="400" fill="#DDE4E1">node-peak</text>
       </g>
       <g id="ReusableComposeNode">
         <g id="ReusableComposeNode">
-          <image href="ideal__default__compact.figma-raster/1375.png" x="42" y="115" width="32" height="32"/>
+          <image href="ideal__default__compact.figma-raster/1418.png" x="42" y="115" width="32" height="32"/>
         </g>
         <g id="ReusableComposeNode">
           <text x="85" y="149.17" font-size="36.75" font-family="Roboto, sans-serif" font-weight="400" fill="#BEC9C5">ab1234567890cdef</text>
@@ -17,7 +17,7 @@
       </g>
       <g id="ReusableComposeNode">
         <g id="ReusableComposeNode">
-          <image href="ideal__default__compact.figma-raster/1380.png" x="42" y="169" width="32" height="32"/>
+          <image href="ideal__default__compact.figma-raster/1423.png" x="42" y="169" width="32" height="32"/>
         </g>
         <g id="ReusableComposeNode">
           <text x="85" y="198.36" font-size="31.5" font-family="Roboto, sans-serif" font-weight="400" fill="#BEC9C5">869.525 MHz</text>
@@ -26,7 +26,7 @@
       <g id="ReusableComposeNode">
         <g id="ReusableComposeNode">
           <g id="ReusableComposeNode">
-            <image href="ideal__default__compact.figma-raster/1386.png" x="42" y="217" width="32" height="32"/>
+            <image href="ideal__default__compact.figma-raster/1429.png" x="42" y="217" width="32" height="32"/>
           </g>
           <g id="ReusableComposeNode">
             <text x="85" y="251.17" font-size="36.75" font-family="Roboto, sans-serif" font-weight="400" fill="#DDE4E1">81% · 3980 mV</text>
@@ -41,7 +41,7 @@
       </g>
       <g id="ReusableComposeNode">
         <g id="ReusableComposeNode">
-          <image href="ideal__default__compact.figma-raster/1393.png" x="42" y="293" width="32" height="32"/>
+          <image href="ideal__default__compact.figma-raster/1436.png" x="42" y="293" width="32" height="32"/>
         </g>
         <g id="ReusableComposeNode">
           <text x="85" y="322.36" font-size="31.5" font-family="Roboto, sans-serif" font-weight="400" fill="#BEC9C5">512 / 4096 kB</text>
