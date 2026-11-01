@@ -1,6 +1,6 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-01T19:28:46.985Z",
+  "generatedAt": "2026-11-01T20:31:50.114Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/meshcore-mobile",
@@ -112,6 +112,34 @@
       "detail": "design-map names ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsDarkPreview_Device settings — dark, which this catalog does not publish.",
       "code": "meshcore-components/src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceSettingsBodyPreviews.kt#DeviceSettingsDarkPreview",
       "previewId": "ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsDarkPreview_Device settings — dark"
+    },
+    {
+      "kind": "unrendered-reference",
+      "detail": "Mapped to a Figma node, but no reference raster was published for it — the render step could not produce one, so nothing can score this preview against its spec.",
+      "code": "app/src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt#ScannerBleManyPreview",
+      "ref": "figma:gYzowY4cQ7rNr2gYoco1M6/90:5",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleManyPreview_Light"
+    },
+    {
+      "kind": "unrendered-reference",
+      "detail": "Mapped to a Figma node, but no reference raster was published for it — the render step could not produce one, so nothing can score this preview against its spec.",
+      "code": "app/src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt#ScannerUsbEmptyPreview",
+      "ref": "figma:gYzowY4cQ7rNr2gYoco1M6/94:84",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbEmptyPreview_Light"
+    },
+    {
+      "kind": "unrendered-reference",
+      "detail": "Mapped to a Figma node, but no reference raster was published for it — the render step could not produce one, so nothing can score this preview against its spec.",
+      "code": "app/src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt#ScannerUsbFewPreview",
+      "ref": "figma:gYzowY4cQ7rNr2gYoco1M6/95:5",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbFewPreview_Light"
+    },
+    {
+      "kind": "unrendered-reference",
+      "detail": "Mapped to a Figma node, but no reference raster was published for it — the render step could not produce one, so nothing can score this preview against its spec.",
+      "code": "app/src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt#ScannerTcpPreview",
+      "ref": "figma:gYzowY4cQ7rNr2gYoco1M6/94:5",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerTcpPreview_Light"
     }
   ]
 }
