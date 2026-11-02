@@ -731,6 +731,138 @@
       }
     },
     {
+      "id": "scanner-blemany__ideal__default__light__compact",
+      "previewId": "scanner-blemany__ideal__default__light__compact",
+      "label": "Scanner/BleMany — figma",
+      "tier": "primary",
+      "raster": {
+        "path": "references/scanner-blemany__ideal__default__light__compact.png",
+        "width": 1078,
+        "height": 2399,
+        "density": 2.625,
+        "sha256": "a2d230b4787832330e50a48060b72c5ed3eeae6c9c8146846ec06b698b996d0a",
+        "transform": {
+          "scaleX": 0.381239,
+          "scaleY": 0.381399,
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      },
+      "source": {
+        "provider": "figma",
+        "attributes": {
+          "code": "app/src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt#ScannerBleManyPreview",
+          "preview": "ScannerBleManyPreview",
+          "componentId": "Scanner/BleMany"
+        },
+        "uri": "figma:gYzowY4cQ7rNr2gYoco1M6/90:5"
+      },
+      "match": {
+        "percent": 98.03,
+        "changedPercent": 17.71,
+        "scoreVersion": 3
+      }
+    },
+    {
+      "id": "scanner-usbempty__ideal__default__light__compact",
+      "previewId": "scanner-usbempty__ideal__default__light__compact",
+      "label": "Scanner/UsbEmpty — figma",
+      "tier": "primary",
+      "raster": {
+        "path": "references/scanner-usbempty__ideal__default__light__compact.png",
+        "width": 1078,
+        "height": 2399,
+        "density": 2.625,
+        "sha256": "281e9917f16646b65ae092fde461a67f7103cddc4978476501f73ba5896e34bd",
+        "transform": {
+          "scaleX": 0.381239,
+          "scaleY": 0.381399,
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      },
+      "source": {
+        "provider": "figma",
+        "attributes": {
+          "code": "app/src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt#ScannerUsbEmptyPreview",
+          "preview": "ScannerUsbEmptyPreview",
+          "componentId": "Scanner/UsbEmpty"
+        },
+        "uri": "figma:gYzowY4cQ7rNr2gYoco1M6/94:84"
+      },
+      "match": {
+        "percent": 97.03,
+        "changedPercent": 7.11,
+        "scoreVersion": 3
+      }
+    },
+    {
+      "id": "scanner-usbfew__ideal__default__light__compact",
+      "previewId": "scanner-usbfew__ideal__default__light__compact",
+      "label": "Scanner/UsbFew — figma",
+      "tier": "primary",
+      "raster": {
+        "path": "references/scanner-usbfew__ideal__default__light__compact.png",
+        "width": 1078,
+        "height": 2399,
+        "density": 2.625,
+        "sha256": "73b037d686f4c8d0eb2779229b9bb4fa5262a77430ed46bd280fca60d9299e4d",
+        "transform": {
+          "scaleX": 0.381239,
+          "scaleY": 0.381399,
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      },
+      "source": {
+        "provider": "figma",
+        "attributes": {
+          "code": "app/src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt#ScannerUsbFewPreview",
+          "preview": "ScannerUsbFewPreview",
+          "componentId": "Scanner/UsbFew"
+        },
+        "uri": "figma:gYzowY4cQ7rNr2gYoco1M6/95:5"
+      },
+      "match": {
+        "percent": 94.71,
+        "changedPercent": 7.61,
+        "scoreVersion": 3
+      }
+    },
+    {
+      "id": "scanner-tcp__ideal__default__light__compact",
+      "previewId": "scanner-tcp__ideal__default__light__compact",
+      "label": "Scanner/Tcp — figma",
+      "tier": "primary",
+      "raster": {
+        "path": "references/scanner-tcp__ideal__default__light__compact.png",
+        "width": 1078,
+        "height": 2399,
+        "density": 2.625,
+        "sha256": "bef8765f483527089ef03be83a810b71b343b62aca4ca614f8ed255754013dec",
+        "transform": {
+          "scaleX": 0.381239,
+          "scaleY": 0.381399,
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      },
+      "source": {
+        "provider": "figma",
+        "attributes": {
+          "code": "app/src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt#ScannerTcpPreview",
+          "preview": "ScannerTcpPreview",
+          "componentId": "Scanner/Tcp"
+        },
+        "uri": "figma:gYzowY4cQ7rNr2gYoco1M6/94:5"
+      },
+      "match": {
+        "percent": 98.06,
+        "changedPercent": 8.29,
+        "scoreVersion": 3
+      }
+    },
+    {
       "id": "saveddevices-populated__ideal__default__light",
       "previewId": "saveddevices-populated__ideal__default__light",
       "label": "SavedDevices/Populated — figma",
@@ -814,8 +946,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -847,8 +979,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -880,8 +1012,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -913,8 +1045,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -946,8 +1078,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -979,8 +1111,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1012,8 +1144,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1045,8 +1177,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/contacts.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1078,8 +1210,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1111,8 +1243,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1144,8 +1276,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1177,8 +1309,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1210,8 +1342,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1243,8 +1375,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/scanner.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1276,8 +1408,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/scanner-secondary.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/scanner-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1309,8 +1441,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/scanner-secondary.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/scanner-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1342,8 +1474,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/device.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/device.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1375,8 +1507,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/device.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/device.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1408,8 +1540,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/device.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/device.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1441,8 +1573,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/device.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/device.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1474,8 +1606,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/device.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/device.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1507,8 +1639,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/device.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/device.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1540,8 +1672,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/device-secondary.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/device-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1573,8 +1705,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/device-secondary.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/device-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1606,8 +1738,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/channels.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/channels.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1639,8 +1771,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/channels.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/channels.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1672,8 +1804,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/channels.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/channels.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1705,8 +1837,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/channels.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/channels.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1738,8 +1870,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/channels.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/channels.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1771,8 +1903,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/channels.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/channels.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1804,8 +1936,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/channels-secondary.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/channels-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1837,8 +1969,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/channels-secondary.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/channels-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1870,8 +2002,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/commands.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/commands.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1903,8 +2035,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/commands.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/commands.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1936,8 +2068,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/commands.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/commands.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -1969,8 +2101,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/commands.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/commands.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2002,8 +2134,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/commands.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/commands.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2035,8 +2167,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/commands.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/commands.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2068,8 +2200,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/commands-secondary.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/commands-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2101,8 +2233,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/commands-secondary.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/commands-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2134,8 +2266,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/settings.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/settings.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2167,8 +2299,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/settings.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/settings.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2200,8 +2332,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/settings.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/settings.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2233,8 +2365,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/settings.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/settings.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2266,8 +2398,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/settings.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/settings.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2299,8 +2431,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/settings.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/settings.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2332,8 +2464,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/settings-secondary.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/settings-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2365,8 +2497,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/settings-secondary.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/settings-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2398,8 +2530,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/cached.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/cached.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2431,8 +2563,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/cached.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/cached.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2464,8 +2596,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/cached.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/cached.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2497,8 +2629,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/cached.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/cached.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2530,8 +2662,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/cached.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/cached.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2563,8 +2695,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/cached.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/cached.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2596,8 +2728,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/cached-secondary.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/cached-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2629,8 +2761,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/cached-secondary.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/cached-secondary.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2662,8 +2794,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2695,8 +2827,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2728,8 +2860,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
@@ -2761,8 +2893,8 @@
       },
       "source": {
         "provider": "ui-builder",
-        "revision": "9479943f712f5b60d0580848fa2d711254413366",
-        "uri": "https://github.com/yschimke/meshcore-mobile/blob/9479943f712f5b60d0580848fa2d711254413366/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
+        "revision": "dd2f676d9186fca2c8771d12d3e091ebc353ce7d",
+        "uri": "https://github.com/yschimke/meshcore-mobile/blob/dd2f676d9186fca2c8771d12d3e091ebc353ce7d/adaptive-uid-pilot/ui-builder/designs/scanner-failure.uid",
         "attributes": {
           "rendererBundleSha256": "3e8b50626fa66081ddc6f33437a51cb93d62051803d0ab965b548ff93b856ddb",
           "componentsSha256": "dece3189c6e2d4b32f5442859b162527e947b442b27503e859fdd708e8694cd0",
