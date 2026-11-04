@@ -6494,6 +6494,265 @@
           "fontFamily": "Inter"
         }
       }
+    ],
+    "saveddevices-populated__ideal__default__light": [
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 0,
+          "y": 52,
+          "width": 1050,
+          "height": 641
+        },
+        "label": "≈gap 21px",
+        "role": "ReusableComposeNode",
+        "detail": {
+          "gap": "21",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 138,
+          "y": 137,
+          "width": 352,
+          "height": 87
+        },
+        "label": "≈gap 4px",
+        "role": "Group",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "layout",
+        "bounds": {
+          "x": 138,
+          "y": 361,
+          "width": 141,
+          "height": 87
+        },
+        "label": "≈gap 4px",
+        "role": "Group",
+        "detail": {
+          "gap": "4",
+          "unit": "px",
+          "spacingSource": "derived"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 85,
+          "width": 243,
+          "height": 55
+        },
+        "label": "text 42px/50.8",
+        "role": "node-peak",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 137,
+          "width": 352,
+          "height": 41
+        },
+        "label": "text 31.5px/38.1",
+        "role": "Connected · 3.98V · 5",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 182,
+          "width": 141,
+          "height": 41
+        },
+        "label": "text 31.5px/38.1",
+        "role": "contacts",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 855,
+          "y": 127,
+          "width": 99,
+          "height": 48
+        },
+        "label": "text 36.8px/44.5",
+        "role": "View",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 309,
+          "width": 287,
+          "height": 55
+        },
+        "label": "text 42px/50.8",
+        "role": "base-station",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 361,
+          "width": 140,
+          "height": 41
+        },
+        "label": "text 31.5px/38.1",
+        "role": "3.21V · 2",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 406,
+          "width": 141,
+          "height": 41
+        },
+        "label": "text 31.5px/38.1",
+        "role": "contacts",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 792,
+          "y": 351,
+          "width": 167,
+          "height": 48
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 552,
+          "width": 403,
+          "height": 55
+        },
+        "label": "text 42px/50.8",
+        "role": "192.168.1.10:5000",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "42",
+          "lineHeight": "50.8",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 138,
+          "y": 606,
+          "width": 282,
+          "height": 41
+        },
+        "label": "text 31.5px/38.1",
+        "role": "192.168.1.10:5000",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "31.5",
+          "lineHeight": "38.1",
+          "fontWeight": "400",
+          "fontFamily": "Inter"
+        }
+      },
+      {
+        "kind": "typography",
+        "bounds": {
+          "x": 792,
+          "y": 570,
+          "width": 167,
+          "height": 48
+        },
+        "label": "text 36.8px/44.5",
+        "role": "Connect",
+        "detail": {
+          "token": "text",
+          "unit": "px",
+          "fontSize": "36.8",
+          "lineHeight": "44.5",
+          "fontWeight": "700",
+          "fontFamily": "Inter"
+        }
+      }
     ]
   }
 }
