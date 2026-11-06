@@ -4156,7 +4156,7 @@
                 "name": "DeviceInfoWidgetContent",
                 "origin": "PROJECT",
                 "jvmName": "DeviceInfoWidgetContent",
-                "descriptor": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Float;ZLjava/lang/String;Ljava/lang/String;Landroidx/compose/remote/creation/compose/action/Action;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Float;ZLjava/lang/String;Ljava/lang/String;Landroidx/compose/remote/creation/compose/action/RemoteAction;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/widget/WidgetContent.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -4268,8 +4268,8 @@
                 },
                 {
                     "name": "onTap",
-                    "type": "Action?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.action.Action",
+                    "type": "RemoteAction?",
+                    "typeFqn": "androidx.compose.remote.creation.compose.action.RemoteAction",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,

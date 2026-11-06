@@ -13167,7 +13167,7 @@
         },
         {
           "name": "onTap",
-          "type": "Action?",
+          "type": "RemoteAction?",
           "hasDefault": true
         }
       ]
@@ -13239,7 +13239,7 @@
         },
         {
           "name": "onTap",
-          "type": "Action?",
+          "type": "RemoteAction?",
           "hasDefault": true
         }
       ]
@@ -13392,7 +13392,7 @@
         },
         {
           "name": "onTap",
-          "type": "Action?",
+          "type": "RemoteAction?",
           "hasDefault": true
         }
       ]
@@ -17946,7 +17946,7 @@
         },
         {
           "name": "onTap",
-          "type": "Action?",
+          "type": "RemoteAction?",
           "hasDefault": true
         }
       ]
@@ -18021,7 +18021,7 @@
         },
         {
           "name": "onTap",
-          "type": "Action?",
+          "type": "RemoteAction?",
           "hasDefault": true
         }
       ]
@@ -18096,7 +18096,7 @@
         },
         {
           "name": "onTap",
-          "type": "Action?",
+          "type": "RemoteAction?",
           "hasDefault": true
         }
       ]
@@ -19522,7 +19522,7 @@
     "ee.schimke.meshcore:meshcore-components (MeshcoreTheme)"
   ],
   "renderer": "compose-preview 2.82.0",
-  "generatedAt": "2026-11-04T23:09:12.616Z",
+  "generatedAt": "2026-11-06T23:46:51.730Z",
   "display": {
     "hero": "Device/Populated"
   },
@@ -19583,14 +19583,14 @@
   "componentsFile": "ui-builder/components.json",
   "source": {
     "repo": "yschimke/meshcore-mobile",
-    "ref": "6f796ae0678286beb9bf72f659c4d87e89aeb98e",
+    "ref": "2d76a427c3d99f89cf434847e6ca66c727dcc3ed",
     "module": ""
   },
   "uiBuilderFile": "ui-builder.json",
   "uiBuilderRuntime": {
     "path": "ui-builder/runtime.zip",
-    "runtimeId": "meshcore-mobile-p2-c4aeeb7a0bc0ecb3",
+    "runtimeId": "meshcore-mobile-p2-a2e479b89d25eac3",
     "protocolVersion": 2,
-    "integritySha256": "c4aeeb7a0bc0ecb3a67bf4d19f45d4eb330ada2e329bd7804a53b02ddd566a24"
+    "integritySha256": "a2e479b89d25eac367b1347a2bed6cf7fa57c0882e794330564bd8f3f57fcccc"
   }
 }
