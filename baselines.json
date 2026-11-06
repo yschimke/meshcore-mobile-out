@@ -1188,7 +1188,7 @@
     "functionName": "WearComponentGridPreview",
     "module": "wear",
     "renderBasename": "WearComponentGridPreview_Component_Grid-cf79ccb8.png",
-    "sha256": "605e6f87b50654cf185c96a176446709f2ea02576c871994f21e2e44b6c044e2",
+    "sha256": "935c43eafc8f417d97729ddd1e14922d8a2e65cd128c0a7b677c8e6eacd77d07",
     "sourceFile": "src/main/kotlin/ee/schimke/meshcore/wear/widget/WidgetPreviews.kt"
   },
   "wear/wearthemecatalog__MeshCore": {
