@@ -2,14 +2,24 @@
 
 Auto-generated from `main`. Browse inline or compare against PR branches.
 
+> [!WARNING]
+> 3 preview(s) failed to render in the latest update (3 retained from the prior baseline). See **Render Failures** below.
+
+## Render Failures
+
+The render task completed but no PNG was produced for these previews. Entries with a prior baseline keep their previous image; the rest are absent from the gallery until a successful render lands.
+
+| Preview | Module | Function | Source | Baseline |
+|---------|--------|----------|--------|----------|
+| `app/apptour__getting-started` | app | `getting-started` | `—` | retained |
+| `app/apptour__getting-started#1` | app | `getting-started` | `—` | retained |
+| `app/apptour__getting-started#2` | app | `getting-started` | `—` | retained |
+
 ## app
 
 | Preview | Image |
 |---------|-------|
 | `MainActivity` | <img src="https://raw.githubusercontent.com/yschimke/meshcore-mobile-out/compose-preview/main/renders/app/activity__MainActivity.png" width="150" /> |
-| `getting-started` | <img src="https://raw.githubusercontent.com/yschimke/meshcore-mobile-out/compose-preview/main/renders/app/apptour__getting-started_step00_launch.png" width="150" /> |
-| `getting-started` | <img src="https://raw.githubusercontent.com/yschimke/meshcore-mobile-out/compose-preview/main/renders/app/apptour__getting-started_step01_tcp_transport_tab.png" width="150" /> |
-| `getting-started` | <img src="https://raw.githubusercontent.com/yschimke/meshcore-mobile-out/compose-preview/main/renders/app/apptour__getting-started_step02_ble_transport_tab.png" width="150" /> |
 | `BleDeviceListEmptyPreview` | <img src="https://raw.githubusercontent.com/yschimke/meshcore-mobile-out/compose-preview/main/renders/app/BleDeviceListEmptyPreview_Dark-a4c375a6.png" width="150" /> |
 | `BleDeviceListEmptyPreview` | <img src="https://raw.githubusercontent.com/yschimke/meshcore-mobile-out/compose-preview/main/renders/app/BleDeviceListEmptyPreview_Light-30fc76d4.png" width="150" /> |
 | `BleDeviceListFewPreview` | <img src="https://raw.githubusercontent.com/yschimke/meshcore-mobile-out/compose-preview/main/renders/app/BleDeviceListFewPreview_Dark-9e4e798a.png" width="150" /> |
