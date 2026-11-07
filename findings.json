@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "annotatedBasename": "ConversationListDetailEmptyPreview_Foldable-d42a733e.a11y.png",
+      "cleanBasename": "ConversationListDetailEmptyPreview_Foldable-d42a733e.png",
+      "findings": [
+        {
+          "boundsInScreen": "84,231,398,297",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"node-peak\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "ConversationListDetailEmptyPreview",
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailEmptyPreview_Foldable",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ConversationListDetailPreviews.kt",
+      "variant": "spec:width=841dp,height=673dp,dpi=420"
+    },
+    {
+      "annotatedBasename": "ConversationListDetailOpenPreview_Foldable-19771cef.a11y.png",
+      "cleanBasename": "ConversationListDetailOpenPreview_Foldable-19771cef.png",
+      "findings": [
+        {
+          "boundsInScreen": "84,231,398,297",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"node-peak\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "ConversationListDetailOpenPreview",
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailOpenPreview_Foldable",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ConversationListDetailPreviews.kt",
+      "variant": "spec:width=841dp,height=673dp,dpi=420"
+    },
+    {
       "annotatedBasename": "DeviceBodyLoadingPreview_Dark-f7714218.a11y.png",
       "cleanBasename": "DeviceBodyLoadingPreview_Dark-f7714218.png",
       "findings": [
@@ -105,423 +143,6 @@
       "rendersDir": "app",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/DeviceScreenPreviews.kt",
       "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "PlayStorePhoneHomeDark_Play_Store_phone_home_dark-9958147e.a11y.png",
-      "cleanBasename": "PlayStorePhoneHomeDark_Play_Store_phone_home_dark-9958147e.png",
-      "findings": [
-        {
-          "boundsInScreen": "84,231,398,297",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"node-peak\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "PlayStorePhoneHomeDark",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStorePhoneHomeDark_Play Store \u2014 phone home (dark)",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/PlayStorePreviews.kt",
-      "variant": "pixel_2"
-    },
-    {
-      "annotatedBasename": "PlayStorePhoneHomeLight_Play_Store_phone_home_light-eb47fb01.a11y.png",
-      "cleanBasename": "PlayStorePhoneHomeLight_Play_Store_phone_home_light-eb47fb01.png",
-      "findings": [
-        {
-          "boundsInScreen": "84,231,398,297",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"node-peak\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "PlayStorePhoneHomeLight",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStorePhoneHomeLight_Play Store \u2014 phone home (light)",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/PlayStorePreviews.kt",
-      "variant": "pixel_2"
-    },
-    {
-      "annotatedBasename": "PlayStorePhoneScannerBle_Play_Store_phone_scanner_BLE-bc7e46ef.a11y.png",
-      "cleanBasename": "PlayStorePhoneScannerBle_Play_Store_phone_scanner_BLE-bc7e46ef.png",
-      "findings": [
-        {
-          "boundsInScreen": "722,584,1002,710",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connect\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "PlayStorePhoneScannerBle",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStorePhoneScannerBle_Play Store \u2014 phone scanner (BLE)",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/PlayStorePreviews.kt",
-      "variant": "pixel_2"
-    },
-    {
-      "annotatedBasename": "PlayStorePhoneScannerSaved_Play_Store_phone_scanner_saved-c210c87f.a11y.png",
-      "cleanBasename": "PlayStorePhoneScannerSaved_Play_Store_phone_scanner_saved-c210c87f.png",
-      "findings": [
-        {
-          "boundsInScreen": "722,426,1002,552",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connect\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "PlayStorePhoneScannerSaved",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStorePhoneScannerSaved_Play Store \u2014 phone scanner (saved)",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/PlayStorePreviews.kt",
-      "variant": "pixel_2"
-    },
-    {
-      "annotatedBasename": "PlayStoreTabletSevenHome_Play_Store_7_inch_tablet_home-d8faaa06.a11y.png",
-      "cleanBasename": "PlayStoreTabletSevenHome_Play_Store_7_inch_tablet_home-d8faaa06.png",
-      "findings": [
-        {
-          "boundsInScreen": "64,176,308,226",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"node-peak\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "PlayStoreTabletSevenHome",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStoreTabletSevenHome_Play Store \u2014 7-inch tablet home",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/PlayStorePreviews.kt",
-      "variant": "spec:width=600dp,height=960dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "PlayStoreTabletTenHome_Play_Store_10_inch_tablet_home-592833d5.a11y.png",
-      "cleanBasename": "PlayStoreTabletTenHome_Play_Store_10_inch_tablet_home-592833d5.png",
-      "findings": [
-        {
-          "boundsInScreen": "64,176,308,226",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"node-peak\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "PlayStoreTabletTenHome",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStoreTabletTenHome_Play Store \u2014 10-inch tablet home",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/PlayStorePreviews.kt",
-      "variant": "spec:width=800dp,height=1280dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "SavedDevicesEmptyPreview_Dark-a4eebfcb.a11y.png",
-      "cleanBasename": "SavedDevicesEmptyPreview_Dark-a4eebfcb.png",
-      "findings": [],
-      "functionName": "SavedDevicesEmptyPreview",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesEmptyPreview_Dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/SavedDevicesPanel.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "SavedDevicesPopulatedPreview_Dark-c63dce44.a11y.png",
-      "cleanBasename": "SavedDevicesPopulatedPreview_Dark-c63dce44.png",
-      "findings": [
-        {
-          "boundsInScreen": "571,279,696,405",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Favorite\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "169,493,530,546",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"192.168.1.10:5000\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "696,279,976,405",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connect\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "SavedDevicesPopulatedPreview",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesPopulatedPreview_Dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/SavedDevicesPanel.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "ScannerBleEmptyPreview_Dark-bda7eeb0.a11y.png",
-      "cleanBasename": "ScannerBleEmptyPreview_Dark-bda7eeb0.png",
-      "findings": [],
-      "functionName": "ScannerBleEmptyPreview",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleEmptyPreview_Dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "ScannerBleFewPreview_Dark-db8daf73.a11y.png",
-      "cleanBasename": "ScannerBleFewPreview_Dark-db8daf73.png",
-      "findings": [
-        {
-          "boundsInScreen": "722,584,1002,710",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connect\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "ScannerBleFewPreview",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleFewPreview_Dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "ScannerBleManyPreview_Dark-f10354b6.a11y.png",
-      "cleanBasename": "ScannerBleManyPreview_Dark-f10354b6.png",
-      "findings": [
-        {
-          "boundsInScreen": "722,584,1002,710",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connect\" is identical to that of 7 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "ScannerBleManyPreview",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleManyPreview_Dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "ScannerBlePermissionPreview_Dark-277358ee.a11y.png",
-      "cleanBasename": "ScannerBlePermissionPreview_Dark-277358ee.png",
-      "findings": [],
-      "functionName": "ScannerBlePermissionPreview",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBlePermissionPreview_Dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "ScannerSavedEmptyPreview_Dark-8b9d6f90.a11y.png",
-      "cleanBasename": "ScannerSavedEmptyPreview_Dark-8b9d6f90.png",
-      "findings": [],
-      "functionName": "ScannerSavedEmptyPreview",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedEmptyPreview_Dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "ScannerSavedPopulatedPreview_Dark-069a8143.a11y.png",
-      "cleanBasename": "ScannerSavedPopulatedPreview_Dark-069a8143.png",
-      "findings": [
-        {
-          "boundsInScreen": "169,640,530,693",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"192.168.1.10:5000\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "722,426,1002,552",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connect\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "ScannerSavedPopulatedPreview",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedPopulatedPreview_Dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "ScannerTcpPreview_Dark-da4f6831.a11y.png",
-      "cleanBasename": "ScannerTcpPreview_Dark-da4f6831.png",
-      "findings": [],
-      "functionName": "ScannerTcpPreview",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerTcpPreview_Dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "ScannerUsbEmptyPreview_Dark-52906539.a11y.png",
-      "cleanBasename": "ScannerUsbEmptyPreview_Dark-52906539.png",
-      "findings": [],
-      "functionName": "ScannerUsbEmptyPreview",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbEmptyPreview_Dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "ScannerUsbFewPreview_Dark-2d478b60.a11y.png",
-      "cleanBasename": "ScannerUsbFewPreview_Dark-2d478b60.png",
-      "findings": [
-        {
-          "boundsInScreen": "722,494,1002,620",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connect\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "ScannerUsbFewPreview",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbFewPreview_Dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "AppSettingsDeveloperPreview_Developer-bb63065e.a11y.png",
-      "cleanBasename": "AppSettingsDeveloperPreview_Developer-bb63065e.png",
-      "findings": [],
-      "functionName": "AppSettingsDeveloperPreview",
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.AppSettingsBodyPreviewsKt.AppSettingsDeveloperPreview_Developer",
-      "rendersDir": "meshcore-components",
-      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/AppSettingsBodyPreviews.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "AppSettingsPreview_Dark-6bd12b16.a11y.png",
-      "cleanBasename": "AppSettingsPreview_Dark-6bd12b16.png",
-      "findings": [],
-      "functionName": "AppSettingsPreview",
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.AppSettingsBodyPreviewsKt.AppSettingsPreview_Dark",
-      "rendersDir": "meshcore-components",
-      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/AppSettingsBodyPreviews.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "CachedDeviceBodyArabicPreview_Cached_device_Arabic-68448a40.a11y.png",
-      "cleanBasename": "CachedDeviceBodyArabicPreview_Cached_device_Arabic-68448a40.png",
-      "findings": [],
-      "functionName": "CachedDeviceBodyArabicPreview",
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.CachedDeviceBodyArabicPreview_Cached device \u2014 Arabic",
-      "rendersDir": "meshcore-components",
-      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "CachedDeviceBodyDarkPreview_Cached_device_dark-db126aa8.a11y.png",
-      "cleanBasename": "CachedDeviceBodyDarkPreview_Cached_device_dark-db126aa8.png",
-      "findings": [],
-      "functionName": "CachedDeviceBodyDarkPreview",
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.CachedDeviceBodyDarkPreview_Cached device \u2014 dark",
-      "rendersDir": "meshcore-components",
-      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "CachedDeviceBodyGermanPreview_Cached_device_German-ae67372e.a11y.png",
-      "cleanBasename": "CachedDeviceBodyGermanPreview_Cached_device_German-ae67372e.png",
-      "findings": [],
-      "functionName": "CachedDeviceBodyGermanPreview",
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.CachedDeviceBodyGermanPreview_Cached device \u2014 German",
-      "rendersDir": "meshcore-components",
-      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "CachedDeviceBodyJapanesePreview_Cached_device_Japanese-5357f1df.a11y.png",
-      "cleanBasename": "CachedDeviceBodyJapanesePreview_Cached_device_Japanese-5357f1df.png",
-      "findings": [],
-      "functionName": "CachedDeviceBodyJapanesePreview",
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.CachedDeviceBodyJapanesePreview_Cached device \u2014 Japanese",
-      "rendersDir": "meshcore-components",
-      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "CachedDeviceBodyPreview_Dark-21aacbde.a11y.png",
-      "cleanBasename": "CachedDeviceBodyPreview_Dark-21aacbde.png",
-      "findings": [],
-      "functionName": "CachedDeviceBodyPreview",
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.CachedDeviceBodyPreview_Dark",
-      "rendersDir": "meshcore-components",
-      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "DeviceBodyDarkPreview_Device_dark-8a9024dc.a11y.png",
-      "cleanBasename": "DeviceBodyDarkPreview_Device_dark-8a9024dc.png",
-      "findings": [],
-      "functionName": "DeviceBodyDarkPreview",
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.DeviceBodyDarkPreview_Device \u2014 dark",
-      "rendersDir": "meshcore-components",
-      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "DeviceBodyPreview_Dark-15ee7343.a11y.png",
-      "cleanBasename": "DeviceBodyPreview_Dark-15ee7343.png",
-      "findings": [],
-      "functionName": "DeviceBodyPreview",
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.DeviceBodyPreviewsKt.DeviceBodyPreview_Dark",
-      "rendersDir": "meshcore-components",
-      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "MeshcoreListDetailEmptyPreview_List_detail_empty-85e06f23.a11y.png",
-      "cleanBasename": "MeshcoreListDetailEmptyPreview_List_detail_empty-85e06f23.png",
-      "findings": [],
-      "functionName": "MeshcoreListDetailEmptyPreview",
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.MeshcoreListDetailPreviewsKt.MeshcoreListDetailEmptyPreview_List-detail \u2014 empty",
-      "rendersDir": "meshcore-components",
-      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/MeshcoreListDetailPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "MeshcoreListDetailOpenPreview_List_detail_open-cfdc422a.a11y.png",
-      "cleanBasename": "MeshcoreListDetailOpenPreview_List_detail_open-cfdc422a.png",
-      "findings": [],
-      "functionName": "MeshcoreListDetailOpenPreview",
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.MeshcoreListDetailPreviewsKt.MeshcoreListDetailOpenPreview_List-detail \u2014 open",
-      "rendersDir": "meshcore-components",
-      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/MeshcoreListDetailPreviews.kt",
-      "variant": ""
     }
   ],
   "scope": "changed-previews",
@@ -672,6 +293,118 @@
     },
     {
       "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStorePhoneHomeDark_Play Store \u2014 phone home (dark)"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStorePhoneHomeLight_Play Store \u2014 phone home (light)"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStorePhoneScannerBle_Play Store \u2014 phone scanner (BLE)"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStorePhoneScannerSaved_Play Store \u2014 phone scanner (saved)"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStoreTabletSevenHome_Play Store \u2014 7-inch tablet home"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStoreTabletTenHome_Play Store \u2014 10-inch tablet home"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesEmptyPreview_Dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesEmptyPreview_Light"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesPopulatedPreview_Dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesPopulatedPreview_Light"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleEmptyPreview_Dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleEmptyPreview_Light"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleFewPreview_Dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleFewPreview_Light"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleManyPreview_Dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleManyPreview_Light"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBlePermissionPreview_Dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBlePermissionPreview_Light"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedEmptyPreview_Dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedEmptyPreview_Light"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedPopulatedPreview_Dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedPopulatedPreview_Light"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerTcpPreview_Dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerTcpPreview_Light"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbEmptyPreview_Dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbEmptyPreview_Light"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbFewPreview_Dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbFewPreview_Light"
+    },
+    {
+      "module": "app",
       "previewId": "ee.schimke.meshcore.app.ui.ThemeFoundationPreviewsKt.ThemeFoundationMaterial3DarkPreview_Foundation \u2014 Material 3 dark"
     },
     {
@@ -697,78 +430,6 @@
     {
       "module": "app",
       "previewId": "ee.schimke.meshcore.app.widget.WidgetPreviewsKt.DeviceInfoWidgetStalePreview_DeviceInfo \u2014 stale"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ChannelChatArabicPreview_Channel chat \u2014 Arabic"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ChannelChatDarkPreview_Channel chat \u2014 dark"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ChannelChatPreview_Dark"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ChannelChatPreview_Light"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.CommandsArabicPreview_Commands \u2014 Arabic"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.CommandsDarkPreview_Commands \u2014 dark"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.CommandsPreview_Dark"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.CommandsPreview_Light"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ContactChatArabicPreview_Contact chat \u2014 Arabic"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ContactChatDarkPreview_Contact chat \u2014 dark"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ContactChatPreview_Dark"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.ChatBodyPreviewsKt.ContactChatPreview_Light"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsArabicPreview_Device settings \u2014 Arabic"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsDarkPreview_Device settings \u2014 dark"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsGermanPreview_Device settings \u2014 German"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsJapanesePreview_Device settings \u2014 Japanese"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsPreview_Dark"
-    },
-    {
-      "module": "meshcore-components",
-      "previewId": "ee.schimke.meshcore.components.ui.DeviceSettingsBodyPreviewsKt.DeviceSettingsPreview_Light"
     }
   ]
 }
