@@ -303,6 +303,46 @@
     "sha256": "7b4fad95625caa8690625bedf0fae2753c4c7c9df3d1c30c2c8b161837f257e0",
     "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ComponentPreviews.kt"
   },
+  "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailEmptyPreview_Foldable": {
+    "captureLabel": "",
+    "functionName": "ConversationListDetailEmptyPreview",
+    "module": "app",
+    "renderBasename": "ConversationListDetailEmptyPreview_Foldable-d42a733e.png",
+    "sha256": "56f8e64dd5a889a1841c37073eee75ab2fcd70de607d6016777427ac57c39f2b",
+    "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ConversationListDetailPreviews.kt"
+  },
+  "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailEmptyPreview_Tablet": {
+    "captureLabel": "",
+    "functionName": "ConversationListDetailEmptyPreview",
+    "module": "app",
+    "renderBasename": "ConversationListDetailEmptyPreview_Tablet-d3af09aa.png",
+    "sha256": "b08872bd183cbb09f98b65f91ec53b1da81b9664b098a72c32a3191c44c961c6",
+    "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ConversationListDetailPreviews.kt"
+  },
+  "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailOpenPreview_Foldable": {
+    "captureLabel": "",
+    "functionName": "ConversationListDetailOpenPreview",
+    "module": "app",
+    "renderBasename": "ConversationListDetailOpenPreview_Foldable-19771cef.png",
+    "sha256": "cdcc867faa66c956d08e5f7fc617f31335ebe7f7134f228a68cb9153c091775c",
+    "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ConversationListDetailPreviews.kt"
+  },
+  "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailOpenPreview_Tablet": {
+    "captureLabel": "",
+    "functionName": "ConversationListDetailOpenPreview",
+    "module": "app",
+    "renderBasename": "ConversationListDetailOpenPreview_Tablet-b548f788.png",
+    "sha256": "dfd02ea89f05a16dee9d1c934d7ed1f4f4f7a13dc14b5344a24d8cf237f8d6a2",
+    "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ConversationListDetailPreviews.kt"
+  },
+  "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailOpenPreview_Tablet, dark": {
+    "captureLabel": "",
+    "functionName": "ConversationListDetailOpenPreview",
+    "module": "app",
+    "renderBasename": "ConversationListDetailOpenPreview_Tablet_dark-1e4cc80f.png",
+    "sha256": "0bbca52ddb9b188b235489aa335d82c5b4c7f6efa791125a393734babab059c1",
+    "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ConversationListDetailPreviews.kt"
+  },
   "app/ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLoadingPreview_Dark": {
     "captureLabel": "",
     "functionName": "DeviceBodyLoadingPreview",
