@@ -1,6 +1,6 @@
 {
     "formatVersion": "compose-preview-history/v1",
-    "generatedFrom": "514a1f51579722608bdbd5abf2bba46b5fe85244",
+    "generatedFrom": "032bf3cb53b2979269c7b75dd0a0991c11e3381b",
     "previews": {
         "app/activity__MainActivity": {
             "path": "renders/app/activity__MainActivity.png",
@@ -719,6 +719,81 @@
                     "commit": "64d54e18d7dd963e7774c186ee06cee28c542047",
                     "date": "2026-10-13T06:11:16Z",
                     "sourceSha": "f23d44ba",
+                    "commits": 1
+                }
+            ],
+            "observations": 1,
+            "unstable": false,
+            "flapCount": 0
+        },
+        "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailEmptyPreview_Foldable": {
+            "path": "renders/app/ConversationListDetailEmptyPreview_Foldable-d42a733e.png",
+            "versions": [
+                {
+                    "blob": "49e0bb36428fed531f7f2a16e6689d422b0ddc44",
+                    "commit": "032bf3cb53b2979269c7b75dd0a0991c11e3381b",
+                    "date": "2026-11-07T15:32:38Z",
+                    "sourceSha": "d95dd215",
+                    "commits": 1
+                }
+            ],
+            "observations": 1,
+            "unstable": false,
+            "flapCount": 0
+        },
+        "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailEmptyPreview_Tablet": {
+            "path": "renders/app/ConversationListDetailEmptyPreview_Tablet-d3af09aa.png",
+            "versions": [
+                {
+                    "blob": "b9b15b77302a9dd602107723ce4f5ca35fca075b",
+                    "commit": "032bf3cb53b2979269c7b75dd0a0991c11e3381b",
+                    "date": "2026-11-07T15:32:38Z",
+                    "sourceSha": "d95dd215",
+                    "commits": 1
+                }
+            ],
+            "observations": 1,
+            "unstable": false,
+            "flapCount": 0
+        },
+        "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailOpenPreview_Foldable": {
+            "path": "renders/app/ConversationListDetailOpenPreview_Foldable-19771cef.png",
+            "versions": [
+                {
+                    "blob": "ffd083bdf346f62a065368b7e4d07a1693f45073",
+                    "commit": "032bf3cb53b2979269c7b75dd0a0991c11e3381b",
+                    "date": "2026-11-07T15:32:38Z",
+                    "sourceSha": "d95dd215",
+                    "commits": 1
+                }
+            ],
+            "observations": 1,
+            "unstable": false,
+            "flapCount": 0
+        },
+        "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailOpenPreview_Tablet": {
+            "path": "renders/app/ConversationListDetailOpenPreview_Tablet-b548f788.png",
+            "versions": [
+                {
+                    "blob": "2b268827d2c9dc085efb482e6b0ce17ff05dcde4",
+                    "commit": "032bf3cb53b2979269c7b75dd0a0991c11e3381b",
+                    "date": "2026-11-07T15:32:38Z",
+                    "sourceSha": "d95dd215",
+                    "commits": 1
+                }
+            ],
+            "observations": 1,
+            "unstable": false,
+            "flapCount": 0
+        },
+        "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailOpenPreview_Tablet, dark": {
+            "path": "renders/app/ConversationListDetailOpenPreview_Tablet_dark-1e4cc80f.png",
+            "versions": [
+                {
+                    "blob": "ae1c9ddfd2a023962b5e7a96171b540120ecbea3",
+                    "commit": "032bf3cb53b2979269c7b75dd0a0991c11e3381b",
+                    "date": "2026-11-07T15:32:38Z",
+                    "sourceSha": "d95dd215",
                     "commits": 1
                 }
             ],
