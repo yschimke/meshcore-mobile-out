@@ -1,7 +1,45 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-06T23:48:47.044Z",
+  "generatedAt": "2026-11-07T01:28:24.483Z",
   "windowDays": 30,
+  "code": {
+    "repo": "yschimke/meshcore-mobile",
+    "ref": "main",
+    "events": [
+      {
+        "sha": "0d27445eaab27058e4284450076f3356841a9afe",
+        "subject": "chore(deps): update agp to v9.5.0 (#619)",
+        "at": "2026-11-07T00:57:33Z",
+        "author": "renovate[bot]",
+        "previewIds": [
+          "saveddevices-populated__ideal__default__light",
+          "saveddevices-empty__ideal__default__light",
+          "scanner-savedempty__ideal__default__light__compact",
+          "scanner-savedpopulated__ideal__default__light__compact",
+          "scanner-blepermission__ideal__default__light__compact",
+          "scanner-bleempty__ideal__default__light__compact",
+          "scanner-blefew__ideal__default__light__compact",
+          "scanner-blemany__ideal__default__light__compact",
+          "scanner-usbempty__ideal__default__light__compact",
+          "scanner-usbfew__ideal__default__light__compact",
+          "scanner-tcp__ideal__default__light__compact"
+        ],
+        "components": [
+          "SavedDevices/Populated",
+          "SavedDevices/Empty",
+          "Scanner/SavedEmpty",
+          "Scanner/SavedPopulated",
+          "Scanner/BlePermission",
+          "Scanner/BleEmpty",
+          "Scanner/BleFew",
+          "Scanner/BleMany",
+          "Scanner/UsbEmpty",
+          "Scanner/UsbFew",
+          "Scanner/Tcp"
+        ]
+      }
+    ]
+  },
   "gaps": [
     {
       "kind": "dangling-mapping",
