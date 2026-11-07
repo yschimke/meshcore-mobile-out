@@ -16,12 +16,8 @@
   <g id="material-icon-materialiconsround-cable">
     <path d="M20 5 V4 c 0 -0.55 -0.45 -1 -1 -1 h-2 c -0.55 0 -1 0.45 -1 1 v1 h0 c -0.55 0 -1 0.45 -1 1 v3 c 0 0.55 0.45 1 1 1 h1 l0 6.91 c 0 1.04 -0.76 1.98 -1.79 2.08 C 14.01 19.11 13 18.17 13 17 l0 -9.86 c 0 -2.13 -1.61 -3.99 -3.74 -4.13 C 6.93 2.86 5 4.7 5 7 v7 H4 c -0.55 0 -1 0.45 -1 1 v3 c 0 0.55 0.45 1 1 1 h0 v1 c 0 0.55 0.45 1 1 1 h2 c 0.55 0 1 -0.45 1 -1 v-1 h0 c 0.55 0 1 -0.45 1 -1 v-3 c 0 -0.55 -0.45 -1 -1 -1 H7 l0 -6.91 c 0 -1.04 0.76 -1.98 1.79 -2.08 C 9.99 4.89 11 5.83 11 7 l0 9.86 c 0 2.13 1.61 3.99 3.74 4.13 C 17.07 21.14 19 19.3 19 17 v-7 h1 c 0.55 0 1 -0.45 1 -1 V6 C 21 5.45 20.55 5 20 5 L20 5 Z" fill="#006A60"/>
   </g>
-  <g id="material-icon-materialiconsround-policy">
-    <path d="M21 6.3 c 0 -0.79 -0.47 -1.51 -1.19 -1.83 l-7 -3.11 c -0.52 -0.23 -1.11 -0.23 -1.62 0 l-7 3.11 C 3.47 4.79 3 5.51 3 6.3 V11 c 0 5.55 3.84 10.74 9 12 c 2.3 -0.56 4.33 -1.9 5.88 -3.71 l-3.12 -3.12 c -1.94 1.29 -4.58 1.07 -6.29 -0.64 c -1.95 -1.95 -1.95 -5.12 0 -7.07 c 1.95 -1.95 5.12 -1.95 7.07 0 c 1.71 1.71 1.92 4.35 0.64 6.29 l2.9 2.9 C 20.29 15.69 21 13.38 21 11 V6.3 Z" fill="#3F4946"/>
-    <path d="M12 12 m-3 0 a 3 3 0 1 1 6 0 a 3 3 0 1 1 -6 0" fill="#3F4946"/>
-  </g>
-  <g id="material-icon-materialiconsround-contrast">
-    <path d="M12 22 c 5.52 0 10 -4.48 10 -10 S 17.52 2 12 2 S 2 6.48 2 12 S 6.48 22 12 22 Z M13 4.07 c 3.94 0.49 7 3.85 7 7.93 s -3.05 7.44 -7 7.93 V4.07 Z" fill="#3F4946"/>
+  <g id="material-icon-materialiconsround-settings">
+    <path d="M19.5 12 c 0 -0.23 -0.01 -0.45 -0.03 -0.68 l1.86 -1.41 c 0.4 -0.3 0.51 -0.86 0.26 -1.3 l-1.87 -3.23 c -0.25 -0.44 -0.79 -0.62 -1.25 -0.42 l-2.15 0.91 c -0.37 -0.26 -0.76 -0.49 -1.17 -0.68 l-0.29 -2.31 C 14.8 2.38 14.37 2 13.87 2 h-3.73 C 9.63 2 9.2 2.38 9.14 2.88 L8.85 5.19 c -0.41 0.19 -0.8 0.42 -1.17 0.68 L5.53 4.96 c -0.46 -0.2 -1 -0.02 -1.25 0.42 L2.41 8.62 c -0.25 0.44 -0.14 0.99 0.26 1.3 l1.86 1.41 C 4.51 11.55 4.5 11.77 4.5 12 s 0.01 0.45 0.03 0.68 l-1.86 1.41 c -0.4 0.3 -0.51 0.86 -0.26 1.3 l1.87 3.23 c 0.25 0.44 0.79 0.62 1.25 0.42 l2.15 -0.91 c 0.37 0.26 0.76 0.49 1.17 0.68 l0.29 2.31 C 9.2 21.62 9.63 22 10.13 22 h3.73 c 0.5 0 0.93 -0.38 0.99 -0.88 l0.29 -2.31 c 0.41 -0.19 0.8 -0.42 1.17 -0.68 l2.15 0.91 c 0.46 0.2 1 0.02 1.25 -0.42 l1.87 -3.23 c 0.25 -0.44 0.14 -0.99 -0.26 -1.3 l-1.86 -1.41 C 19.49 12.45 19.5 12.23 19.5 12 Z M12.04 15.5 c -1.93 0 -3.5 -1.57 -3.5 -3.5 s 1.57 -3.5 3.5 -3.5 s 3.5 1.57 3.5 3.5 S 13.97 15.5 12.04 15.5 Z" fill="#3F4946"/>
   </g>
 </defs>
 <g transform="translate(0, 0)">
@@ -128,26 +124,17 @@
           </g>
         </g>
         <g id="Box">
-          <image href="scanner-usbfew.figma-raster/578.png" x="0" y="0" width="1076" height="168"/>
+          <image href="scanner-usbfew.figma-raster/516.png" x="0" y="0" width="1076" height="168"/>
           <g id="TopAppBar">
             <g id="Box">
             </g>
             <g id="Empty">
               <text x="43" y="107.29" font-size="57.75" font-family="Orbitron" font-weight="500" letter-spacing="1.31" fill="#161D1B">MeshCore</text>
             </g>
-            <g id="Row">
-              <g id="Box">
-                <g id="BoxKt" data-material-icon="policy" data-material-icon-style="Rounded" data-material-icon-url="https://fonts.gstatic.com/s/i/materialiconsround/policy/v1/24px.svg">
-                  <g transform="translate(845 53) scale(2.62 2.62)">
-                    <use href="#material-icon-materialiconsround-policy" xlink:href="#material-icon-materialiconsround-policy"/>
-                  </g>
-                </g>
-              </g>
-              <g id="Box">
-                <g id="BoxKt" data-material-icon="contrast" data-material-icon-style="Rounded" data-material-icon-url="https://fonts.gstatic.com/s/i/materialiconsround/contrast/v1/24px.svg">
-                  <g transform="translate(971 53) scale(2.62 2.62)">
-                    <use href="#material-icon-materialiconsround-contrast" xlink:href="#material-icon-materialiconsround-contrast"/>
-                  </g>
+            <g id="Box">
+              <g id="BoxKt" data-material-icon="settings" data-material-icon-style="Rounded" data-material-icon-url="https://fonts.gstatic.com/s/i/materialiconsround/settings/v1/24px.svg">
+                <g transform="translate(971 53) scale(2.62 2.62)">
+                  <use href="#material-icon-materialiconsround-settings" xlink:href="#material-icon-materialiconsround-settings"/>
                 </g>
               </g>
             </g>

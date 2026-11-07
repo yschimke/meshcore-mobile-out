@@ -6500,7 +6500,7 @@
         "kind": "layout",
         "bounds": {
           "x": 0,
-          "y": 52,
+          "y": 15,
           "width": 1050,
           "height": 641
         },
@@ -6516,7 +6516,7 @@
         "kind": "layout",
         "bounds": {
           "x": 138,
-          "y": 137,
+          "y": 100,
           "width": 352,
           "height": 87
         },
@@ -6532,7 +6532,7 @@
         "kind": "layout",
         "bounds": {
           "x": 138,
-          "y": 361,
+          "y": 324,
           "width": 141,
           "height": 87
         },
@@ -6548,7 +6548,7 @@
         "kind": "typography",
         "bounds": {
           "x": 138,
-          "y": 85,
+          "y": 48,
           "width": 243,
           "height": 55
         },
@@ -6567,7 +6567,7 @@
         "kind": "typography",
         "bounds": {
           "x": 138,
-          "y": 137,
+          "y": 100,
           "width": 352,
           "height": 41
         },
@@ -6586,7 +6586,7 @@
         "kind": "typography",
         "bounds": {
           "x": 138,
-          "y": 182,
+          "y": 145,
           "width": 141,
           "height": 41
         },
@@ -6605,7 +6605,7 @@
         "kind": "typography",
         "bounds": {
           "x": 855,
-          "y": 127,
+          "y": 90,
           "width": 99,
           "height": 48
         },
@@ -6624,7 +6624,7 @@
         "kind": "typography",
         "bounds": {
           "x": 138,
-          "y": 309,
+          "y": 272,
           "width": 287,
           "height": 55
         },
@@ -6643,7 +6643,7 @@
         "kind": "typography",
         "bounds": {
           "x": 138,
-          "y": 361,
+          "y": 324,
           "width": 140,
           "height": 41
         },
@@ -6662,7 +6662,7 @@
         "kind": "typography",
         "bounds": {
           "x": 138,
-          "y": 406,
+          "y": 369,
           "width": 141,
           "height": 41
         },
@@ -6681,7 +6681,7 @@
         "kind": "typography",
         "bounds": {
           "x": 792,
-          "y": 351,
+          "y": 314,
           "width": 167,
           "height": 48
         },
@@ -6700,7 +6700,7 @@
         "kind": "typography",
         "bounds": {
           "x": 138,
-          "y": 552,
+          "y": 515,
           "width": 403,
           "height": 55
         },
@@ -6719,7 +6719,7 @@
         "kind": "typography",
         "bounds": {
           "x": 138,
-          "y": 606,
+          "y": 569,
           "width": 282,
           "height": 41
         },
@@ -6738,7 +6738,7 @@
         "kind": "typography",
         "bounds": {
           "x": 792,
-          "y": 570,
+          "y": 533,
           "width": 167,
           "height": 48
         },

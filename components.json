@@ -3842,12 +3842,12 @@
                 },
                 {
                     "name": "onViewCached",
-                    "type": "(SavedDevice) -> Unit",
+                    "type": "((SavedDevice) -> Unit)?",
                     "typeFqn": "kotlin.Function1",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
-                    "nullable": false,
+                    "nullable": true,
                     "noArgConstructible": false,
                     "noArgFactory": null,
                     "scopeDslReceiver": null,
@@ -3903,7 +3903,7 @@
                 "name": "ScannerBody",
                 "origin": "PROJECT",
                 "jvmName": "ScannerBody",
-                "descriptor": "(Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;ILandroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function0;ZILandroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -3975,7 +3975,7 @@
                     "lambdaReturnTypeFqn": null
                 },
                 {
-                    "name": "onOpenThemePicker",
+                    "name": "onOpenSettings",
                     "type": "() -> Unit",
                     "typeFqn": "kotlin.Function0",
                     "hasDefault": true,
@@ -3988,9 +3988,9 @@
                     "lambdaReturnTypeFqn": "kotlin.Unit"
                 },
                 {
-                    "name": "onOpenLicenses",
-                    "type": "() -> Unit",
-                    "typeFqn": "kotlin.Function0",
+                    "name": "developerMode",
+                    "type": "Boolean",
+                    "typeFqn": "kotlin.Boolean",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3998,7 +3998,7 @@
                     "noArgConstructible": false,
                     "noArgFactory": null,
                     "scopeDslReceiver": null,
-                    "lambdaReturnTypeFqn": "kotlin.Unit"
+                    "lambdaReturnTypeFqn": null
                 },
                 {
                     "name": "initialTab",

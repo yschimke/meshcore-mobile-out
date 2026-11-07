@@ -39,10 +39,10 @@ customising the live render are two ends of one workflow.
 | | |
 | --- | --- |
 | Components | **88** |
-| Rendered images (PNG) | **147** |
-| Editable wireframes (SVG) | **82** |
+| Rendered images (PNG) | **149** |
+| Editable wireframes (SVG) | **84** |
 | Editable design vectors (figma-svg) | **84** |
-| Components with a11y greenlines | **49** |
+| Components with a11y greenlines | **53** |
 | Library | `androidx.compose.material3:material3`<br>`ee.schimke.meshcore:meshcore-components (MeshcoreTheme)` |
 | Renderer | compose-preview 2.86.0 |
 | Schema | `design-parity-catalog/v1` |
@@ -52,19 +52,19 @@ customising the live render are two ends of one workflow.
 
 | Group | Count |
 | --- | ---: |
-| Previews | 29 |
+| Previews | 31 |
 | Devices - Large Round | 10 |
 | Scanner | 9 |
 | Device screen | 8 |
 | Contacts | 7 |
 | Foundation | 4 |
-| MeshCore | 4 |
 | Device | 3 |
 | Bluetooth | 3 |
 | Chat | 3 |
 | Connection | 2 |
 | Permissions | 2 |
 | Saved devices | 2 |
+| MeshCore | 2 |
 | Settings | 1 |
 | Wear | 1 |
 

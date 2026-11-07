@@ -1,11 +1,47 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-07T15:05:15.454Z",
+  "generatedAt": "2026-11-07T15:49:13.668Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/meshcore-mobile",
     "ref": "main",
     "events": [
+      {
+        "sha": "cbc778c70b6c64a9ec2a96d78884f406acc89de9",
+        "subject": "refactor: simplify theming, settings and developer-only tools (#691)",
+        "at": "2026-11-07T14:38:32Z",
+        "author": "Yuri Schimke",
+        "previewIds": [
+          "saveddevices-populated__ideal__default__light",
+          "saveddevices-empty__ideal__default__light",
+          "scanner-savedempty__ideal__default__light__compact",
+          "scanner-savedpopulated__ideal__default__light__compact",
+          "scanner-blepermission__ideal__default__light__compact",
+          "scanner-bleempty__ideal__default__light__compact",
+          "scanner-blefew__ideal__default__light__compact",
+          "scanner-blemany__ideal__default__light__compact",
+          "scanner-usbempty__ideal__default__light__compact",
+          "scanner-usbfew__ideal__default__light__compact",
+          "scanner-tcp__ideal__default__light__compact"
+        ],
+        "components": [
+          "SavedDevices/Populated",
+          "SavedDevices/Empty",
+          "Scanner/SavedEmpty",
+          "Scanner/SavedPopulated",
+          "Scanner/BlePermission",
+          "Scanner/BleEmpty",
+          "Scanner/BleFew",
+          "Scanner/BleMany",
+          "Scanner/UsbEmpty",
+          "Scanner/UsbFew",
+          "Scanner/Tcp",
+          "DeviceBodyPreview",
+          "DeviceBodyDarkPreview",
+          "CachedDeviceBodyPreview",
+          "CachedDeviceBodyDarkPreview"
+        ]
+      },
       {
         "sha": "0d27445eaab27058e4284450076f3356841a9afe",
         "subject": "chore(deps): update agp to v9.5.0 (#619)",

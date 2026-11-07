@@ -2243,34 +2243,14 @@
             "bounds": {
               "x": 0,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 0,
             "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 269,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 269,
-            "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
           }
         },
@@ -2283,55 +2263,15 @@
             "bounds": {
               "x": 538,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 538,
             "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 807,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 807,
-            "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 824,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
           }
         },
         {
@@ -2358,7 +2298,7 @@
       "redlines": [
         {
           "bounds": {
-            "x": 79,
+            "x": 213,
             "y": 349,
             "width": 111,
             "height": 8
@@ -2381,16 +2321,6 @@
         },
         {
           "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 950,
             "y": 32,
             "width": 105,
@@ -2406,7 +2336,7 @@
       "wireframe": "wireframes/scanner-savedempty.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 380,
+      "bodyLine": 384,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerSavedEmptyPreview",
       "parameters": [
@@ -2436,13 +2366,13 @@
           "hasDefault": true
         },
         {
-          "name": "onOpenThemePicker",
+          "name": "onOpenSettings",
           "type": "() -> Unit",
           "hasDefault": true
         },
         {
-          "name": "onOpenLicenses",
-          "type": "() -> Unit",
+          "name": "developerMode",
+          "type": "Boolean",
           "hasDefault": true
         },
         {
@@ -2503,34 +2433,14 @@
             "bounds": {
               "x": 0,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 0,
             "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 269,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 269,
-            "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
           }
         },
@@ -2543,55 +2453,15 @@
             "bounds": {
               "x": 538,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 538,
             "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 807,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 807,
-            "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 481,
-              "y": 473,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 481,
-            "y": 473,
-            "width": 105,
-            "height": 105
           }
         },
         {
@@ -2602,14 +2472,14 @@
             "role": "button",
             "bounds": {
               "x": 607,
-              "y": 473,
+              "y": 436,
               "width": 105,
               "height": 105
             }
           },
           "bounds": {
             "x": 607,
-            "y": 473,
+            "y": 436,
             "width": 105,
             "height": 105
           }
@@ -2622,14 +2492,14 @@
             "role": "button",
             "bounds": {
               "x": 722,
-              "y": 473,
+              "y": 436,
               "width": 280,
               "height": 105
             }
           },
           "bounds": {
             "x": 722,
-            "y": 473,
+            "y": 436,
             "width": 280,
             "height": 105
           }
@@ -2642,14 +2512,14 @@
             "role": "button",
             "bounds": {
               "x": 607,
-              "y": 709,
+              "y": 635,
               "width": 105,
               "height": 105
             }
           },
           "bounds": {
             "x": 607,
-            "y": 709,
+            "y": 635,
             "width": 105,
             "height": 105
           }
@@ -2662,35 +2532,15 @@
             "role": "button",
             "bounds": {
               "x": 722,
-              "y": 709,
+              "y": 635,
               "width": 280,
               "height": 105
             }
           },
           "bounds": {
             "x": 722,
-            "y": 709,
+            "y": 635,
             "width": 280,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 824,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
             "height": 105
           }
         },
@@ -2718,7 +2568,7 @@
       "redlines": [
         {
           "bounds": {
-            "x": 79,
+            "x": 213,
             "y": 349,
             "width": 111,
             "height": 8
@@ -2730,7 +2580,7 @@
             "x": 95,
             "y": 399,
             "width": 886,
-            "height": 252
+            "height": 178
           },
           "padding": {
             "start": 20,
@@ -2745,24 +2595,14 @@
             "x": 42,
             "y": 399,
             "width": 992,
-            "height": 252
+            "height": 178
           },
           "cornerRadius": 12
         },
         {
           "bounds": {
-            "x": 481,
-            "y": 473,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 607,
-            "y": 473,
+            "y": 436,
             "width": 105,
             "height": 105
           },
@@ -2772,7 +2612,7 @@
         {
           "bounds": {
             "x": 722,
-            "y": 473,
+            "y": 436,
             "width": 280,
             "height": 105
           },
@@ -2782,7 +2622,7 @@
         {
           "bounds": {
             "x": 95,
-            "y": 672,
+            "y": 598,
             "width": 886,
             "height": 178
           },
@@ -2797,7 +2637,7 @@
         {
           "bounds": {
             "x": 42,
-            "y": 672,
+            "y": 598,
             "width": 992,
             "height": 178
           },
@@ -2806,7 +2646,7 @@
         {
           "bounds": {
             "x": 607,
-            "y": 709,
+            "y": 635,
             "width": 105,
             "height": 105
           },
@@ -2816,7 +2656,7 @@
         {
           "bounds": {
             "x": 722,
-            "y": 709,
+            "y": 635,
             "width": 280,
             "height": 105
           },
@@ -2839,16 +2679,6 @@
         },
         {
           "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 950,
             "y": 32,
             "width": 105,
@@ -2864,7 +2694,7 @@
       "wireframe": "wireframes/scanner-savedpopulated.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 401,
+      "bodyLine": 405,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerSavedPopulatedPreview",
       "parameters": [
@@ -2894,13 +2724,13 @@
           "hasDefault": true
         },
         {
-          "name": "onOpenThemePicker",
+          "name": "onOpenSettings",
           "type": "() -> Unit",
           "hasDefault": true
         },
         {
-          "name": "onOpenLicenses",
-          "type": "() -> Unit",
+          "name": "developerMode",
+          "type": "Boolean",
           "hasDefault": true
         },
         {
@@ -2961,34 +2791,14 @@
             "bounds": {
               "x": 0,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 0,
             "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 269,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 269,
-            "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
           }
         },
@@ -3001,34 +2811,14 @@
             "bounds": {
               "x": 538,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 538,
             "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 807,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 807,
-            "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
           }
         },
@@ -3059,26 +2849,6 @@
           "detail": {
             "role": "button",
             "bounds": {
-              "x": 824,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
               "x": 950,
               "y": 32,
               "width": 105,
@@ -3096,7 +2866,7 @@
       "redlines": [
         {
           "bounds": {
-            "x": 369,
+            "x": 773,
             "y": 349,
             "width": 68,
             "height": 8
@@ -3138,16 +2908,6 @@
         },
         {
           "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 950,
             "y": 32,
             "width": 105,
@@ -3163,7 +2923,7 @@
       "wireframe": "wireframes/scanner-blepermission.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 424,
+      "bodyLine": 428,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerBlePermissionPreview",
       "parameters": [
@@ -3193,13 +2953,13 @@
           "hasDefault": true
         },
         {
-          "name": "onOpenThemePicker",
+          "name": "onOpenSettings",
           "type": "() -> Unit",
           "hasDefault": true
         },
         {
-          "name": "onOpenLicenses",
-          "type": "() -> Unit",
+          "name": "developerMode",
+          "type": "Boolean",
           "hasDefault": true
         },
         {
@@ -3260,34 +3020,14 @@
             "bounds": {
               "x": 0,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 0,
             "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 269,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 269,
-            "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
           }
         },
@@ -3300,34 +3040,14 @@
             "bounds": {
               "x": 538,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 538,
             "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 807,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 807,
-            "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
           }
         },
@@ -3358,26 +3078,6 @@
           "detail": {
             "role": "button",
             "bounds": {
-              "x": 824,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
               "x": 950,
               "y": 32,
               "width": 105,
@@ -3395,7 +3095,7 @@
       "redlines": [
         {
           "bounds": {
-            "x": 369,
+            "x": 773,
             "y": 349,
             "width": 68,
             "height": 8
@@ -3437,16 +3137,6 @@
         },
         {
           "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 950,
             "y": 32,
             "width": 105,
@@ -3462,7 +3152,7 @@
       "wireframe": "wireframes/scanner-bleempty.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 445,
+      "bodyLine": 449,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerBleEmptyPreview",
       "parameters": [
@@ -3492,13 +3182,13 @@
           "hasDefault": true
         },
         {
-          "name": "onOpenThemePicker",
+          "name": "onOpenSettings",
           "type": "() -> Unit",
           "hasDefault": true
         },
         {
-          "name": "onOpenLicenses",
-          "type": "() -> Unit",
+          "name": "developerMode",
+          "type": "Boolean",
           "hasDefault": true
         },
         {
@@ -3559,34 +3249,14 @@
             "bounds": {
               "x": 0,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 0,
             "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 269,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 269,
-            "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
           }
         },
@@ -3599,34 +3269,14 @@
             "bounds": {
               "x": 538,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 538,
             "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 807,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 807,
-            "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
           }
         },
@@ -3697,26 +3347,6 @@
           "detail": {
             "role": "button",
             "bounds": {
-              "x": 824,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
               "x": 950,
               "y": 32,
               "width": 105,
@@ -3734,7 +3364,7 @@
       "redlines": [
         {
           "bounds": {
-            "x": 369,
+            "x": 773,
             "y": 349,
             "width": 68,
             "height": 8
@@ -3814,16 +3444,6 @@
         },
         {
           "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 950,
             "y": 32,
             "width": 105,
@@ -3839,7 +3459,7 @@
       "wireframe": "wireframes/scanner-blefew.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 466,
+      "bodyLine": 470,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerBleFewPreview",
       "parameters": [
@@ -3869,13 +3489,13 @@
           "hasDefault": true
         },
         {
-          "name": "onOpenThemePicker",
+          "name": "onOpenSettings",
           "type": "() -> Unit",
           "hasDefault": true
         },
         {
-          "name": "onOpenLicenses",
-          "type": "() -> Unit",
+          "name": "developerMode",
+          "type": "Boolean",
           "hasDefault": true
         },
         {
@@ -3936,34 +3556,14 @@
             "bounds": {
               "x": 0,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 0,
             "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 269,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 269,
-            "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
           }
         },
@@ -3976,34 +3576,14 @@
             "bounds": {
               "x": 538,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 538,
             "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 807,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 807,
-            "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
           }
         },
@@ -4194,26 +3774,6 @@
           "detail": {
             "role": "button",
             "bounds": {
-              "x": 824,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
               "x": 950,
               "y": 32,
               "width": 105,
@@ -4231,7 +3791,7 @@
       "redlines": [
         {
           "bounds": {
-            "x": 369,
+            "x": 773,
             "y": 349,
             "width": 68,
             "height": 8
@@ -4425,16 +3985,6 @@
         },
         {
           "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 950,
             "y": 32,
             "width": 105,
@@ -4450,7 +4000,7 @@
       "wireframe": "wireframes/scanner-blemany.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 487,
+      "bodyLine": 491,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerBleManyPreview",
       "parameters": [
@@ -4480,13 +4030,13 @@
           "hasDefault": true
         },
         {
-          "name": "onOpenThemePicker",
+          "name": "onOpenSettings",
           "type": "() -> Unit",
           "hasDefault": true
         },
         {
-          "name": "onOpenLicenses",
-          "type": "() -> Unit",
+          "name": "developerMode",
+          "type": "Boolean",
           "hasDefault": true
         },
         {
@@ -4645,26 +4195,6 @@
           "detail": {
             "role": "button",
             "bounds": {
-              "x": 824,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
               "x": 950,
               "y": 32,
               "width": 105,
@@ -4715,16 +4245,6 @@
         },
         {
           "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 950,
             "y": 32,
             "width": 105,
@@ -4740,7 +4260,7 @@
       "wireframe": "wireframes/scanner-usbempty.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 510,
+      "bodyLine": 514,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerUsbEmptyPreview",
       "parameters": [
@@ -4770,13 +4290,13 @@
           "hasDefault": true
         },
         {
-          "name": "onOpenThemePicker",
+          "name": "onOpenSettings",
           "type": "() -> Unit",
           "hasDefault": true
         },
         {
-          "name": "onOpenLicenses",
-          "type": "() -> Unit",
+          "name": "developerMode",
+          "type": "Boolean",
           "hasDefault": true
         },
         {
@@ -4955,26 +4475,6 @@
           "detail": {
             "role": "button",
             "bounds": {
-              "x": 824,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
               "x": 950,
               "y": 32,
               "width": 105,
@@ -5053,16 +4553,6 @@
         },
         {
           "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 950,
             "y": 32,
             "width": 105,
@@ -5078,7 +4568,7 @@
       "wireframe": "wireframes/scanner-usbfew.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 531,
+      "bodyLine": 536,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerUsbFewPreview",
       "parameters": [
@@ -5108,13 +4598,13 @@
           "hasDefault": true
         },
         {
-          "name": "onOpenThemePicker",
+          "name": "onOpenSettings",
           "type": "() -> Unit",
           "hasDefault": true
         },
         {
-          "name": "onOpenLicenses",
-          "type": "() -> Unit",
+          "name": "developerMode",
+          "type": "Boolean",
           "hasDefault": true
         },
         {
@@ -5273,26 +4763,6 @@
           "detail": {
             "role": "button",
             "bounds": {
-              "x": 824,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
               "x": 950,
               "y": 32,
               "width": 105,
@@ -5398,16 +4868,6 @@
         },
         {
           "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 950,
             "y": 32,
             "width": 105,
@@ -5423,7 +4883,7 @@
       "wireframe": "wireframes/scanner-tcp.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/ScannerScreen.kt",
       "sourceModule": ":app",
-      "bodyLine": 554,
+      "bodyLine": 560,
       "sourceDirectory": "app",
       "sourceFunction": "ScannerTcpPreview",
       "parameters": [
@@ -5453,13 +4913,13 @@
           "hasDefault": true
         },
         {
-          "name": "onOpenThemePicker",
+          "name": "onOpenSettings",
           "type": "() -> Unit",
           "hasDefault": true
         },
         {
-          "name": "onOpenLicenses",
-          "type": "() -> Unit",
+          "name": "developerMode",
+          "type": "Boolean",
           "hasDefault": true
         },
         {
@@ -5511,26 +4971,6 @@
         }
       ],
       "greenlines": [
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 698,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 698,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
         {
           "kind": "a11y",
           "severity": "info",
@@ -5685,16 +5125,6 @@
         },
         {
           "bounds": {
-            "x": 698,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 824,
             "y": 32,
             "width": 105,
@@ -5766,26 +5196,6 @@
         }
       ],
       "greenlines": [
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 698,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 698,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
         {
           "kind": "a11y",
           "severity": "info",
@@ -5954,16 +5364,6 @@
         },
         {
           "bounds": {
-            "x": 698,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 824,
             "y": 32,
             "width": 105,
@@ -6035,106 +5435,6 @@
         }
       ],
       "greenlines": [
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 699,
-              "y": 876,
-              "width": 284,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 699,
-            "y": 876,
-            "width": 284,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 699,
-              "y": 1239,
-              "width": 284,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 699,
-            "y": 1239,
-            "width": 284,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 772,
-              "y": 1602,
-              "width": 211,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 772,
-            "y": 1602,
-            "width": 211,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 772,
-              "y": 1965,
-              "width": 211,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 772,
-            "y": 1965,
-            "width": 211,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 700,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 700,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
         {
           "kind": "a11y",
           "severity": "info",
@@ -6244,7 +5544,7 @@
             "x": 42,
             "y": 844,
             "width": 994,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -6255,18 +5555,8 @@
         },
         {
           "bounds": {
-            "x": 699,
-            "y": 876,
-            "width": 284,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1024,
+            "y": 951,
             "width": 994,
             "height": 151
           },
@@ -6275,7 +5565,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1052,
+            "y": 979,
             "width": 95,
             "height": 95
           },
@@ -6284,31 +5574,7 @@
         {
           "bounds": {
             "x": 42,
-            "y": 1207,
-            "width": 994,
-            "height": 148
-          },
-          "padding": {
-            "start": 0,
-            "top": 4,
-            "end": 0,
-            "bottom": 4
-          }
-        },
-        {
-          "bounds": {
-            "x": 699,
-            "y": 1239,
-            "width": 284,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
-            "x": 42,
-            "y": 1387,
+            "y": 1134,
             "width": 994,
             "height": 151
           },
@@ -6317,7 +5583,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1415,
+            "y": 1162,
             "width": 95,
             "height": 95
           },
@@ -6326,88 +5592,7 @@
         {
           "bounds": {
             "x": 42,
-            "y": 1570,
-            "width": 994,
-            "height": 148
-          },
-          "padding": {
-            "start": 0,
-            "top": 4,
-            "end": 0,
-            "bottom": 4
-          }
-        },
-        {
-          "bounds": {
-            "x": 772,
-            "y": 1602,
-            "width": 211,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
-            "x": 42,
-            "y": 1750,
-            "width": 994,
-            "height": 151
-          },
-          "cornerRadius": 12
-        },
-        {
-          "bounds": {
-            "x": 74,
-            "y": 1778,
-            "width": 95,
-            "height": 95
-          },
-          "cornerRadius": 18.1
-        },
-        {
-          "bounds": {
-            "x": 42,
-            "y": 1933,
-            "width": 994,
-            "height": 148
-          },
-          "padding": {
-            "start": 0,
-            "top": 4,
-            "end": 0,
-            "bottom": 4
-          }
-        },
-        {
-          "bounds": {
-            "x": 772,
-            "y": 1965,
-            "width": 211,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
-            "x": 42,
-            "y": 2134,
-            "width": 381,
-            "height": 40
-          },
-          "label": "No repeaters joined yet",
-          "padding": {
-            "start": 0,
-            "top": 8,
-            "end": 0,
-            "bottom": 8
-          }
-        },
-        {
-          "bounds": {
-            "x": 42,
-            "y": 2227,
+            "y": 1317,
             "width": 994,
             "height": 75
           },
@@ -6421,18 +5606,114 @@
         {
           "bounds": {
             "x": 42,
-            "y": 2334,
+            "y": 1424,
             "width": 994,
-            "height": 65
+            "height": 151
           },
           "cornerRadius": 12
         },
         {
           "bounds": {
             "x": 74,
-            "y": 2362,
+            "y": 1452,
             "width": 95,
-            "height": 37
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1607,
+            "width": 994,
+            "height": 75
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1714,
+            "width": 994,
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 1742,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1897,
+            "width": 994,
+            "height": 75
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 2004,
+            "width": 994,
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 2032,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 2187,
+            "width": 994,
+            "height": 75
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 2294,
+            "width": 994,
+            "height": 105
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 2322,
+            "width": 95,
+            "height": 77
           },
           "cornerRadius": 18.1
         },
@@ -6449,16 +5730,6 @@
             "end": 4,
             "bottom": 0
           }
-        },
-        {
-          "bounds": {
-            "x": 700,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
         },
         {
           "bounds": {
@@ -6561,27 +5832,12 @@
           "hasDefault": true
         },
         {
-          "name": "contactedKeys",
-          "type": "Set<String>",
-          "hasDefault": true
-        },
-        {
-          "name": "contactedChannelIndices",
-          "type": "Set<Int>",
-          "hasDefault": true
-        },
-        {
           "name": "sectionStates",
           "type": "SectionStates",
           "hasDefault": true
         },
         {
           "name": "onSectionExpandedChange",
-          "type": "(Section, Boolean) -> Unit",
-          "hasDefault": true
-        },
-        {
-          "name": "onSectionShowAllChange",
           "type": "(Section, Boolean) -> Unit",
           "hasDefault": true
         },
@@ -6612,12 +5868,12 @@
         },
         {
           "name": "onSettingsClick",
-          "type": "() -> Unit",
+          "type": "(() -> Unit)?",
           "hasDefault": true
         },
         {
-          "name": "onOpenThemePicker",
-          "type": "() -> Unit",
+          "name": "developerMode",
+          "type": "Boolean",
           "hasDefault": true
         },
         {
@@ -6674,66 +5930,6 @@
         }
       ],
       "greenlines": [
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 701,
-              "y": 914,
-              "width": 280,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 701,
-            "y": 914,
-            "width": 280,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 772,
-              "y": 1243,
-              "width": 209,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 772,
-            "y": 1243,
-            "width": 209,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 698,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 698,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
         {
           "kind": "a11y",
           "severity": "info",
@@ -6863,7 +6059,7 @@
             "x": 42,
             "y": 882,
             "width": 992,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -6874,20 +6070,28 @@
         },
         {
           "bounds": {
-            "x": 701,
-            "y": 914,
-            "width": 280,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1211,
+            "y": 989,
             "width": 992,
-            "height": 148
+            "height": 150
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 1017,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1171,
+            "width": 992,
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -6898,28 +6102,21 @@
         },
         {
           "bounds": {
-            "x": 772,
-            "y": 1243,
-            "width": 209,
-            "height": 84
+            "x": 42,
+            "y": 1278,
+            "width": 992,
+            "height": 150
           },
-          "role": "Checkbox",
-          "cornerRadius": 8
+          "cornerRadius": 12
         },
         {
           "bounds": {
-            "x": 42,
-            "y": 1412,
-            "width": 374,
-            "height": 40
+            "x": 74,
+            "y": 1306,
+            "width": 95,
+            "height": 95
           },
-          "label": "No repeaters joined yet",
-          "padding": {
-            "start": 0,
-            "top": 8,
-            "end": 0,
-            "bottom": 8
-          }
+          "cornerRadius": 18.1
         },
         {
           "bounds": {
@@ -6934,16 +6131,6 @@
             "end": 4,
             "bottom": 0
           }
-        },
-        {
-          "bounds": {
-            "x": 698,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
         },
         {
           "bounds": {
@@ -7018,86 +6205,6 @@
         }
       ],
       "greenlines": [
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 701,
-              "y": 1097,
-              "width": 280,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 701,
-            "y": 1097,
-            "width": 280,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 772,
-              "y": 1426,
-              "width": 209,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 772,
-            "y": 1426,
-            "width": 209,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 772,
-              "y": 1720,
-              "width": 209,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 772,
-            "y": 1720,
-            "width": 209,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 698,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 698,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
         {
           "kind": "a11y",
           "severity": "info",
@@ -7236,7 +6343,7 @@
             "x": 42,
             "y": 1065,
             "width": 992,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -7247,96 +6354,62 @@
         },
         {
           "bounds": {
-            "x": 701,
-            "y": 1097,
-            "width": 280,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1394,
+            "y": 1172,
             "width": 992,
-            "height": 148
+            "height": 150
           },
-          "padding": {
-            "start": 0,
-            "top": 4,
-            "end": 0,
-            "bottom": 4
-          }
+          "cornerRadius": 12
         },
         {
           "bounds": {
-            "x": 772,
-            "y": 1426,
-            "width": 209,
-            "height": 84
+            "x": 74,
+            "y": 1200,
+            "width": 95,
+            "height": 95
           },
-          "role": "Checkbox",
-          "cornerRadius": 8
+          "cornerRadius": 18.1
         },
         {
           "bounds": {
             "x": 42,
-            "y": 1595,
-            "width": 319,
-            "height": 40
-          },
-          "label": "No rooms joined yet",
-          "padding": {
-            "start": 0,
-            "top": 8,
-            "end": 0,
-            "bottom": 8
-          }
-        },
-        {
-          "bounds": {
-            "x": 42,
-            "y": 1688,
+            "y": 1354,
             "width": 992,
-            "height": 148
+            "height": 150
           },
-          "padding": {
-            "start": 0,
-            "top": 4,
-            "end": 0,
-            "bottom": 4
-          }
+          "cornerRadius": 12
         },
         {
           "bounds": {
-            "x": 772,
-            "y": 1720,
-            "width": 209,
-            "height": 84
+            "x": 74,
+            "y": 1382,
+            "width": 95,
+            "height": 95
           },
-          "role": "Checkbox",
-          "cornerRadius": 8
+          "cornerRadius": 18.1
         },
         {
           "bounds": {
             "x": 42,
-            "y": 1889,
-            "width": 374,
-            "height": 40
+            "y": 1536,
+            "width": 992,
+            "height": 150
           },
-          "label": "No repeaters joined yet",
-          "padding": {
-            "start": 0,
-            "top": 8,
-            "end": 0,
-            "bottom": 8
-          }
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 1564,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
         },
         {
           "bounds": {
             "x": 42,
-            "y": 1982,
+            "y": 1718,
             "width": 992,
             "height": 75
           },
@@ -7350,7 +6423,7 @@
         {
           "bounds": {
             "x": 42,
-            "y": 2089,
+            "y": 1825,
             "width": 992,
             "height": 150
           },
@@ -7359,7 +6432,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 2117,
+            "y": 1853,
             "width": 95,
             "height": 95
           },
@@ -7368,18 +6441,154 @@
         {
           "bounds": {
             "x": 42,
-            "y": 2271,
+            "y": 2007,
             "width": 992,
-            "height": 125
+            "height": 150
           },
           "cornerRadius": 12
         },
         {
           "bounds": {
             "x": 74,
-            "y": 2299,
+            "y": 2035,
             "width": 95,
             "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 2189,
+            "width": 992,
+            "height": 150
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 2217,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 2371,
+            "width": 992,
+            "height": 25
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
           },
           "cornerRadius": 18.1
         },
@@ -7414,16 +6623,6 @@
             "end": 4,
             "bottom": 0
           }
-        },
-        {
-          "bounds": {
-            "x": 698,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
         },
         {
           "bounds": {
@@ -7525,26 +6724,6 @@
           "detail": {
             "role": "button",
             "bounds": {
-              "x": 824,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
               "x": 950,
               "y": 32,
               "width": 105,
@@ -7606,16 +6785,6 @@
             "end": 4,
             "bottom": 0
           }
-        },
-        {
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
         },
         {
           "bounds": {
@@ -7707,26 +6876,6 @@
           "detail": {
             "role": "button",
             "bounds": {
-              "x": 824,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
               "x": 950,
               "y": 32,
               "width": 105,
@@ -7783,16 +6932,6 @@
             "end": 4,
             "bottom": 0
           }
-        },
-        {
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
         },
         {
           "bounds": {
@@ -7940,106 +7079,6 @@
         {
           "kind": "a11y",
           "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 699,
-              "y": 852,
-              "width": 284,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 699,
-            "y": 852,
-            "width": 284,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 699,
-              "y": 1215,
-              "width": 284,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 699,
-            "y": 1215,
-            "width": 284,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 772,
-              "y": 1578,
-              "width": 211,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 772,
-            "y": 1578,
-            "width": 211,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 772,
-              "y": 1872,
-              "width": 211,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 772,
-            "y": 1872,
-            "width": 211,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 700,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 700,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
           "message": "button",
           "detail": {
             "role": "button",
@@ -8156,7 +7195,7 @@
             "x": 42,
             "y": 820,
             "width": 994,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -8167,18 +7206,8 @@
         },
         {
           "bounds": {
-            "x": 699,
-            "y": 852,
-            "width": 284,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1000,
+            "y": 927,
             "width": 994,
             "height": 151
           },
@@ -8187,7 +7216,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1028,
+            "y": 955,
             "width": 95,
             "height": 95
           },
@@ -8196,9 +7225,9 @@
         {
           "bounds": {
             "x": 42,
-            "y": 1183,
+            "y": 1110,
             "width": 994,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -8209,18 +7238,8 @@
         },
         {
           "bounds": {
-            "x": 699,
-            "y": 1215,
-            "width": 284,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1363,
+            "y": 1217,
             "width": 994,
             "height": 151
           },
@@ -8229,7 +7248,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1391,
+            "y": 1245,
             "width": 95,
             "height": 95
           },
@@ -8238,9 +7257,9 @@
         {
           "bounds": {
             "x": 42,
-            "y": 1546,
+            "y": 1400,
             "width": 994,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -8251,35 +7270,28 @@
         },
         {
           "bounds": {
-            "x": 772,
-            "y": 1578,
-            "width": 211,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1747,
-            "width": 324,
-            "height": 40
-          },
-          "label": "No rooms joined yet",
-          "padding": {
-            "start": 0,
-            "top": 8,
-            "end": 0,
-            "bottom": 8
-          }
-        },
-        {
-          "bounds": {
-            "x": 42,
-            "y": 1840,
+            "y": 1507,
             "width": 994,
-            "height": 148
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 1535,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1690,
+            "width": 994,
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -8290,28 +7302,21 @@
         },
         {
           "bounds": {
-            "x": 772,
-            "y": 1872,
-            "width": 211,
-            "height": 84
+            "x": 42,
+            "y": 1797,
+            "width": 994,
+            "height": 151
           },
-          "role": "Checkbox",
-          "cornerRadius": 8
+          "cornerRadius": 12
         },
         {
           "bounds": {
-            "x": 42,
-            "y": 2041,
-            "width": 381,
-            "height": 40
+            "x": 74,
+            "y": 1825,
+            "width": 95,
+            "height": 95
           },
-          "label": "No repeaters joined yet",
-          "padding": {
-            "start": 0,
-            "top": 8,
-            "end": 0,
-            "bottom": 8
-          }
+          "cornerRadius": 18.1
         },
         {
           "bounds": {
@@ -8326,16 +7331,6 @@
             "end": 4,
             "bottom": 0
           }
-        },
-        {
-          "bounds": {
-            "x": 700,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
         },
         {
           "bounds": {
@@ -8393,7 +7388,7 @@
       "wireframe": "wireframes/device-cached.svg",
       "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt",
       "sourceModule": ":meshcore-components",
-      "bodyLine": 190,
+      "bodyLine": 186,
       "sourceDirectory": "meshcore-components",
       "sourceFunction": "CachedDeviceBodyPreview",
       "parameters": [
@@ -9627,7 +8622,7 @@
           "path": "images/saveddevices-populated/ideal__default__light.png",
           "state": "default",
           "width": 1050,
-          "height": 745,
+          "height": 671,
           "theme": "light",
           "livePreview": "https://preview.coo.ee/meshcore-mobile/p/saveddevices-populated__ideal__default__light",
           "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesPopulatedPreview_Light",
@@ -9642,7 +8637,7 @@
           "path": "images/saveddevices-populated/ideal__default__dark.png",
           "state": "default",
           "width": 1050,
-          "height": 745,
+          "height": 671,
           "theme": "dark",
           "livePreview": "https://preview.coo.ee/meshcore-mobile/p/saveddevices-populated__ideal__default__dark",
           "previewId": "ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesPopulatedPreview_Dark",
@@ -9702,35 +8697,15 @@
           "detail": {
             "role": "button",
             "bounds": {
-              "x": 455,
-              "y": 326,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 455,
-            "y": 326,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
               "x": 581,
-              "y": 326,
+              "y": 289,
               "width": 105,
               "height": 105
             }
           },
           "bounds": {
             "x": 581,
-            "y": 326,
+            "y": 289,
             "width": 105,
             "height": 105
           }
@@ -9743,14 +8718,14 @@
             "role": "button",
             "bounds": {
               "x": 696,
-              "y": 326,
+              "y": 289,
               "width": 280,
               "height": 105
             }
           },
           "bounds": {
             "x": 696,
-            "y": 326,
+            "y": 289,
             "width": 280,
             "height": 105
           }
@@ -9763,14 +8738,14 @@
             "role": "button",
             "bounds": {
               "x": 581,
-              "y": 562,
+              "y": 488,
               "width": 105,
               "height": 105
             }
           },
           "bounds": {
             "x": 581,
-            "y": 562,
+            "y": 488,
             "width": 105,
             "height": 105
           }
@@ -9783,14 +8758,14 @@
             "role": "button",
             "bounds": {
               "x": 696,
-              "y": 562,
+              "y": 488,
               "width": 280,
               "height": 105
             }
           },
           "bounds": {
             "x": 696,
-            "y": 562,
+            "y": 488,
             "width": 280,
             "height": 105
           }
@@ -9846,7 +8821,7 @@
             "x": 95,
             "y": 252,
             "width": 860,
-            "height": 252
+            "height": 178
           },
           "padding": {
             "start": 20,
@@ -9861,24 +8836,14 @@
             "x": 42,
             "y": 252,
             "width": 966,
-            "height": 252
+            "height": 178
           },
           "cornerRadius": 12
         },
         {
           "bounds": {
-            "x": 455,
-            "y": 326,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 581,
-            "y": 326,
+            "y": 289,
             "width": 105,
             "height": 105
           },
@@ -9888,7 +8853,7 @@
         {
           "bounds": {
             "x": 696,
-            "y": 326,
+            "y": 289,
             "width": 280,
             "height": 105
           },
@@ -9898,7 +8863,7 @@
         {
           "bounds": {
             "x": 95,
-            "y": 525,
+            "y": 451,
             "width": 860,
             "height": 178
           },
@@ -9913,7 +8878,7 @@
         {
           "bounds": {
             "x": 42,
-            "y": 525,
+            "y": 451,
             "width": 966,
             "height": 178
           },
@@ -9922,7 +8887,7 @@
         {
           "bounds": {
             "x": 581,
-            "y": 562,
+            "y": 488,
             "width": 105,
             "height": 105
           },
@@ -9932,7 +8897,7 @@
         {
           "bounds": {
             "x": 696,
-            "y": 562,
+            "y": 488,
             "width": 280,
             "height": 105
           },
@@ -9946,7 +8911,7 @@
       "wireframe": "wireframes/saveddevices-populated.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/SavedDevicesPanel.kt",
       "sourceModule": ":app",
-      "bodyLine": 323,
+      "bodyLine": 324,
       "sourceDirectory": "app",
       "sourceFunction": "SavedDevicesPopulatedPreview",
       "parameters": [
@@ -9982,7 +8947,7 @@
         },
         {
           "name": "onViewCached",
-          "type": "(SavedDevice) -> Unit",
+          "type": "((SavedDevice) -> Unit)?",
           "hasDefault": true
         }
       ]
@@ -10030,7 +8995,7 @@
       "wireframe": "wireframes/saveddevices-empty.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/SavedDevicesPanel.kt",
       "sourceModule": ":app",
-      "bodyLine": 345,
+      "bodyLine": 346,
       "sourceDirectory": "app",
       "sourceFunction": "SavedDevicesEmptyPreview",
       "parameters": [
@@ -10066,7 +9031,7 @@
         },
         {
           "name": "onViewCached",
-          "type": "(SavedDevice) -> Unit",
+          "type": "((SavedDevice) -> Unit)?",
           "hasDefault": true
         }
       ]
@@ -10161,106 +9126,6 @@
         {
           "kind": "a11y",
           "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 701,
-              "y": 876,
-              "width": 280,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 701,
-            "y": 876,
-            "width": 280,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 701,
-              "y": 1420,
-              "width": 280,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 701,
-            "y": 1420,
-            "width": 280,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 0,
-              "y": 0,
-              "width": 0,
-              "height": 0
-            }
-          },
-          "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 0,
-              "y": 0,
-              "width": 0,
-              "height": 0
-            }
-          },
-          "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 698,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 698,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
           "message": "button",
           "detail": {
             "role": "button",
@@ -10367,7 +9232,7 @@
             "x": 42,
             "y": 844,
             "width": 992,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -10378,18 +9243,8 @@
         },
         {
           "bounds": {
-            "x": 701,
-            "y": 876,
-            "width": 280,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1024,
+            "y": 951,
             "width": 992,
             "height": 150
           },
@@ -10398,7 +9253,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1052,
+            "y": 979,
             "width": 95,
             "height": 95
           },
@@ -10407,7 +9262,7 @@
         {
           "bounds": {
             "x": 42,
-            "y": 1206,
+            "y": 1133,
             "width": 992,
             "height": 150
           },
@@ -10416,7 +9271,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1234,
+            "y": 1161,
             "width": 95,
             "height": 95
           },
@@ -10425,9 +9280,9 @@
         {
           "bounds": {
             "x": 42,
-            "y": 1388,
+            "y": 1315,
             "width": 992,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -10438,18 +9293,8 @@
         },
         {
           "bounds": {
-            "x": 701,
-            "y": 1420,
-            "width": 280,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1568,
+            "y": 1422,
             "width": 992,
             "height": 150
           },
@@ -10458,7 +9303,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1596,
+            "y": 1450,
             "width": 95,
             "height": 95
           },
@@ -10467,7 +9312,7 @@
         {
           "bounds": {
             "x": 42,
-            "y": 1750,
+            "y": 1604,
             "width": 992,
             "height": 150
           },
@@ -10476,7 +9321,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1778,
+            "y": 1632,
             "width": 95,
             "height": 95
           },
@@ -10484,10 +9329,10 @@
         },
         {
           "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 42,
+            "y": 1786,
+            "width": 992,
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -10498,20 +9343,10 @@
         },
         {
           "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 42,
+            "y": 1893,
+            "width": 992,
+            "height": 23
           },
           "cornerRadius": 12
         },
@@ -10537,16 +9372,6 @@
             "end": 0,
             "bottom": 4
           }
-        },
-        {
-          "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
         },
         {
           "bounds": {
@@ -10614,16 +9439,6 @@
         },
         {
           "bounds": {
-            "x": 698,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 824,
             "y": 32,
             "width": 105,
@@ -10649,7 +9464,7 @@
       "wireframe": "wireframes/app-playstorephonehomelight.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/PlayStorePreviews.kt",
       "sourceModule": ":app",
-      "bodyLine": 217,
+      "bodyLine": 212,
       "sourceDirectory": "app",
       "sourceFunction": "PlayStorePhoneHomeLight",
       "parameters": [
@@ -10686,106 +9501,6 @@
         {
           "kind": "a11y",
           "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 701,
-              "y": 876,
-              "width": 280,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 701,
-            "y": 876,
-            "width": 280,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 701,
-              "y": 1420,
-              "width": 280,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 701,
-            "y": 1420,
-            "width": 280,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 0,
-              "y": 0,
-              "width": 0,
-              "height": 0
-            }
-          },
-          "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 0,
-              "y": 0,
-              "width": 0,
-              "height": 0
-            }
-          },
-          "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 698,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 698,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
           "message": "button",
           "detail": {
             "role": "button",
@@ -10892,7 +9607,7 @@
             "x": 42,
             "y": 844,
             "width": 992,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -10903,18 +9618,8 @@
         },
         {
           "bounds": {
-            "x": 701,
-            "y": 876,
-            "width": 280,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1024,
+            "y": 951,
             "width": 992,
             "height": 150
           },
@@ -10923,7 +9628,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1052,
+            "y": 979,
             "width": 95,
             "height": 95
           },
@@ -10932,7 +9637,7 @@
         {
           "bounds": {
             "x": 42,
-            "y": 1206,
+            "y": 1133,
             "width": 992,
             "height": 150
           },
@@ -10941,7 +9646,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1234,
+            "y": 1161,
             "width": 95,
             "height": 95
           },
@@ -10950,9 +9655,9 @@
         {
           "bounds": {
             "x": 42,
-            "y": 1388,
+            "y": 1315,
             "width": 992,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -10963,18 +9668,8 @@
         },
         {
           "bounds": {
-            "x": 701,
-            "y": 1420,
-            "width": 280,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1568,
+            "y": 1422,
             "width": 992,
             "height": 150
           },
@@ -10983,7 +9678,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1596,
+            "y": 1450,
             "width": 95,
             "height": 95
           },
@@ -10992,7 +9687,7 @@
         {
           "bounds": {
             "x": 42,
-            "y": 1750,
+            "y": 1604,
             "width": 992,
             "height": 150
           },
@@ -11001,7 +9696,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1778,
+            "y": 1632,
             "width": 95,
             "height": 95
           },
@@ -11009,10 +9704,10 @@
         },
         {
           "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 42,
+            "y": 1786,
+            "width": 992,
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -11023,20 +9718,10 @@
         },
         {
           "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 42,
+            "y": 1893,
+            "width": 992,
+            "height": 23
           },
           "cornerRadius": 12
         },
@@ -11062,16 +9747,6 @@
             "end": 0,
             "bottom": 4
           }
-        },
-        {
-          "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
         },
         {
           "bounds": {
@@ -11139,16 +9814,6 @@
         },
         {
           "bounds": {
-            "x": 698,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 824,
             "y": 32,
             "width": 105,
@@ -11174,7 +9839,7 @@
       "wireframe": "wireframes/app-playstorephonehomedark.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/PlayStorePreviews.kt",
       "sourceModule": ":app",
-      "bodyLine": 229,
+      "bodyLine": 224,
       "sourceDirectory": "app",
       "sourceFunction": "PlayStorePhoneHomeDark",
       "parameters": [
@@ -11215,34 +9880,14 @@
             "bounds": {
               "x": 0,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 0,
             "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 269,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 269,
-            "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
           }
         },
@@ -11255,55 +9900,15 @@
             "bounds": {
               "x": 538,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 538,
             "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 807,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 807,
-            "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 481,
-              "y": 473,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 481,
-            "y": 473,
-            "width": 105,
-            "height": 105
           }
         },
         {
@@ -11314,14 +9919,14 @@
             "role": "button",
             "bounds": {
               "x": 607,
-              "y": 473,
+              "y": 436,
               "width": 105,
               "height": 105
             }
           },
           "bounds": {
             "x": 607,
-            "y": 473,
+            "y": 436,
             "width": 105,
             "height": 105
           }
@@ -11334,14 +9939,14 @@
             "role": "button",
             "bounds": {
               "x": 722,
-              "y": 473,
+              "y": 436,
               "width": 280,
               "height": 105
             }
           },
           "bounds": {
             "x": 722,
-            "y": 473,
+            "y": 436,
             "width": 280,
             "height": 105
           }
@@ -11354,14 +9959,14 @@
             "role": "button",
             "bounds": {
               "x": 607,
-              "y": 709,
+              "y": 635,
               "width": 105,
               "height": 105
             }
           },
           "bounds": {
             "x": 607,
-            "y": 709,
+            "y": 635,
             "width": 105,
             "height": 105
           }
@@ -11374,35 +9979,15 @@
             "role": "button",
             "bounds": {
               "x": 722,
-              "y": 709,
+              "y": 635,
               "width": 280,
               "height": 105
             }
           },
           "bounds": {
             "x": 722,
-            "y": 709,
+            "y": 635,
             "width": 280,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 824,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
             "height": 105
           }
         },
@@ -11430,7 +10015,7 @@
       "redlines": [
         {
           "bounds": {
-            "x": 79,
+            "x": 213,
             "y": 349,
             "width": 111,
             "height": 8
@@ -11442,7 +10027,7 @@
             "x": 95,
             "y": 399,
             "width": 886,
-            "height": 252
+            "height": 178
           },
           "padding": {
             "start": 20,
@@ -11457,24 +10042,14 @@
             "x": 42,
             "y": 399,
             "width": 992,
-            "height": 252
+            "height": 178
           },
           "cornerRadius": 12
         },
         {
           "bounds": {
-            "x": 481,
-            "y": 473,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 607,
-            "y": 473,
+            "y": 436,
             "width": 105,
             "height": 105
           },
@@ -11484,7 +10059,7 @@
         {
           "bounds": {
             "x": 722,
-            "y": 473,
+            "y": 436,
             "width": 280,
             "height": 105
           },
@@ -11494,7 +10069,7 @@
         {
           "bounds": {
             "x": 95,
-            "y": 672,
+            "y": 598,
             "width": 886,
             "height": 178
           },
@@ -11509,7 +10084,7 @@
         {
           "bounds": {
             "x": 42,
-            "y": 672,
+            "y": 598,
             "width": 992,
             "height": 178
           },
@@ -11518,7 +10093,7 @@
         {
           "bounds": {
             "x": 607,
-            "y": 709,
+            "y": 635,
             "width": 105,
             "height": 105
           },
@@ -11528,7 +10103,7 @@
         {
           "bounds": {
             "x": 722,
-            "y": 709,
+            "y": 635,
             "width": 280,
             "height": 105
           },
@@ -11551,16 +10126,6 @@
         },
         {
           "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 950,
             "y": 32,
             "width": 105,
@@ -11576,7 +10141,7 @@
       "wireframe": "wireframes/app-playstorephonescannersaved.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/PlayStorePreviews.kt",
       "sourceModule": ":app",
-      "bodyLine": 240,
+      "bodyLine": 235,
       "sourceDirectory": "app",
       "sourceFunction": "PlayStorePhoneScannerSaved"
     },
@@ -11611,34 +10176,14 @@
             "bounds": {
               "x": 0,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 0,
             "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 269,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 269,
-            "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
           }
         },
@@ -11651,34 +10196,14 @@
             "bounds": {
               "x": 538,
               "y": 168,
-              "width": 269,
+              "width": 538,
               "height": 189
             }
           },
           "bounds": {
             "x": 538,
             "y": 168,
-            "width": 269,
-            "height": 189
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "tab",
-          "detail": {
-            "role": "tab",
-            "bounds": {
-              "x": 807,
-              "y": 168,
-              "width": 269,
-              "height": 189
-            }
-          },
-          "bounds": {
-            "x": 807,
-            "y": 168,
-            "width": 269,
+            "width": 538,
             "height": 189
           }
         },
@@ -11789,26 +10314,6 @@
           "detail": {
             "role": "button",
             "bounds": {
-              "x": 824,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
               "x": 950,
               "y": 32,
               "width": 105,
@@ -11826,7 +10331,7 @@
       "redlines": [
         {
           "bounds": {
-            "x": 369,
+            "x": 773,
             "y": 349,
             "width": 68,
             "height": 8
@@ -11944,16 +10449,6 @@
         },
         {
           "bounds": {
-            "x": 824,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
-        },
-        {
-          "bounds": {
             "x": 950,
             "y": 32,
             "width": 105,
@@ -11969,7 +10464,7 @@
       "wireframe": "wireframes/app-playstorephonescannerble.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/PlayStorePreviews.kt",
       "sourceModule": ":app",
-      "bodyLine": 251,
+      "bodyLine": 246,
       "sourceDirectory": "app",
       "sourceFunction": "PlayStorePhoneScannerBle"
     },
@@ -11995,106 +10490,6 @@
         }
       ],
       "greenlines": [
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 912,
-              "y": 666,
-              "width": 216,
-              "height": 64
-            }
-          },
-          "bounds": {
-            "x": 912,
-            "y": 666,
-            "width": 216,
-            "height": 64
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 912,
-              "y": 1080,
-              "width": 216,
-              "height": 64
-            }
-          },
-          "bounds": {
-            "x": 912,
-            "y": 1080,
-            "width": 216,
-            "height": 64
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 968,
-              "y": 1494,
-              "width": 160,
-              "height": 64
-            }
-          },
-          "bounds": {
-            "x": 968,
-            "y": 1494,
-            "width": 160,
-            "height": 64
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 968,
-              "y": 1769,
-              "width": 160,
-              "height": 64
-            }
-          },
-          "bounds": {
-            "x": 968,
-            "y": 1769,
-            "width": 160,
-            "height": 64
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 912,
-              "y": 24,
-              "width": 80,
-              "height": 80
-            }
-          },
-          "bounds": {
-            "x": 912,
-            "y": 24,
-            "width": 80,
-            "height": 80
-          }
-        },
         {
           "kind": "a11y",
           "severity": "info",
@@ -12204,7 +10599,7 @@
             "x": 32,
             "y": 642,
             "width": 1136,
-            "height": 112
+            "height": 56
           },
           "padding": {
             "start": 0,
@@ -12215,18 +10610,8 @@
         },
         {
           "bounds": {
-            "x": 912,
-            "y": 666,
-            "width": 216,
-            "height": 64
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 32,
-            "y": 778,
+            "y": 722,
             "width": 1136,
             "height": 115
           },
@@ -12235,7 +10620,7 @@
         {
           "bounds": {
             "x": 56,
-            "y": 800,
+            "y": 744,
             "width": 72,
             "height": 72
           },
@@ -12244,7 +10629,7 @@
         {
           "bounds": {
             "x": 32,
-            "y": 917,
+            "y": 861,
             "width": 1136,
             "height": 115
           },
@@ -12253,7 +10638,7 @@
         {
           "bounds": {
             "x": 56,
-            "y": 939,
+            "y": 883,
             "width": 72,
             "height": 72
           },
@@ -12262,9 +10647,9 @@
         {
           "bounds": {
             "x": 32,
-            "y": 1056,
+            "y": 1000,
             "width": 1136,
-            "height": 112
+            "height": 56
           },
           "padding": {
             "start": 0,
@@ -12275,18 +10660,8 @@
         },
         {
           "bounds": {
-            "x": 912,
+            "x": 32,
             "y": 1080,
-            "width": 216,
-            "height": 64
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
-            "x": 32,
-            "y": 1192,
             "width": 1136,
             "height": 115
           },
@@ -12295,7 +10670,7 @@
         {
           "bounds": {
             "x": 56,
-            "y": 1214,
+            "y": 1102,
             "width": 72,
             "height": 72
           },
@@ -12304,7 +10679,7 @@
         {
           "bounds": {
             "x": 32,
-            "y": 1331,
+            "y": 1219,
             "width": 1136,
             "height": 115
           },
@@ -12313,7 +10688,7 @@
         {
           "bounds": {
             "x": 56,
-            "y": 1353,
+            "y": 1241,
             "width": 72,
             "height": 72
           },
@@ -12322,9 +10697,9 @@
         {
           "bounds": {
             "x": 32,
-            "y": 1470,
+            "y": 1358,
             "width": 1136,
-            "height": 112
+            "height": 56
           },
           "padding": {
             "start": 0,
@@ -12335,18 +10710,8 @@
         },
         {
           "bounds": {
-            "x": 968,
-            "y": 1494,
-            "width": 160,
-            "height": 64
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 32,
-            "y": 1606,
+            "y": 1438,
             "width": 1136,
             "height": 115
           },
@@ -12355,7 +10720,7 @@
         {
           "bounds": {
             "x": 56,
-            "y": 1628,
+            "y": 1460,
             "width": 72,
             "height": 72
           },
@@ -12364,9 +10729,9 @@
         {
           "bounds": {
             "x": 32,
-            "y": 1745,
+            "y": 1577,
             "width": 1136,
-            "height": 112
+            "height": 56
           },
           "padding": {
             "start": 0,
@@ -12377,38 +10742,28 @@
         },
         {
           "bounds": {
-            "x": 968,
-            "y": 1769,
-            "width": 160,
-            "height": 64
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 32,
-            "y": 1881,
+            "y": 1657,
             "width": 1136,
-            "height": 39
+            "height": 115
           },
           "cornerRadius": 12
         },
         {
           "bounds": {
             "x": 56,
-            "y": 1903,
+            "y": 1679,
             "width": 72,
-            "height": 17
+            "height": 72
           },
           "cornerRadius": 18
         },
         {
           "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 32,
+            "y": 1796,
+            "width": 1136,
+            "height": 56
           },
           "padding": {
             "start": 0,
@@ -12419,19 +10774,19 @@
         },
         {
           "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 32,
+            "y": 1876,
+            "width": 1136,
+            "height": 44
           },
           "cornerRadius": 12
         },
         {
           "bounds": {
-            "x": 0,
-            "y": 0,
-            "width": 0,
-            "height": 0
+            "x": 56,
+            "y": 1898,
+            "width": 72,
+            "height": 22
           },
           "cornerRadius": 18
         },
@@ -12448,16 +10803,6 @@
             "end": 4,
             "bottom": 0
           }
-        },
-        {
-          "bounds": {
-            "x": 912,
-            "y": 24,
-            "width": 80,
-            "height": 80
-          },
-          "role": "Button",
-          "cornerRadius": 20
         },
         {
           "bounds": {
@@ -12486,7 +10831,7 @@
       "wireframe": "wireframes/app-playstoretabletsevenhome.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/PlayStorePreviews.kt",
       "sourceModule": ":app",
-      "bodyLine": 264,
+      "bodyLine": 259,
       "sourceDirectory": "app",
       "sourceFunction": "PlayStoreTabletSevenHome",
       "parameters": [
@@ -12518,106 +10863,6 @@
         }
       ],
       "greenlines": [
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 1312,
-              "y": 666,
-              "width": 216,
-              "height": 64
-            }
-          },
-          "bounds": {
-            "x": 1312,
-            "y": 666,
-            "width": 216,
-            "height": 64
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 1312,
-              "y": 1080,
-              "width": 216,
-              "height": 64
-            }
-          },
-          "bounds": {
-            "x": 1312,
-            "y": 1080,
-            "width": 216,
-            "height": 64
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 1368,
-              "y": 1494,
-              "width": 160,
-              "height": 64
-            }
-          },
-          "bounds": {
-            "x": 1368,
-            "y": 1494,
-            "width": 160,
-            "height": 64
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 1368,
-              "y": 1769,
-              "width": 160,
-              "height": 64
-            }
-          },
-          "bounds": {
-            "x": 1368,
-            "y": 1769,
-            "width": 160,
-            "height": 64
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 1312,
-              "y": 24,
-              "width": 80,
-              "height": 80
-            }
-          },
-          "bounds": {
-            "x": 1312,
-            "y": 24,
-            "width": 80,
-            "height": 80
-          }
-        },
         {
           "kind": "a11y",
           "severity": "info",
@@ -12727,7 +10972,7 @@
             "x": 32,
             "y": 642,
             "width": 1536,
-            "height": 112
+            "height": 56
           },
           "padding": {
             "start": 0,
@@ -12738,18 +10983,8 @@
         },
         {
           "bounds": {
-            "x": 1312,
-            "y": 666,
-            "width": 216,
-            "height": 64
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 32,
-            "y": 778,
+            "y": 722,
             "width": 1536,
             "height": 115
           },
@@ -12758,7 +10993,7 @@
         {
           "bounds": {
             "x": 56,
-            "y": 800,
+            "y": 744,
             "width": 72,
             "height": 72
           },
@@ -12767,7 +11002,7 @@
         {
           "bounds": {
             "x": 32,
-            "y": 917,
+            "y": 861,
             "width": 1536,
             "height": 115
           },
@@ -12776,7 +11011,7 @@
         {
           "bounds": {
             "x": 56,
-            "y": 939,
+            "y": 883,
             "width": 72,
             "height": 72
           },
@@ -12785,151 +11020,7 @@
         {
           "bounds": {
             "x": 32,
-            "y": 1056,
-            "width": 1536,
-            "height": 112
-          },
-          "padding": {
-            "start": 0,
-            "top": 4,
-            "end": 0,
-            "bottom": 4
-          }
-        },
-        {
-          "bounds": {
-            "x": 1312,
-            "y": 1080,
-            "width": 216,
-            "height": 64
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
-            "x": 32,
-            "y": 1192,
-            "width": 1536,
-            "height": 115
-          },
-          "cornerRadius": 12
-        },
-        {
-          "bounds": {
-            "x": 56,
-            "y": 1214,
-            "width": 72,
-            "height": 72
-          },
-          "cornerRadius": 18
-        },
-        {
-          "bounds": {
-            "x": 32,
-            "y": 1331,
-            "width": 1536,
-            "height": 115
-          },
-          "cornerRadius": 12
-        },
-        {
-          "bounds": {
-            "x": 56,
-            "y": 1353,
-            "width": 72,
-            "height": 72
-          },
-          "cornerRadius": 18
-        },
-        {
-          "bounds": {
-            "x": 32,
-            "y": 1470,
-            "width": 1536,
-            "height": 112
-          },
-          "padding": {
-            "start": 0,
-            "top": 4,
-            "end": 0,
-            "bottom": 4
-          }
-        },
-        {
-          "bounds": {
-            "x": 1368,
-            "y": 1494,
-            "width": 160,
-            "height": 64
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
-            "x": 32,
-            "y": 1606,
-            "width": 1536,
-            "height": 115
-          },
-          "cornerRadius": 12
-        },
-        {
-          "bounds": {
-            "x": 56,
-            "y": 1628,
-            "width": 72,
-            "height": 72
-          },
-          "cornerRadius": 18
-        },
-        {
-          "bounds": {
-            "x": 32,
-            "y": 1745,
-            "width": 1536,
-            "height": 112
-          },
-          "padding": {
-            "start": 0,
-            "top": 4,
-            "end": 0,
-            "bottom": 4
-          }
-        },
-        {
-          "bounds": {
-            "x": 1368,
-            "y": 1769,
-            "width": 160,
-            "height": 64
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
-            "x": 32,
-            "y": 1881,
-            "width": 1536,
-            "height": 115
-          },
-          "cornerRadius": 12
-        },
-        {
-          "bounds": {
-            "x": 56,
-            "y": 1903,
-            "width": 72,
-            "height": 72
-          },
-          "cornerRadius": 18
-        },
-        {
-          "bounds": {
-            "x": 32,
-            "y": 2020,
+            "y": 1000,
             "width": 1536,
             "height": 56
           },
@@ -12943,7 +11034,7 @@
         {
           "bounds": {
             "x": 32,
-            "y": 2100,
+            "y": 1080,
             "width": 1536,
             "height": 115
           },
@@ -12952,7 +11043,121 @@
         {
           "bounds": {
             "x": 56,
-            "y": 2122,
+            "y": 1102,
+            "width": 72,
+            "height": 72
+          },
+          "cornerRadius": 18
+        },
+        {
+          "bounds": {
+            "x": 32,
+            "y": 1219,
+            "width": 1536,
+            "height": 115
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 56,
+            "y": 1241,
+            "width": 72,
+            "height": 72
+          },
+          "cornerRadius": 18
+        },
+        {
+          "bounds": {
+            "x": 32,
+            "y": 1358,
+            "width": 1536,
+            "height": 56
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 32,
+            "y": 1438,
+            "width": 1536,
+            "height": 115
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 56,
+            "y": 1460,
+            "width": 72,
+            "height": 72
+          },
+          "cornerRadius": 18
+        },
+        {
+          "bounds": {
+            "x": 32,
+            "y": 1577,
+            "width": 1536,
+            "height": 56
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 32,
+            "y": 1657,
+            "width": 1536,
+            "height": 115
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 56,
+            "y": 1679,
+            "width": 72,
+            "height": 72
+          },
+          "cornerRadius": 18
+        },
+        {
+          "bounds": {
+            "x": 32,
+            "y": 1796,
+            "width": 1536,
+            "height": 56
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 32,
+            "y": 1876,
+            "width": 1536,
+            "height": 115
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 56,
+            "y": 1898,
             "width": 72,
             "height": 72
           },
@@ -12971,16 +11176,6 @@
             "end": 4,
             "bottom": 0
           }
-        },
-        {
-          "bounds": {
-            "x": 1312,
-            "y": 24,
-            "width": 80,
-            "height": 80
-          },
-          "role": "Button",
-          "cornerRadius": 20
         },
         {
           "bounds": {
@@ -13009,7 +11204,7 @@
       "wireframe": "wireframes/app-playstoretablettenhome.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/PlayStorePreviews.kt",
       "sourceModule": ":app",
-      "bodyLine": 277,
+      "bodyLine": 272,
       "sourceDirectory": "app",
       "sourceFunction": "PlayStoreTabletTenHome",
       "parameters": [
@@ -13980,649 +12175,319 @@
       "wireframe": "wireframes/app-meshcore-light-theme.svg"
     },
     {
-      "componentId": "app/Dynamic Dark theme",
+      "componentId": "meshcore-components/AppSettingsPreview",
       "images": [
         {
           "variant": "ideal",
-          "path": "images/app-dynamic-dark-theme/ideal__default__dark__expanded.png",
+          "path": "images/meshcore-components-appsettingspreview/ideal__default__light__compact.png",
           "state": "default",
-          "width": 900,
-          "height": 760,
-          "theme": "dark",
-          "size": "expanded",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/app-dynamic-dark-theme__ideal__default__dark__expanded",
-          "previewId": "themecatalog__Dynamic_Dark",
-          "fixedTheme": true,
-          "previewParams": {
-            "device": "spec:width=900dp,height=760dp,dpi=160",
-            "widthDp": 900,
-            "heightDp": 760
-          },
-          "density": 1,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/app-dynamic-dark-theme__ideal__default__dark__expanded.svg"
-        }
-      ],
-      "greenlines": [],
-      "redlines": [
-        {
-          "bounds": {
-            "x": 16,
-            "y": 16,
-            "width": 868,
-            "height": 728
-          },
-          "padding": {
-            "start": 16,
-            "top": 16,
-            "end": 16,
-            "bottom": 16
-          }
-        },
-        {
-          "bounds": {
-            "x": 24,
-            "y": 41,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 239,
-            "y": 41,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 24,
-            "y": 93,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 239,
-            "y": 93,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 24,
-            "y": 145,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 239,
-            "y": 145,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 468,
-            "y": 41,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 683,
-            "y": 41,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 468,
-            "y": 93,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 683,
-            "y": 93,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 468,
-            "y": 145,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 683,
-            "y": 145,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 16,
-            "y": 419,
-            "width": 40,
-            "height": 40
-          },
-          "cornerRadius": 4
-        },
-        {
-          "bounds": {
-            "x": 193,
-            "y": 419,
-            "width": 40,
-            "height": 40
-          },
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
-            "x": 370,
-            "y": 419,
-            "width": 40,
-            "height": 40
-          },
-          "cornerRadius": 12
-        },
-        {
-          "bounds": {
-            "x": 548,
-            "y": 419,
-            "width": 40,
-            "height": 40
-          },
-          "cornerRadius": 16
-        },
-        {
-          "bounds": {
-            "x": 726,
-            "y": 419,
-            "width": 40,
-            "height": 40
-          },
-          "cornerRadius": 28
-        }
-      ],
-      "section": ":app",
-      "group": "MeshCore",
-      "caption": "Dynamic Dark",
-      "wireframe": "wireframes/app-dynamic-dark-theme.svg"
-    },
-    {
-      "componentId": "app/Dynamic Light theme",
-      "images": [
-        {
-          "variant": "ideal",
-          "path": "images/app-dynamic-light-theme/ideal__default__light__expanded.png",
-          "state": "default",
-          "width": 900,
-          "height": 760,
+          "width": 1078,
+          "height": 2399,
           "theme": "light",
-          "size": "expanded",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/app-dynamic-light-theme__ideal__default__light__expanded",
-          "previewId": "themecatalog__Dynamic_Light",
-          "fixedTheme": true,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/meshcore-components-appsettingspreview__ideal__default__light__compact",
+          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.AppSettingsBodyPreviewsKt.AppSettingsPreview_Light",
           "previewParams": {
-            "device": "spec:width=900dp,height=760dp,dpi=160",
-            "widthDp": 900,
-            "heightDp": 760
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
           },
-          "density": 1,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/app-dynamic-light-theme__ideal__default__light__expanded.svg"
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
+          "path": "images/meshcore-components-appsettingspreview/ideal__default__dark__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "theme": "dark",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/meshcore-components-appsettingspreview__ideal__default__dark__compact",
+          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.AppSettingsBodyPreviewsKt.AppSettingsPreview_Dark",
+          "previewParams": {
+            "uiMode": 32,
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
+          },
+          "density": 2.625
         }
       ],
-      "greenlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 22,
+              "y": 32,
+              "width": 105,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 22,
+            "y": 32,
+            "width": 105,
+            "height": 105
+          }
+        }
+      ],
       "redlines": [
         {
           "bounds": {
-            "x": 16,
-            "y": 16,
-            "width": 868,
-            "height": 728
+            "x": 42,
+            "y": 189,
+            "width": 111,
+            "height": 47
           },
+          "label": "About",
           "padding": {
             "start": 16,
-            "top": 16,
+            "top": 8,
             "end": 16,
-            "bottom": 16
+            "bottom": 8
           }
         },
         {
           "bounds": {
-            "x": 24,
-            "y": 41,
-            "width": 193,
-            "height": 32
+            "x": 22,
+            "y": 32,
+            "width": 105,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 148,
+            "y": 47,
+            "width": 248,
+            "height": 73
           },
           "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
+            "start": 4,
+            "top": 0,
+            "end": 4,
+            "bottom": 0
+          }
         },
         {
           "bounds": {
-            "x": 239,
-            "y": 41,
-            "width": 193,
-            "height": 32
+            "x": 42,
+            "y": 0,
+            "width": 994,
+            "height": 63
           },
           "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
+            "start": 16,
+            "top": 0,
+            "end": 16,
+            "bottom": 0
+          }
         },
         {
           "bounds": {
-            "x": 24,
-            "y": 93,
-            "width": 193,
-            "height": 32
+            "x": 397,
+            "y": 2368,
+            "width": 284,
+            "height": 11
           },
           "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 0
           },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 239,
-            "y": 93,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 24,
-            "y": 145,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 239,
-            "y": 145,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 468,
-            "y": 41,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 683,
-            "y": 41,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 468,
-            "y": 93,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 683,
-            "y": 93,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 468,
-            "y": 145,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 683,
-            "y": 145,
-            "width": 193,
-            "height": 32
-          },
-          "padding": {
-            "start": 8,
-            "top": 6,
-            "end": 8,
-            "bottom": 6
-          },
-          "cornerRadius": 6
-        },
-        {
-          "bounds": {
-            "x": 16,
-            "y": 419,
-            "width": 40,
-            "height": 40
-          },
-          "cornerRadius": 4
-        },
-        {
-          "bounds": {
-            "x": 193,
-            "y": 419,
-            "width": 40,
-            "height": 40
-          },
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
-            "x": 370,
-            "y": 419,
-            "width": 40,
-            "height": 40
-          },
-          "cornerRadius": 12
-        },
-        {
-          "bounds": {
-            "x": 548,
-            "y": 419,
-            "width": 40,
-            "height": 40
-          },
-          "cornerRadius": 16
-        },
-        {
-          "bounds": {
-            "x": 726,
-            "y": 419,
-            "width": 40,
-            "height": 40
-          },
-          "cornerRadius": 28
+          "cornerRadius": 2
         }
       ],
-      "section": ":app",
-      "group": "MeshCore",
-      "caption": "Dynamic Light",
-      "wireframe": "wireframes/app-dynamic-light-theme.svg"
-    },
-    {
-      "componentId": "meshcore-components/ThemePickerMeshcoreSystemPreview",
-      "images": [
-        {
-          "variant": "ideal",
-          "path": "images/meshcore-components-themepickermeshcoresystempreview/ideal__default.png",
-          "state": "default",
-          "width": 1,
-          "height": 1,
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/meshcore-components-themepickermeshcoresystempreview__ideal__default",
-          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.app.ui.theme.ThemePickerKt.ThemePickerMeshcoreSystemPreview_ThemePicker___MeshCore___System",
-          "previewParams": {
-            "showBackground": true
-          },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/meshcore-components-themepickermeshcoresystempreview__ideal__default.svg"
-        }
-      ],
-      "greenlines": [],
-      "redlines": [],
       "section": ":meshcore-components",
       "group": "Previews",
-      "caption": "ThemePicker — MeshCore + System",
-      "wireframe": "wireframes/meshcore-components-themepickermeshcoresystempreview.svg",
-      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/app/ui/theme/ThemePicker.kt",
+      "caption": "Light",
+      "wireframe": "wireframes/meshcore-components-appsettingspreview.svg",
+      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/AppSettingsBodyPreviews.kt",
       "sourceModule": ":meshcore-components",
-      "bodyLine": 162,
+      "bodyLine": 32,
       "sourceDirectory": "meshcore-components",
-      "sourceFunction": "ThemePickerMeshcoreSystemPreview",
+      "sourceFunction": "AppSettingsPreview",
       "parameters": [
         {
-          "name": "current",
-          "type": "ThemeSettings"
-        },
-        {
-          "name": "onModeSelect",
-          "type": "(ThemeMode) -> Unit"
-        },
-        {
-          "name": "onPaletteSelect",
-          "type": "(ThemePalette) -> Unit"
-        },
-        {
-          "name": "onDismiss",
-          "type": "() -> Unit"
-        },
-        {
-          "name": "dynamicColorAvailable",
-          "type": "Boolean",
-          "hasDefault": true
+          "name": "developerMode",
+          "type": "Boolean"
         }
       ]
     },
     {
-      "componentId": "meshcore-components/ThemePickerDynamicDarkPreview",
+      "componentId": "meshcore-components/AppSettingsDeveloperPreview",
       "images": [
         {
           "variant": "ideal",
-          "path": "images/meshcore-components-themepickerdynamicdarkpreview/ideal__default__dark.png",
+          "path": "images/meshcore-components-appsettingsdeveloperpreview/ideal__default__compact.png",
           "state": "default",
-          "width": 1,
-          "height": 1,
-          "theme": "dark",
-          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/meshcore-components-themepickerdynamicdarkpreview__ideal__default__dark",
-          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.app.ui.theme.ThemePickerKt.ThemePickerDynamicDarkPreview_ThemePicker___Dynamic___Dark",
+          "width": 1078,
+          "height": 2399,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/meshcore-components-appsettingsdeveloperpreview__ideal__default__compact",
+          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.AppSettingsBodyPreviewsKt.AppSettingsDeveloperPreview_Developer",
           "previewParams": {
-            "showBackground": true
+            "showBackground": true,
+            "device": "id:pixel_7",
+            "widthDp": 411,
+            "heightDp": 914
           },
-          "density": 2.625,
-          "figmaSvg": "https://preview.coo.ee/meshcore-mobile/render/meshcore-components-themepickerdynamicdarkpreview__ideal__default__dark.svg"
+          "density": 2.625
         }
       ],
-      "greenlines": [],
-      "redlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "switch",
+          "detail": {
+            "role": "switch",
+            "bounds": {
+              "x": 899,
+              "y": 838,
+              "width": 137,
+              "height": 84
+            }
+          },
+          "bounds": {
+            "x": 899,
+            "y": 838,
+            "width": 137,
+            "height": 84
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 22,
+              "y": 32,
+              "width": 105,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 22,
+            "y": 32,
+            "width": 105,
+            "height": 105
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 42,
+            "y": 189,
+            "width": 111,
+            "height": 47
+          },
+          "label": "About",
+          "padding": {
+            "start": 16,
+            "top": 8,
+            "end": 16,
+            "bottom": 8
+          }
+        },
+        {
+          "bounds": {
+            "x": 899,
+            "y": 838,
+            "width": 137,
+            "height": 84
+          },
+          "role": "Switch",
+          "cornerRadius": 16
+        },
+        {
+          "bounds": {
+            "x": 962,
+            "y": 849,
+            "width": 63,
+            "height": 63
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 22,
+            "y": 32,
+            "width": 105,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 148,
+            "y": 47,
+            "width": 248,
+            "height": 73
+          },
+          "padding": {
+            "start": 4,
+            "top": 0,
+            "end": 4,
+            "bottom": 0
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 0,
+            "width": 994,
+            "height": 63
+          },
+          "padding": {
+            "start": 16,
+            "top": 0,
+            "end": 16,
+            "bottom": 0
+          }
+        },
+        {
+          "bounds": {
+            "x": 397,
+            "y": 2368,
+            "width": 284,
+            "height": 11
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 0
+          },
+          "cornerRadius": 2
+        }
+      ],
       "section": ":meshcore-components",
       "group": "Previews",
-      "caption": "ThemePicker — Dynamic + Dark",
-      "wireframe": "wireframes/meshcore-components-themepickerdynamicdarkpreview.svg",
-      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/app/ui/theme/ThemePicker.kt",
+      "caption": "Developer",
+      "wireframe": "wireframes/meshcore-components-appsettingsdeveloperpreview.svg",
+      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/AppSettingsBodyPreviews.kt",
       "sourceModule": ":meshcore-components",
-      "bodyLine": 175,
+      "bodyLine": 37,
       "sourceDirectory": "meshcore-components",
-      "sourceFunction": "ThemePickerDynamicDarkPreview",
+      "sourceFunction": "AppSettingsDeveloperPreview",
       "parameters": [
         {
-          "name": "current",
-          "type": "ThemeSettings"
-        },
-        {
-          "name": "onModeSelect",
-          "type": "(ThemeMode) -> Unit"
-        },
-        {
-          "name": "onPaletteSelect",
-          "type": "(ThemePalette) -> Unit"
-        },
-        {
-          "name": "onDismiss",
-          "type": "() -> Unit"
-        },
-        {
-          "name": "dynamicColorAvailable",
-          "type": "Boolean",
-          "hasDefault": true
+          "name": "developerMode",
+          "type": "Boolean"
         }
       ]
     },
@@ -15520,86 +13385,6 @@
         {
           "kind": "a11y",
           "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 699,
-              "y": 1097,
-              "width": 284,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 699,
-            "y": 1097,
-            "width": 284,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 772,
-              "y": 1426,
-              "width": 211,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 772,
-            "y": 1426,
-            "width": 211,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 772,
-              "y": 1720,
-              "width": 211,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 772,
-            "y": 1720,
-            "width": 211,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 700,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 700,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
           "message": "button",
           "detail": {
             "role": "button",
@@ -15735,7 +13520,7 @@
             "x": 42,
             "y": 1065,
             "width": 994,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -15746,59 +13531,28 @@
         },
         {
           "bounds": {
-            "x": 699,
-            "y": 1097,
-            "width": 284,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1394,
+            "y": 1172,
             "width": 994,
-            "height": 148
+            "height": 151
           },
-          "padding": {
-            "start": 0,
-            "top": 4,
-            "end": 0,
-            "bottom": 4
-          }
+          "cornerRadius": 12
         },
         {
           "bounds": {
-            "x": 772,
-            "y": 1426,
-            "width": 211,
-            "height": 84
+            "x": 74,
+            "y": 1200,
+            "width": 95,
+            "height": 95
           },
-          "role": "Checkbox",
-          "cornerRadius": 8
+          "cornerRadius": 18.1
         },
         {
           "bounds": {
             "x": 42,
-            "y": 1595,
-            "width": 324,
-            "height": 40
-          },
-          "label": "No rooms joined yet",
-          "padding": {
-            "start": 0,
-            "top": 8,
-            "end": 0,
-            "bottom": 8
-          }
-        },
-        {
-          "bounds": {
-            "x": 42,
-            "y": 1688,
+            "y": 1355,
             "width": 994,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -15809,28 +13563,53 @@
         },
         {
           "bounds": {
-            "x": 772,
-            "y": 1720,
-            "width": 211,
-            "height": 84
+            "x": 42,
+            "y": 1462,
+            "width": 994,
+            "height": 151
           },
-          "role": "Checkbox",
-          "cornerRadius": 8
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 1490,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
         },
         {
           "bounds": {
             "x": 42,
-            "y": 1889,
-            "width": 381,
-            "height": 40
+            "y": 1645,
+            "width": 994,
+            "height": 75
           },
-          "label": "No repeaters joined yet",
           "padding": {
             "start": 0,
-            "top": 8,
+            "top": 4,
             "end": 0,
-            "bottom": 8
+            "bottom": 4
           }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1752,
+            "width": 994,
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 1780,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
         },
         {
           "bounds": {
@@ -15845,16 +13624,6 @@
             "end": 4,
             "bottom": 0
           }
-        },
-        {
-          "bounds": {
-            "x": 700,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
         },
         {
           "bounds": {
@@ -15912,7 +13681,7 @@
       "wireframe": "wireframes/meshcore-components-devicebodydarkpreview.svg",
       "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt",
       "sourceModule": ":meshcore-components",
-      "bodyLine": 129,
+      "bodyLine": 127,
       "sourceDirectory": "meshcore-components",
       "sourceFunction": "DeviceBodyDarkPreview",
       "parameters": [
@@ -15957,27 +13726,12 @@
           "hasDefault": true
         },
         {
-          "name": "contactedKeys",
-          "type": "Set<String>",
-          "hasDefault": true
-        },
-        {
-          "name": "contactedChannelIndices",
-          "type": "Set<Int>",
-          "hasDefault": true
-        },
-        {
           "name": "sectionStates",
           "type": "SectionStates",
           "hasDefault": true
         },
         {
           "name": "onSectionExpandedChange",
-          "type": "(Section, Boolean) -> Unit",
-          "hasDefault": true
-        },
-        {
-          "name": "onSectionShowAllChange",
           "type": "(Section, Boolean) -> Unit",
           "hasDefault": true
         },
@@ -16008,12 +13762,12 @@
         },
         {
           "name": "onSettingsClick",
-          "type": "() -> Unit",
+          "type": "(() -> Unit)?",
           "hasDefault": true
         },
         {
-          "name": "onOpenThemePicker",
-          "type": "() -> Unit",
+          "name": "developerMode",
+          "type": "Boolean",
           "hasDefault": true
         },
         {
@@ -16070,106 +13824,6 @@
             "y": 694,
             "width": 63,
             "height": 63
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 699,
-              "y": 852,
-              "width": 284,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 699,
-            "y": 852,
-            "width": 284,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 699,
-              "y": 1215,
-              "width": 284,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 699,
-            "y": 1215,
-            "width": 284,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 772,
-              "y": 1578,
-              "width": 211,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 772,
-            "y": 1578,
-            "width": 211,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "checkbox",
-          "detail": {
-            "role": "checkbox",
-            "bounds": {
-              "x": 772,
-              "y": 1872,
-              "width": 211,
-              "height": 84
-            }
-          },
-          "bounds": {
-            "x": 772,
-            "y": 1872,
-            "width": 211,
-            "height": 84
-          }
-        },
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 700,
-              "y": 32,
-              "width": 105,
-              "height": 105
-            }
-          },
-          "bounds": {
-            "x": 700,
-            "y": 32,
-            "width": 105,
-            "height": 105
           }
         },
         {
@@ -16291,7 +13945,7 @@
             "x": 42,
             "y": 820,
             "width": 994,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -16302,18 +13956,8 @@
         },
         {
           "bounds": {
-            "x": 699,
-            "y": 852,
-            "width": 284,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1000,
+            "y": 927,
             "width": 994,
             "height": 151
           },
@@ -16322,7 +13966,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1028,
+            "y": 955,
             "width": 95,
             "height": 95
           },
@@ -16331,9 +13975,9 @@
         {
           "bounds": {
             "x": 42,
-            "y": 1183,
+            "y": 1110,
             "width": 994,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -16344,18 +13988,8 @@
         },
         {
           "bounds": {
-            "x": 699,
-            "y": 1215,
-            "width": 284,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1363,
+            "y": 1217,
             "width": 994,
             "height": 151
           },
@@ -16364,7 +13998,7 @@
         {
           "bounds": {
             "x": 74,
-            "y": 1391,
+            "y": 1245,
             "width": 95,
             "height": 95
           },
@@ -16373,9 +14007,9 @@
         {
           "bounds": {
             "x": 42,
-            "y": 1546,
+            "y": 1400,
             "width": 994,
-            "height": 148
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -16386,35 +14020,28 @@
         },
         {
           "bounds": {
-            "x": 772,
-            "y": 1578,
-            "width": 211,
-            "height": 84
-          },
-          "role": "Checkbox",
-          "cornerRadius": 8
-        },
-        {
-          "bounds": {
             "x": 42,
-            "y": 1747,
-            "width": 324,
-            "height": 40
-          },
-          "label": "No rooms joined yet",
-          "padding": {
-            "start": 0,
-            "top": 8,
-            "end": 0,
-            "bottom": 8
-          }
-        },
-        {
-          "bounds": {
-            "x": 42,
-            "y": 1840,
+            "y": 1507,
             "width": 994,
-            "height": 148
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 1535,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1690,
+            "width": 994,
+            "height": 75
           },
           "padding": {
             "start": 0,
@@ -16425,28 +14052,21 @@
         },
         {
           "bounds": {
-            "x": 772,
-            "y": 1872,
-            "width": 211,
-            "height": 84
+            "x": 42,
+            "y": 1797,
+            "width": 994,
+            "height": 151
           },
-          "role": "Checkbox",
-          "cornerRadius": 8
+          "cornerRadius": 12
         },
         {
           "bounds": {
-            "x": 42,
-            "y": 2041,
-            "width": 381,
-            "height": 40
+            "x": 74,
+            "y": 1825,
+            "width": 95,
+            "height": 95
           },
-          "label": "No repeaters joined yet",
-          "padding": {
-            "start": 0,
-            "top": 8,
-            "end": 0,
-            "bottom": 8
-          }
+          "cornerRadius": 18.1
         },
         {
           "bounds": {
@@ -16461,16 +14081,6 @@
             "end": 4,
             "bottom": 0
           }
-        },
-        {
-          "bounds": {
-            "x": 700,
-            "y": 32,
-            "width": 105,
-            "height": 105
-          },
-          "role": "Button",
-          "cornerRadius": 20
         },
         {
           "bounds": {
@@ -16528,7 +14138,7 @@
       "wireframe": "wireframes/meshcore-components-cacheddevicebodydarkpreview.svg",
       "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/DeviceBodyPreviews.kt",
       "sourceModule": ":meshcore-components",
-      "bodyLine": 201,
+      "bodyLine": 197,
       "sourceDirectory": "meshcore-components",
       "sourceFunction": "CachedDeviceBodyDarkPreview",
       "parameters": [
@@ -16692,6 +14302,729 @@
           "name": "dark",
           "type": "Boolean",
           "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "meshcore-components/MeshcoreListDetailOpenPreview",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/meshcore-components-meshcorelistdetailopenpreview/ideal__default__expanded.png",
+          "state": "default",
+          "width": 3150,
+          "height": 2100,
+          "size": "expanded",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/meshcore-components-meshcorelistdetailopenpreview__ideal__default__expanded",
+          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.MeshcoreListDetailPreviewsKt.MeshcoreListDetailOpenPreview_List-detail___open",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625
+        },
+        {
+          "variant": "ideal",
+          "path": "images/meshcore-components-meshcorelistdetailopenpreview/ideal__default__dark__expanded.png",
+          "state": "default",
+          "width": 3150,
+          "height": 2100,
+          "theme": "dark",
+          "size": "expanded",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/meshcore-components-meshcorelistdetailopenpreview__ideal__default__dark__expanded",
+          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.MeshcoreListDetailPreviewsKt.MeshcoreListDetailOpenPreview_List-detail___open__dark",
+          "previewParams": {
+            "uiMode": 32,
+            "showBackground": true
+          },
+          "density": 2.625
+        }
+      ],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 819,
+              "y": 32,
+              "width": 105,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 819,
+            "y": 32,
+            "width": 105,
+            "height": 105
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 3014,
+              "y": 1951,
+              "width": 105,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 3014,
+            "y": 1951,
+            "width": 105,
+            "height": 105
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 1030,
+              "y": 32,
+              "width": 105,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 1030,
+            "y": 32,
+            "width": 105,
+            "height": 105
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 0,
+            "y": 168,
+            "width": 945,
+            "height": 1932
+          },
+          "padding": {
+            "start": 16,
+            "top": 8,
+            "end": 16,
+            "bottom": 8
+          },
+          "gap": 12
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 189,
+            "width": 861,
+            "height": 440
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 84,
+            "y": 231,
+            "width": 777,
+            "height": 356
+          },
+          "padding": {
+            "start": 16,
+            "top": 16,
+            "end": 16,
+            "bottom": 16
+          },
+          "gap": 10
+        },
+        {
+          "bounds": {
+            "x": 84,
+            "y": 497,
+            "width": 777,
+            "height": 63
+          },
+          "padding": {
+            "start": 0,
+            "top": 10,
+            "end": 0,
+            "bottom": 10
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 661,
+            "width": 861,
+            "height": 75
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 768,
+            "width": 861,
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 796,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 951,
+            "width": 861,
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 979,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1134,
+            "width": 861,
+            "height": 75
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1241,
+            "width": 861,
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 1269,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1424,
+            "width": 861,
+            "height": 75
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1531,
+            "width": 861,
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 1559,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1714,
+            "width": 861,
+            "height": 75
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1821,
+            "width": 861,
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 1849,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 43,
+            "y": 51,
+            "width": 316,
+            "height": 66
+          },
+          "padding": {
+            "start": 4,
+            "top": 0,
+            "end": 4,
+            "bottom": 0
+          }
+        },
+        {
+          "bounds": {
+            "x": 819,
+            "y": 32,
+            "width": 105,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 1040,
+            "y": 168,
+            "width": 2078,
+            "height": 1738
+          },
+          "padding": {
+            "start": 12,
+            "top": 0,
+            "end": 12,
+            "bottom": 0
+          }
+        },
+        {
+          "bounds": {
+            "x": 2707,
+            "y": 374,
+            "width": 411,
+            "height": 134
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 2739,
+            "y": 395,
+            "width": 341,
+            "height": 47
+          },
+          "label": "on my way up now",
+          "padding": {
+            "start": 0,
+            "top": 0,
+            "end": 0,
+            "bottom": 0
+          }
+        },
+        {
+          "bounds": {
+            "x": 1040,
+            "y": 184,
+            "width": 1952,
+            "height": 179
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 1072,
+            "y": 250,
+            "width": 542,
+            "height": 47
+          },
+          "label": "anyone near the north ridge?",
+          "padding": {
+            "start": 0,
+            "top": 2,
+            "end": 0,
+            "bottom": 0
+          }
+        },
+        {
+          "bounds": {
+            "x": 1029,
+            "y": 1927,
+            "width": 1953,
+            "height": 152
+          },
+          "cornerRadius": 24
+        },
+        {
+          "bounds": {
+            "x": 3014,
+            "y": 1951,
+            "width": 105,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 1030,
+            "y": 32,
+            "width": 105,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 1156,
+            "y": 37,
+            "width": 161,
+            "height": 94
+          },
+          "padding": {
+            "start": 4,
+            "top": 0,
+            "end": 4,
+            "bottom": 0
+          }
+        }
+      ],
+      "section": ":meshcore-components",
+      "group": "Previews",
+      "caption": "List-detail — open",
+      "wireframe": "wireframes/meshcore-components-meshcorelistdetailopenpreview.svg",
+      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/MeshcoreListDetailPreviews.kt",
+      "sourceModule": ":meshcore-components",
+      "bodyLine": 106,
+      "sourceDirectory": "meshcore-components",
+      "sourceFunction": "MeshcoreListDetailOpenPreview",
+      "parameters": [
+        {
+          "name": "open",
+          "type": "ChatDestination?"
+        }
+      ]
+    },
+    {
+      "componentId": "meshcore-components/MeshcoreListDetailEmptyPreview",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/meshcore-components-meshcorelistdetailemptypreview/ideal__default__expanded.png",
+          "state": "default",
+          "width": 3150,
+          "height": 2100,
+          "size": "expanded",
+          "livePreview": "https://preview.coo.ee/meshcore-mobile/p/meshcore-components-meshcorelistdetailemptypreview__ideal__default__expanded",
+          "previewId": "module_3a6d657368636f72652d636f6d706f6e656e7473__module_6d657368636f72652d636f6d706f6e656e7473__ee.schimke.meshcore.components.ui.MeshcoreListDetailPreviewsKt.MeshcoreListDetailEmptyPreview_List-detail___empty",
+          "previewParams": {
+            "showBackground": true
+          },
+          "density": 2.625
+        }
+      ],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 819,
+              "y": 32,
+              "width": 105,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 819,
+            "y": 32,
+            "width": 105,
+            "height": 105
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 0,
+            "y": 168,
+            "width": 945,
+            "height": 1932
+          },
+          "padding": {
+            "start": 16,
+            "top": 8,
+            "end": 16,
+            "bottom": 8
+          },
+          "gap": 12
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 189,
+            "width": 861,
+            "height": 440
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 84,
+            "y": 231,
+            "width": 777,
+            "height": 356
+          },
+          "padding": {
+            "start": 16,
+            "top": 16,
+            "end": 16,
+            "bottom": 16
+          },
+          "gap": 10
+        },
+        {
+          "bounds": {
+            "x": 84,
+            "y": 497,
+            "width": 777,
+            "height": 63
+          },
+          "padding": {
+            "start": 0,
+            "top": 10,
+            "end": 0,
+            "bottom": 10
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 661,
+            "width": 861,
+            "height": 75
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 768,
+            "width": 861,
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 796,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 951,
+            "width": 861,
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 979,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1134,
+            "width": 861,
+            "height": 75
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1241,
+            "width": 861,
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 1269,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1424,
+            "width": 861,
+            "height": 75
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1531,
+            "width": 861,
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 1559,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1714,
+            "width": 861,
+            "height": 75
+          },
+          "padding": {
+            "start": 0,
+            "top": 4,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1821,
+            "width": 861,
+            "height": 151
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 74,
+            "y": 1849,
+            "width": 95,
+            "height": 95
+          },
+          "cornerRadius": 18.1
+        },
+        {
+          "bounds": {
+            "x": 43,
+            "y": 51,
+            "width": 316,
+            "height": 66
+          },
+          "padding": {
+            "start": 4,
+            "top": 0,
+            "end": 4,
+            "bottom": 0
+          }
+        },
+        {
+          "bounds": {
+            "x": 819,
+            "y": 32,
+            "width": 105,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        }
+      ],
+      "section": ":meshcore-components",
+      "group": "Previews",
+      "caption": "List-detail — empty",
+      "wireframe": "wireframes/meshcore-components-meshcorelistdetailemptypreview.svg",
+      "sourceFile": "src/commonMain/kotlin/ee/schimke/meshcore/components/ui/MeshcoreListDetailPreviews.kt",
+      "sourceModule": ":meshcore-components",
+      "bodyLine": 111,
+      "sourceDirectory": "meshcore-components",
+      "sourceFunction": "MeshcoreListDetailEmptyPreview",
+      "parameters": [
+        {
+          "name": "open",
+          "type": "ChatDestination?"
         }
       ]
     },
@@ -19522,25 +17855,11 @@
     "ee.schimke.meshcore:meshcore-components (MeshcoreTheme)"
   ],
   "renderer": "compose-preview 2.86.0",
-  "generatedAt": "2026-11-07T15:03:25.136Z",
+  "generatedAt": "2026-11-07T15:47:49.602Z",
   "display": {
     "hero": "Device/Populated"
   },
   "themes": [
-    {
-      "id": "ee.schimke.meshcore.app.ui.theme.MeshcoreDynamicDarkThemeCatalog",
-      "tokensFile": "themes/ee.schimke.meshcore.app.ui.theme.meshcoredynamicdarkthemecatalog.dtcg.json",
-      "name": "Dynamic Dark",
-      "group": "MeshCore",
-      "dark": true
-    },
-    {
-      "id": "ee.schimke.meshcore.app.ui.theme.MeshcoreDynamicLightThemeCatalog",
-      "tokensFile": "themes/ee.schimke.meshcore.app.ui.theme.meshcoredynamiclightthemecatalog.dtcg.json",
-      "name": "Dynamic Light",
-      "group": "MeshCore",
-      "dark": false
-    },
     {
       "id": "ee.schimke.meshcore.app.ui.theme.MeshcoreAppDarkThemeCatalog",
       "tokensFile": "themes/ee.schimke.meshcore.app.ui.theme.meshcoreappdarkthemecatalog.dtcg.json",
@@ -19583,14 +17902,14 @@
   "componentsFile": "ui-builder/components.json",
   "source": {
     "repo": "yschimke/meshcore-mobile",
-    "ref": "8e76031ecb2ccf1091af2f96feec0204bea6d8fb",
+    "ref": "e6847b73f3754b3b729713295515db12d5d02148",
     "module": ""
   },
   "uiBuilderFile": "ui-builder.json",
   "uiBuilderRuntime": {
     "path": "ui-builder/runtime.zip",
-    "runtimeId": "meshcore-mobile-p2-0a86b7ffda5c6aae",
+    "runtimeId": "meshcore-mobile-p2-3959b5b60086f282",
     "protocolVersion": 2,
-    "integritySha256": "0a86b7ffda5c6aaec8c9512572907f64fc0591b001971442cd0d508a736645ee"
+    "integritySha256": "3959b5b60086f28283c78d2f2fe1c40dd089fe062bdd3620d1c6f3fbbbc41c97"
   }
 }

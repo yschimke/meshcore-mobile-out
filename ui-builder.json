@@ -11,7 +11,7 @@
     "record": {
         "file": "components.json",
         "schemaVersion": 2,
-        "components": 19
+        "components": 18
     },
     "statusSemantics": {
         "platform": "mobile",
@@ -2189,97 +2189,6 @@
                 "shelfRole": null,
                 "exportProjection": null
             },
-            "meshcore-mobile/theme-picker": {
-                "record": ":meshcore-components/ee.schimke.meshcore.app.ui.theme.ThemePickerKt.ThemePickerDialog",
-                "catalogId": null,
-                "displayName": null,
-                "canvas": "meshcore-mobile/theme-picker",
-                "canvasMapping": null,
-                "unrolled": null,
-                "nativeOnly": false,
-                "traits": [],
-                "slots": {},
-                "stateCallbacks": {},
-                "starter": {},
-                "variantProperty": null,
-                "variants": {},
-                "excluded": null,
-                "propertyCapabilities": [
-                    {
-                        "name": "current",
-                        "jsonType": "object",
-                        "required": false,
-                        "editor": {
-                            "control": "object",
-                            "objectType": "ee.schimke.meshcore.app.ui.theme.ThemeSettings",
-                            "fields": [
-                                {
-                                    "name": "mode",
-                                    "required": false,
-                                    "default": {
-                                        "type": "string",
-                                        "value": "System"
-                                    },
-                                    "jsonType": "string",
-                                    "literalType": "string",
-                                    "allowedValues": [
-                                        "Dark",
-                                        "Light",
-                                        "System"
-                                    ]
-                                },
-                                {
-                                    "name": "palette",
-                                    "required": false,
-                                    "default": {
-                                        "type": "string",
-                                        "value": "Meshcore"
-                                    },
-                                    "jsonType": "string",
-                                    "literalType": "string",
-                                    "allowedValues": [
-                                        "Dynamic",
-                                        "Meshcore"
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "name": "dynamicColorAvailable",
-                        "jsonType": [
-                            "boolean",
-                            "object"
-                        ],
-                        "required": false
-                    }
-                ],
-                "slotCapabilities": [],
-                "modifierCapabilities": null,
-                "insertContent": {
-                    "properties": {
-                        "current": {
-                            "type": "object",
-                            "fields": {
-                                "mode": {
-                                    "type": "string",
-                                    "value": "System"
-                                },
-                                "palette": {
-                                    "type": "string",
-                                    "value": "Meshcore"
-                                }
-                            }
-                        },
-                        "dynamicColorAvailable": {
-                            "type": "bool",
-                            "value": true
-                        }
-                    }
-                },
-                "shelfRole": null,
-                "exportProjection": null
-            },
             "meshcore-mobile/login-dialog": {
                 "record": ":meshcore-components/ee.schimke.meshcore.app.ui.LoginDialogKt.LoginDialog",
                 "catalogId": null,
@@ -2864,30 +2773,6 @@
                         }
                     },
                     {
-                        "name": "contactedKeys",
-                        "jsonType": "array",
-                        "required": false,
-                        "editor": {
-                            "control": "list",
-                            "element": {
-                                "jsonType": "string",
-                                "literalType": "string"
-                            }
-                        }
-                    },
-                    {
-                        "name": "contactedChannelIndices",
-                        "jsonType": "array",
-                        "required": false,
-                        "editor": {
-                            "control": "list",
-                            "element": {
-                                "jsonType": "integer",
-                                "literalType": "int"
-                            }
-                        }
-                    },
-                    {
                         "name": "sectionStates",
                         "jsonType": "object",
                         "required": false,
@@ -2906,31 +2791,11 @@
                                     "literalType": "bool"
                                 },
                                 {
-                                    "name": "channelsShowAll",
-                                    "required": false,
-                                    "default": {
-                                        "type": "bool",
-                                        "value": false
-                                    },
-                                    "jsonType": "boolean",
-                                    "literalType": "bool"
-                                },
-                                {
                                     "name": "contactsExpanded",
                                     "required": false,
                                     "default": {
                                         "type": "bool",
                                         "value": true
-                                    },
-                                    "jsonType": "boolean",
-                                    "literalType": "bool"
-                                },
-                                {
-                                    "name": "contactsShowAll",
-                                    "required": false,
-                                    "default": {
-                                        "type": "bool",
-                                        "value": false
                                     },
                                     "jsonType": "boolean",
                                     "literalType": "bool"
@@ -2946,31 +2811,11 @@
                                     "literalType": "bool"
                                 },
                                 {
-                                    "name": "roomsShowAll",
-                                    "required": false,
-                                    "default": {
-                                        "type": "bool",
-                                        "value": false
-                                    },
-                                    "jsonType": "boolean",
-                                    "literalType": "bool"
-                                },
-                                {
                                     "name": "repeatersExpanded",
                                     "required": false,
                                     "default": {
                                         "type": "bool",
                                         "value": true
-                                    },
-                                    "jsonType": "boolean",
-                                    "literalType": "bool"
-                                },
-                                {
-                                    "name": "repeatersShowAll",
-                                    "required": false,
-                                    "default": {
-                                        "type": "bool",
-                                        "value": false
                                     },
                                     "jsonType": "boolean",
                                     "literalType": "bool"
@@ -3439,28 +3284,6 @@
                                 }
                             ]
                         },
-                        "contactedKeys": {
-                            "type": "list",
-                            "values": [
-                                {
-                                    "type": "string",
-                                    "value": "1111111111111111111111111111111111111111111111111111111111111111"
-                                },
-                                {
-                                    "type": "string",
-                                    "value": "3333333333333333333333333333333333333333333333333333333333333333"
-                                }
-                            ]
-                        },
-                        "contactedChannelIndices": {
-                            "type": "list",
-                            "values": [
-                                {
-                                    "type": "int",
-                                    "value": 0
-                                }
-                            ]
-                        },
                         "sectionStates": {
                             "type": "object",
                             "fields": {
@@ -3468,33 +3291,17 @@
                                     "type": "bool",
                                     "value": true
                                 },
-                                "channelsShowAll": {
-                                    "type": "bool",
-                                    "value": false
-                                },
                                 "contactsExpanded": {
                                     "type": "bool",
                                     "value": true
-                                },
-                                "contactsShowAll": {
-                                    "type": "bool",
-                                    "value": false
                                 },
                                 "roomsExpanded": {
                                     "type": "bool",
                                     "value": true
                                 },
-                                "roomsShowAll": {
-                                    "type": "bool",
-                                    "value": false
-                                },
                                 "repeatersExpanded": {
                                     "type": "bool",
                                     "value": true
-                                },
-                                "repeatersShowAll": {
-                                    "type": "bool",
-                                    "value": false
                                 },
                                 "sensorsExpanded": {
                                     "type": "bool",
