@@ -1,10 +1,17 @@
 {
     "formatVersion": "compose-preview-history/v1",
-    "generatedFrom": "032bf3cb53b2979269c7b75dd0a0991c11e3381b",
+    "generatedFrom": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
     "previews": {
         "app/activity__MainActivity": {
             "path": "renders/app/activity__MainActivity.png",
             "versions": [
+                {
+                    "blob": "ffc926410366fac70d17ba7efe651c54ce2ab63a",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "0abe3505acc21322e1d7722be947dc67cd1825f8",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -20,13 +27,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/apptour__getting-started": {
             "path": "renders/app/apptour__getting-started_step00_launch.png",
             "versions": [
+                {
+                    "blob": "ffc926410366fac70d17ba7efe651c54ce2ab63a",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "0abe3505acc21322e1d7722be947dc67cd1825f8",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -56,13 +70,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 4,
+            "observations": 5,
             "unstable": false,
             "flapCount": 1
         },
         "app/apptour__getting-started#1": {
             "path": "renders/app/apptour__getting-started_step01_ble_transport_tab.png",
             "versions": [
+                {
+                    "blob": "a37d0cd6ebe6bd09868f4e95f6f0e2edcafd25aa",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "6e7fa1aa93202031f346f81a3da7fcd73436ab54",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -71,13 +92,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
         "app/apptour__getting-started#2": {
             "path": "renders/app/apptour__getting-started_step02_saved_devices_tab.png",
             "versions": [
+                {
+                    "blob": "e9a9bcb34d178d4bb4083cde9b08e69322e39bb6",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "6ee28979dc493425613c8becfe46b0c986cab99b",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -86,7 +114,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
@@ -482,6 +510,13 @@
             "path": "renders/app/DeviceSummaryCardLoadingPreview_Dark-7a129c29.png",
             "versions": [
                 {
+                    "blob": "a2c4fee7b34488f62ab7d33f531b146dc9e8104c",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
+                {
                     "blob": "3476418b1a0e22d8f47de6759da8b951aa721a2e",
                     "commit": "5118a492e2e5059c1d9e0357da276ca12b1dc10c",
                     "date": "2026-10-16T21:10:33Z",
@@ -503,13 +538,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ComponentPreviewsKt.DeviceSummaryCardLoadingPreview_Light": {
             "path": "renders/app/DeviceSummaryCardLoadingPreview_Light-65acdf1e.png",
             "versions": [
+                {
+                    "blob": "b17822acfe684926d13747a8739dd737f9da8fef",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "7b16abfb11ccba404d64db32e5af81472cf56f26",
                     "commit": "5118a492e2e5059c1d9e0357da276ca12b1dc10c",
@@ -532,13 +574,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ComponentPreviewsKt.DeviceSummaryCardLowBatteryPreview_Dark": {
             "path": "renders/app/DeviceSummaryCardLowBatteryPreview_Dark-2a12211a.png",
             "versions": [
+                {
+                    "blob": "bd73c4bb9b205b8a6f237c1b48999fa586b8da01",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "6579a3ac2e64012bb95a223278c1a0e1dd8e45e0",
                     "commit": "5118a492e2e5059c1d9e0357da276ca12b1dc10c",
@@ -561,13 +610,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ComponentPreviewsKt.DeviceSummaryCardLowBatteryPreview_Light": {
             "path": "renders/app/DeviceSummaryCardLowBatteryPreview_Light-20409d3d.png",
             "versions": [
+                {
+                    "blob": "acd9ba8e065d9f5e3012ca3b163f209419dbbdd4",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "51646ccdd41c80d234a8c2de08bbf481035498ec",
                     "commit": "5118a492e2e5059c1d9e0357da276ca12b1dc10c",
@@ -590,7 +646,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 0
         },
@@ -730,6 +786,13 @@
             "path": "renders/app/ConversationListDetailEmptyPreview_Foldable-d42a733e.png",
             "versions": [
                 {
+                    "blob": "a2eb7a450378021e452681dae4af7a31c149d2d1",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
+                {
                     "blob": "49e0bb36428fed531f7f2a16e6689d422b0ddc44",
                     "commit": "032bf3cb53b2979269c7b75dd0a0991c11e3381b",
                     "date": "2026-11-07T15:32:38Z",
@@ -737,13 +800,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailEmptyPreview_Tablet": {
             "path": "renders/app/ConversationListDetailEmptyPreview_Tablet-d3af09aa.png",
             "versions": [
+                {
+                    "blob": "d1316acf8cc233807174b217c5a2bdc2451e136a",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "b9b15b77302a9dd602107723ce4f5ca35fca075b",
                     "commit": "032bf3cb53b2979269c7b75dd0a0991c11e3381b",
@@ -752,13 +822,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailOpenPreview_Foldable": {
             "path": "renders/app/ConversationListDetailOpenPreview_Foldable-19771cef.png",
             "versions": [
+                {
+                    "blob": "445e57e5113c27991ba69b7ec83a13e9eb9acacd",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "ffd083bdf346f62a065368b7e4d07a1693f45073",
                     "commit": "032bf3cb53b2979269c7b75dd0a0991c11e3381b",
@@ -767,13 +844,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailOpenPreview_Tablet": {
             "path": "renders/app/ConversationListDetailOpenPreview_Tablet-b548f788.png",
             "versions": [
+                {
+                    "blob": "150ab34feb9850e7c94814d110544d8eaba566f1",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "2b268827d2c9dc085efb482e6b0ce17ff05dcde4",
                     "commit": "032bf3cb53b2979269c7b75dd0a0991c11e3381b",
@@ -782,13 +866,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ConversationListDetailPreviewsKt.ConversationListDetailOpenPreview_Tablet, dark": {
             "path": "renders/app/ConversationListDetailOpenPreview_Tablet_dark-1e4cc80f.png",
             "versions": [
+                {
+                    "blob": "0f17ad7b6045c32cf2be0daca0ca6e4b9f0404e8",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "ae1c9ddfd2a023962b5e7a96171b540120ecbea3",
                     "commit": "032bf3cb53b2979269c7b75dd0a0991c11e3381b",
@@ -797,13 +888,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLoadingPreview_Dark": {
             "path": "renders/app/DeviceBodyLoadingPreview_Dark-f7714218.png",
             "versions": [
+                {
+                    "blob": "6cf6fa15b5d11d13901dafc322ce615e1523346d",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "722f52a94c3a203527dbb4d5946bb29f8bda7ec6",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -833,13 +931,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 4,
+            "observations": 5,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLoadingPreview_Light": {
             "path": "renders/app/DeviceBodyLoadingPreview_Light-44b9d6eb.png",
             "versions": [
+                {
+                    "blob": "2646691ffce84b00c8239d15cdef3aacd336c67a",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "cb09b1f48d41462c01a22fe93610b8e2db984628",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -869,13 +974,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 4,
+            "observations": 5,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLowBatteryPreview_Dark": {
             "path": "renders/app/DeviceBodyLowBatteryPreview_Dark-6ba6d9f1.png",
             "versions": [
+                {
+                    "blob": "3471674c627533a5429843617924919f644e7936",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "d7903d42e4af7839a714a6f17dd38f3356f6fb3c",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -905,13 +1017,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 4,
+            "observations": 5,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLowBatteryPreview_Light": {
             "path": "renders/app/DeviceBodyLowBatteryPreview_Light-e91e25e9.png",
             "versions": [
+                {
+                    "blob": "d2593564ade22fa4fe32379cb8a59cf86617ddcc",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "058f8b87ce137ca3cb61ed0d634a13b37f0a97f2",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -941,13 +1060,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 4,
+            "observations": 5,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyManyContactsPreview_Dark": {
             "path": "renders/app/DeviceBodyManyContactsPreview_Dark-0327f696.png",
             "versions": [
+                {
+                    "blob": "dd1a8e39a0760dfd2aa25f498d91ad1feb82b24d",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "f351a6fdd94bcd3cef6b1add2dec803e59035d91",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -977,13 +1103,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 4,
+            "observations": 5,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyManyContactsPreview_Light": {
             "path": "renders/app/DeviceBodyManyContactsPreview_Light-20b7bfc3.png",
             "versions": [
+                {
+                    "blob": "b6ab71a02b7019995c18b0ed55ad46f200abbe89",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "e2fc78f5994665831355a93b649526a138c81a49",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1013,13 +1146,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 4,
+            "observations": 5,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyNoContactsPreview_Dark": {
             "path": "renders/app/DeviceBodyNoContactsPreview_Dark-babc0664.png",
             "versions": [
+                {
+                    "blob": "f7167dd04afe450cd96442ab2604ac4f58848b5a",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "92f83199f2ed6abab9d61ea5e7ab297107436b76",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1056,13 +1196,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 5,
+            "observations": 6,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyNoContactsPreview_Light": {
             "path": "renders/app/DeviceBodyNoContactsPreview_Light-d442ffa6.png",
             "versions": [
+                {
+                    "blob": "a72a3b46a6a0a61390b501792253213ec032846f",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "34c2ee44a6977a33b23c429af67bbdb62adf2795",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1099,13 +1246,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 5,
+            "observations": 6,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceStatusConnectingPreview_Dark": {
             "path": "renders/app/DeviceStatusConnectingPreview_Dark-ed4b2eee.png",
             "versions": [
+                {
+                    "blob": "f4cdc9dd28cb9c7308cf7781c1499f4379f691eb",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "f86878fe1b95b5bcccdcabcba37b033830da0fb3",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1121,13 +1275,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceStatusConnectingPreview_Light": {
             "path": "renders/app/DeviceStatusConnectingPreview_Light-971adca0.png",
             "versions": [
+                {
+                    "blob": "0078debfe2b0d32a1ee93cca13147c2c50570f46",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "de54338004a84202c13b512670ef368cea76cd15",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1143,13 +1304,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceStatusFailedPreview_Dark": {
             "path": "renders/app/DeviceStatusFailedPreview_Dark-13c58e9f.png",
             "versions": [
+                {
+                    "blob": "6d8a84df41faeb95c368605e7cf3a4d273df0494",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "fdaa09520879e7026b41855bffbb9165171a1267",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1172,13 +1340,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceStatusFailedPreview_Light": {
             "path": "renders/app/DeviceStatusFailedPreview_Light-9c07fce5.png",
             "versions": [
+                {
+                    "blob": "3cfe72537fe8f4af5ed7de862f9ac671519341ce",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "cea66ebf144cd843eea873c75479c97c104891b5",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1201,13 +1376,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.PlayStoreBrandPreviewsKt.PlayStoreFeature_Play Store — feature graphic (1024x500)": {
             "path": "renders/app/PlayStoreFeature_Play_Store_feature_graphic_1024x500-43bce6ca.png",
             "versions": [
+                {
+                    "blob": "aad6e2163c0d4b4ae1c9dd21ac2616c2723a3b62",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "e73470e15563b6a22784b4f8319082b5f6c39a93",
                     "commit": "64d54e18d7dd963e7774c186ee06cee28c542047",
@@ -1216,13 +1398,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.PlayStoreBrandPreviewsKt.PlayStoreIcon_Play Store — icon (512x512)": {
             "path": "renders/app/PlayStoreIcon_Play_Store_icon_512x512-7032e1e1.png",
             "versions": [
+                {
+                    "blob": "e68b30918e408e83cdc2b86f624e6a66e1ecf16d",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "2237fc5b0caca2aa02b1d3b51ad1c6bda76529a1",
                     "commit": "64d54e18d7dd963e7774c186ee06cee28c542047",
@@ -1231,13 +1420,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStorePhoneHomeDark_Play Store — phone home (dark)": {
             "path": "renders/app/PlayStorePhoneHomeDark_Play_Store_phone_home_dark-9958147e.png",
             "versions": [
+                {
+                    "blob": "1b43d73c8f20d9c30d17aad7f52fbad34f75fd42",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "0b16f24cd0cac5e681a31973a4fce538b9a4d811",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1267,13 +1463,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 4,
+            "observations": 5,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStorePhoneHomeLight_Play Store — phone home (light)": {
             "path": "renders/app/PlayStorePhoneHomeLight_Play_Store_phone_home_light-eb47fb01.png",
             "versions": [
+                {
+                    "blob": "878b94ea81ae7581ee2237b164c8bd6ef85e467e",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "63dda9dd5d84b974a76c8fe2477351aa72c50ea3",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1303,13 +1506,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 4,
+            "observations": 5,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStorePhoneScannerBle_Play Store — phone scanner (BLE)": {
             "path": "renders/app/PlayStorePhoneScannerBle_Play_Store_phone_scanner_BLE-bc7e46ef.png",
             "versions": [
+                {
+                    "blob": "d59c2d3e06a88815a662af83e593cfa931a860db",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "fc9df809220ac7c276d418b370913de2d0bfd080",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1325,13 +1535,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStorePhoneScannerSaved_Play Store — phone scanner (saved)": {
             "path": "renders/app/PlayStorePhoneScannerSaved_Play_Store_phone_scanner_saved-c210c87f.png",
             "versions": [
+                {
+                    "blob": "a55d0c2809718f5547cb0e982b23320aba5747fa",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "6672a54ba5e44d0a7175e8bb4223056068a18a6f",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1347,13 +1564,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStoreTabletSevenHome_Play Store — 7-inch tablet home": {
             "path": "renders/app/PlayStoreTabletSevenHome_Play_Store_7_inch_tablet_home-d8faaa06.png",
             "versions": [
+                {
+                    "blob": "b4af6d811199ac23b1d386326fa363727d01afa0",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "619bbfe1a2ca9a1373a31cf254472ebdf10e62b2",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1383,13 +1607,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 4,
+            "observations": 5,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.PlayStorePreviewsKt.PlayStoreTabletTenHome_Play Store — 10-inch tablet home": {
             "path": "renders/app/PlayStoreTabletTenHome_Play_Store_10_inch_tablet_home-592833d5.png",
             "versions": [
+                {
+                    "blob": "81e6716139336ea145b81760c93fd3edbb10c0d2",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "e0cc7f8cc80f2af0dbcab0b7d9ff0f34d9195149",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1419,13 +1650,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 4,
+            "observations": 5,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesEmptyPreview_Dark": {
             "path": "renders/app/SavedDevicesEmptyPreview_Dark-a4eebfcb.png",
             "versions": [
+                {
+                    "blob": "87a2c0fc12c2b467cc4bb73a97e055de29fd3c4e",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "14fe0c85dd80b57a4033c6f9176563beea4f2f02",
                     "commit": "64d54e18d7dd963e7774c186ee06cee28c542047",
@@ -1434,13 +1672,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesEmptyPreview_Light": {
             "path": "renders/app/SavedDevicesEmptyPreview_Light-6d4e3a51.png",
             "versions": [
+                {
+                    "blob": "fd7658ee5650fac0ce64393b58d59ce8fc34d9a4",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "d3eb5dd715a7af7719fdca5d7e414cde5d91f8e5",
                     "commit": "64d54e18d7dd963e7774c186ee06cee28c542047",
@@ -1449,13 +1694,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesPopulatedPreview_Dark": {
             "path": "renders/app/SavedDevicesPopulatedPreview_Dark-c63dce44.png",
             "versions": [
+                {
+                    "blob": "eb8cbd9b15e27a5efc1d1c3db390d1bb1b827fa4",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "2af7a14f7947298bd17182f9105d74157f1e1f10",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1471,13 +1723,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.SavedDevicesPanelKt.SavedDevicesPopulatedPreview_Light": {
             "path": "renders/app/SavedDevicesPopulatedPreview_Light-55cce2d9.png",
             "versions": [
+                {
+                    "blob": "556f116a89a5fd6cc833b4abf4244a67bee26e2f",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "b4649ed246ba2738f115b24a6f235c11c4b730b7",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1493,13 +1752,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleEmptyPreview_Dark": {
             "path": "renders/app/ScannerBleEmptyPreview_Dark-bda7eeb0.png",
             "versions": [
+                {
+                    "blob": "4943c0bf1578be70bb3be8e66f54c865984bdce9",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "95be9691a31591bf70e22427125ee786db2587bb",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1515,13 +1781,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleEmptyPreview_Light": {
             "path": "renders/app/ScannerBleEmptyPreview_Light-af1935ef.png",
             "versions": [
+                {
+                    "blob": "58305c521af14bee5c4abf49da71ac7c49113cdb",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "1bc4985b416e222934fc6037f79ce5c85168e406",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1537,13 +1810,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleFewPreview_Dark": {
             "path": "renders/app/ScannerBleFewPreview_Dark-db8daf73.png",
             "versions": [
+                {
+                    "blob": "074dca110fc7d672d73b70bef4ee317680aa4456",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "6649a85167dc007aea49b64814fd702eb4c6159e",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1559,13 +1839,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleFewPreview_Light": {
             "path": "renders/app/ScannerBleFewPreview_Light-178a768f.png",
             "versions": [
+                {
+                    "blob": "75d974f733d825972a906ac264dda2237a59bb9b",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "c9cbb6bc8365d551fbbca93a66d403d113f10c1f",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1581,13 +1868,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleManyPreview_Dark": {
             "path": "renders/app/ScannerBleManyPreview_Dark-f10354b6.png",
             "versions": [
+                {
+                    "blob": "207273bebcb473cd879087057ba30ab55bcb8ed0",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "0a6be2cc83487016250e5b69afb656a12beb0205",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1603,13 +1897,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBleManyPreview_Light": {
             "path": "renders/app/ScannerBleManyPreview_Light-42460334.png",
             "versions": [
+                {
+                    "blob": "943688da43cd349221f7851d418479d119e072dd",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "f5e11f5ac25828c9e1771f3373394a7a9234831a",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1625,13 +1926,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBlePermissionPreview_Dark": {
             "path": "renders/app/ScannerBlePermissionPreview_Dark-277358ee.png",
             "versions": [
+                {
+                    "blob": "529f3c499e685bfaab2de3c4079104abd0704355",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "af6fdf5b325af350b2270c731065b8975ac926c5",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1654,13 +1962,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerBlePermissionPreview_Light": {
             "path": "renders/app/ScannerBlePermissionPreview_Light-cc891856.png",
             "versions": [
+                {
+                    "blob": "39fb442b92a250101b0482e63529da65867463d9",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "d319adf2f5ececf1c6945c494817decd307beafc",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1683,13 +1998,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedEmptyPreview_Dark": {
             "path": "renders/app/ScannerSavedEmptyPreview_Dark-8b9d6f90.png",
             "versions": [
+                {
+                    "blob": "1520ab306d6a65410e94040bcda2c5c47b39e01d",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "7baa3dbcd31c95a37d101c43fe271acf798db916",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1705,13 +2027,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedEmptyPreview_Light": {
             "path": "renders/app/ScannerSavedEmptyPreview_Light-3f0e34c6.png",
             "versions": [
+                {
+                    "blob": "04e0c9f746d632016e53fe17185d6976b50c1084",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "5e1ff17fe7e8b738d9b81a89bd44e6b8fa99a472",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1727,13 +2056,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedPopulatedPreview_Dark": {
             "path": "renders/app/ScannerSavedPopulatedPreview_Dark-069a8143.png",
             "versions": [
+                {
+                    "blob": "44afb99c63e8005d43fd48a8f52c062eda192ff0",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "0040f3d98e95cc47b6185c19eb66deaff14fc977",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1749,13 +2085,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerSavedPopulatedPreview_Light": {
             "path": "renders/app/ScannerSavedPopulatedPreview_Light-c36b39f4.png",
             "versions": [
+                {
+                    "blob": "16c27495a51a62d75a2f71b63c04e5de84f0b0c7",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "9928b87f33c58db03207dae7f4a22085a1180e84",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1771,13 +2114,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerTcpPreview_Dark": {
             "path": "renders/app/ScannerTcpPreview_Dark-da4f6831.png",
             "versions": [
+                {
+                    "blob": "817d17f7de564a24e8ebb37ffdb6d746f5440de6",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "d8e4d4b35a63ccd2eeac7964f06ccea11db47e9b",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1793,13 +2143,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerTcpPreview_Light": {
             "path": "renders/app/ScannerTcpPreview_Light-e99d81cd.png",
             "versions": [
+                {
+                    "blob": "c33eed8434a6bbecf58a3e97496dca2cd1226039",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "09b8b0cb12affea2110069f58046608c340c6661",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1815,13 +2172,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbEmptyPreview_Dark": {
             "path": "renders/app/ScannerUsbEmptyPreview_Dark-52906539.png",
             "versions": [
+                {
+                    "blob": "d51ae534fae01cd83995c8efb4dab9d27bd4401b",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "132df0cc26b23b60fcdbc90e65a667884225e79f",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1837,13 +2201,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbEmptyPreview_Light": {
             "path": "renders/app/ScannerUsbEmptyPreview_Light-c4fe4a9d.png",
             "versions": [
+                {
+                    "blob": "acebdd3127d4e077a87cd4b6ab17f8edfe2b9d57",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "e89e235492be79b9cb8d12168b51220dc749f43e",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1859,13 +2230,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbFewPreview_Dark": {
             "path": "renders/app/ScannerUsbFewPreview_Dark-2d478b60.png",
             "versions": [
+                {
+                    "blob": "c0790fe368ca95d91366a1119348f3777e868147",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "a411730c0b1b899940affa804b2977a5c6fa59e5",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1881,13 +2259,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.ui.ScannerScreenKt.ScannerUsbFewPreview_Light": {
             "path": "renders/app/ScannerUsbFewPreview_Light-7273a940.png",
             "versions": [
+                {
+                    "blob": "146c4552b261aa7b8831a324fde8371e1c5b2b9f",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "171ac3b54698a8a7f00bb91057c847d9de198d63",
                     "commit": "514a1f51579722608bdbd5abf2bba46b5fe85244",
@@ -1903,7 +2288,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
             "flapCount": 0
         },
@@ -1911,6 +2296,13 @@
             "path": "renders/app/ThemeFoundationMaterial3DarkPreview_Foundation_Material_3_dark-b81708f8.png",
             "versions": [
                 {
+                    "blob": "5612650430b46723454698476159320545f19eba",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
+                {
                     "blob": "4ed16021d0cd61cb76c4a155a9b8e4de749a74d6",
                     "commit": "89f5a265f7390f5914c55353aa586d138e4f8387",
                     "date": "2026-10-27T00:19:30Z",
@@ -1932,7 +2324,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 1
         },
@@ -1940,6 +2332,13 @@
             "path": "renders/app/ThemeFoundationMaterial3LightPreview_Foundation_Material_3_light-5a8f24e4.png",
             "versions": [
                 {
+                    "blob": "cbf4a2bd54756084dd208fba07514855c48321ec",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
+                {
                     "blob": "016dccae5a4caad257cd9c713d46ad2ee1498f09",
                     "commit": "89f5a265f7390f5914c55353aa586d138e4f8387",
                     "date": "2026-10-27T00:19:30Z",
@@ -1961,7 +2360,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 1
         },
@@ -1999,6 +2398,13 @@
             "path": "renders/app/DeviceInfoWidgetEmptyPreview_DeviceInfo_no_data-a1ee9178.png",
             "versions": [
                 {
+                    "blob": "667c6c058c7479d5268477bc2767813da7d5510b",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
+                {
                     "blob": "824cceea7646efb8f156f3c42cefdc05de33afbf",
                     "commit": "89f5a265f7390f5914c55353aa586d138e4f8387",
                     "date": "2026-10-27T00:19:30Z",
@@ -2020,13 +2426,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.widget.WidgetPreviewsKt.DeviceInfoWidgetPopulatedPreview_DeviceInfo — populated": {
             "path": "renders/app/DeviceInfoWidgetPopulatedPreview_DeviceInfo_populated-516c989f.png",
             "versions": [
+                {
+                    "blob": "4b1eec8e81200d178225b3a39291e8e3d2ec05b8",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "b9f0da2f52733d64aa2aea9797bccd80a25187cc",
                     "commit": "7bc896ffd55bfd6db0ca3f7813ecdd83c4d71101",
@@ -2056,13 +2469,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 4,
+            "observations": 5,
             "unstable": false,
             "flapCount": 0
         },
         "app/ee.schimke.meshcore.app.widget.WidgetPreviewsKt.DeviceInfoWidgetStalePreview_DeviceInfo — stale": {
             "path": "renders/app/DeviceInfoWidgetStalePreview_DeviceInfo_stale-c6b8a433.png",
             "versions": [
+                {
+                    "blob": "75e854c98317ca4773d29b72f43ad9b27a1b91d8",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "dec0e0f426df64e40f5a18c5b8cd0d09f3970de1",
                     "commit": "7bc896ffd55bfd6db0ca3f7813ecdd83c4d71101",
@@ -2092,13 +2512,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 4,
+            "observations": 5,
             "unstable": false,
             "flapCount": 0
         },
         "app/themecatalog__MeshCore_Dark": {
             "path": "renders/app/themecatalog__MeshCore_Dark.png",
             "versions": [
+                {
+                    "blob": "8220cdb8bc76056c281a36088873370cc96eb51d",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "491fcffa85e407d4cc7106c233c2066c2d54b687",
                     "commit": "64d54e18d7dd963e7774c186ee06cee28c542047",
@@ -2107,13 +2534,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
         "app/themecatalog__MeshCore_Light": {
             "path": "renders/app/themecatalog__MeshCore_Light.png",
             "versions": [
+                {
+                    "blob": "0239b880626081be3397cab479b1cedb06862ac4",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "e22c06b3be8a59be35e2cce5f973ea56998d343c",
                     "commit": "64d54e18d7dd963e7774c186ee06cee28c542047",
@@ -2122,7 +2556,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
@@ -2751,6 +3185,13 @@
             "path": "renders/wear/activity__LicenseActivity.png",
             "versions": [
                 {
+                    "blob": "af6724eb98e476fad5ce6854a34658c34f244df7",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
+                {
                     "blob": "011f7b9c37f530461fa0075f961a72e2ceaad2b9",
                     "commit": "fc1caaeb7dd9bb155b0da132e5e2a1047284c2c0",
                     "date": "2026-10-29T09:15:20Z",
@@ -2772,13 +3213,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 0
         },
         "wear/activity__WearMainActivity": {
             "path": "renders/wear/activity__WearMainActivity.png",
             "versions": [
+                {
+                    "blob": "aa4db8f66c16d71f072a5865d48e942aae982cef",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
                 {
                     "blob": "8260f710931803cc655138b48813aa3aa3758499",
                     "commit": "64d54e18d7dd963e7774c186ee06cee28c542047",
@@ -2787,7 +3235,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
@@ -3405,6 +3853,13 @@
             "path": "renders/wear/StatusWidgetConnectedPreview_Status_connected-63591697.png",
             "versions": [
                 {
+                    "blob": "bde2875e5568048ad21799c844461f8627fdba81",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
+                {
                     "blob": "7abe9a742148c536092fc19e76daca5b02ad553f",
                     "commit": "89f5a265f7390f5914c55353aa586d138e4f8387",
                     "date": "2026-10-27T00:19:30Z",
@@ -3426,7 +3881,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 1
         },
@@ -3434,6 +3889,13 @@
             "path": "renders/wear/StatusWidgetDisconnectedPreview_Status_disconnected-42695c0f.png",
             "versions": [
                 {
+                    "blob": "7fce54b525ead89a62c1b91ec75bfae731fb6506",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
+                {
                     "blob": "450e1476db9d764dec445a14fca814b9862e5065",
                     "commit": "89f5a265f7390f5914c55353aa586d138e4f8387",
                     "date": "2026-10-27T00:19:30Z",
@@ -3455,7 +3917,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 1
         },
@@ -3463,6 +3925,13 @@
             "path": "renders/wear/StatusWidgetLowBatteryPreview_Status_low_battery-149af881.png",
             "versions": [
                 {
+                    "blob": "834fbfa86ac4fc3abdcbf56c6a4411b24b8b6358",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
+                {
                     "blob": "f7c78b4a6700cdacd8c4c19187f8b2e477d2c038",
                     "commit": "89f5a265f7390f5914c55353aa586d138e4f8387",
                     "date": "2026-10-27T00:19:30Z",
@@ -3484,7 +3953,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 1
         },
@@ -3492,6 +3961,13 @@
             "path": "renders/wear/WearComponentCatalogPreview_Component_Catalog-ab535596.png",
             "versions": [
                 {
+                    "blob": "0edbd7c6a12d51faa7d0a2a1160df4923639d4b7",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
+                {
                     "blob": "accd6cce8bbb861d9abe06077f5894f5256cf968",
                     "commit": "89f5a265f7390f5914c55353aa586d138e4f8387",
                     "date": "2026-10-27T00:19:30Z",
@@ -3513,7 +3989,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 1
         },
@@ -3557,6 +4033,13 @@
             "path": "renders/wear/wearthemecatalog__MeshCore.png",
             "versions": [
                 {
+                    "blob": "01c7e71377945a83fed62715f743b276b77a4f0b",
+                    "commit": "a0dd4de2b9e643701446c2cf66001b0bba53139f",
+                    "date": "2026-11-15T13:37:37Z",
+                    "sourceSha": "bab3ce14",
+                    "commits": 1
+                },
+                {
                     "blob": "8029ee74f107e29a04c8b6ebee816e6fe37942e6",
                     "commit": "89f5a265f7390f5914c55353aa586d138e4f8387",
                     "date": "2026-10-27T00:19:30Z",
@@ -3578,7 +4061,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 1
         }
