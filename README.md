@@ -1,26 +1,10 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 11 preview(s) across 1 module(s) · 0 error(s) · 4 warning(s) · 3 info._
+_Auto-generated from `compose-preview/a11y/pr`. 9 preview(s) across 1 module(s) · 0 error(s) · 4 warning(s) · 1 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
 ## app
-
-### `DeviceBodyLoadingPreview` · `pixel_7`
-
-<img src="https://raw.githubusercontent.com/yschimke/meshcore-mobile-out/compose-preview/a11y/pr/renders/app/DeviceBodyLoadingPreview_Dark-f7714218.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.ProgressBar | This non-clickable item's speakable text: "In progress" is identical to that of 1 other item(s). |
-
-### `DeviceBodyNoContactsPreview` · `pixel_7`
-
-<img src="https://raw.githubusercontent.com/yschimke/meshcore-mobile-out/compose-preview/a11y/pr/renders/app/DeviceBodyNoContactsPreview_Dark-babc0664.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "node-peak" is identical to that of 1 other item(s). |
 
 ### `ScannerBleEmptyPreview` · `pixel_7`
 

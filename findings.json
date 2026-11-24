@@ -1,44 +1,6 @@
 {
   "entries": [
     {
-      "annotatedBasename": "DeviceBodyLoadingPreview_Dark-f7714218.a11y.png",
-      "cleanBasename": "DeviceBodyLoadingPreview_Dark-f7714218.png",
-      "findings": [
-        {
-          "boundsInScreen": "491,831,586,926",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"In progress\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.ProgressBar"
-        }
-      ],
-      "functionName": "DeviceBodyLoadingPreview",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLoadingPreview_Dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/DeviceScreenPreviews.kt",
-      "variant": "pixel_7"
-    },
-    {
-      "annotatedBasename": "DeviceBodyNoContactsPreview_Dark-babc0664.a11y.png",
-      "cleanBasename": "DeviceBodyNoContactsPreview_Dark-babc0664.png",
-      "findings": [
-        {
-          "boundsInScreen": "84,231,398,297",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"node-peak\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DeviceBodyNoContactsPreview",
-      "module": "app",
-      "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyNoContactsPreview_Dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/meshcore/app/ui/DeviceScreenPreviews.kt",
-      "variant": "pixel_7"
-    },
-    {
       "annotatedBasename": "ScannerBleEmptyPreview_Dark-bda7eeb0.a11y.png",
       "cleanBasename": "ScannerBleEmptyPreview_Dark-bda7eeb0.png",
       "findings": [],
@@ -337,6 +299,14 @@
     },
     {
       "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLoadingPreview_Dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLoadingPreview_Light"
+    },
+    {
+      "module": "app",
       "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyLowBatteryPreview_Dark"
     },
     {
@@ -350,6 +320,14 @@
     {
       "module": "app",
       "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyManyContactsPreview_Light"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyNoContactsPreview_Dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.meshcore.app.ui.DeviceScreenPreviewsKt.DeviceBodyNoContactsPreview_Light"
     },
     {
       "module": "app",
